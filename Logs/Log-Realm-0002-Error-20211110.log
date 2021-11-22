@@ -1,0 +1,12 @@
+2021-11-10 15:20:27.0664 Realm    0002 消息没有处理: 1029 { "_t" : "R2G_GetLoginKey", "RpcId" : 2, "Account" : "test" } 
+ Update at offset 130 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\OneThreadSynchronizationContext.cs:26:5
+<Post>b__0 at offset 70 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\OneThreadSynchronizationContext.cs:38:31
+OnRecvComplete at offset 527 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:279:6
+OnRead at offset 70 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Module\Message\Network\AChannel.cs:55:4
+OnRead at offset 61 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Module\Message\Session.cs:120:5
+Run at offset 508 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Module\Message\Session.cs:164:5
+Dispatch at offset 365 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Message\InnerMessageDispatcher.cs:24:6
+Handle at offset 336 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:84:5
+Error at offset 62 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Log.cs:36:4
+Error at offset 53 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+

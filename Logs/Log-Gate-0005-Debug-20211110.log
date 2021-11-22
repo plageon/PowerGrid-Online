@@ -1,0 +1,2 @@
+2021-11-10 15:20:27.0718 Gate     0005 (Session.cs:150) { "_t" : "R2G_GetLoginKey", "RpcId" : 1, "Account" : "just testing " }
+2021-11-10 15:20:27.0779 Gate     0005 (Session.cs:297) { "_t" : "G2R_GetLoginKey", "RpcId" : 1, "Error" : 0, "Message" : null, "Key" : NumberLong("6887672175987146544") }

@@ -1,0 +1,462 @@
+2021-11-14 13:41:02.0235 AllServer 0001 (Session.cs:150) { "_t" : "C2R_TestRequest", "RpcId" : 1, "Message" : "just testing " }
+2021-11-14 13:41:02.0461 AllServer 0001 (Session.cs:297) { "_t" : "R2G_GetLoginKey", "RpcId" : 1, "Account" : "just testing " }
+2021-11-14 13:41:02.0626 AllServer 0001 (Session.cs:150) { "_t" : "R2G_GetLoginKey", "RpcId" : 1, "Account" : "just testing " }
+2021-11-14 13:41:02.0626 AllServer 0001 (Session.cs:297) { "_t" : "G2R_GetLoginKey", "RpcId" : 1, "Error" : 0, "Message" : null, "Key" : NumberLong("-4908696887913672057") }
+2021-11-14 13:41:02.0775 AllServer 0001 (Session.cs:150) { "_t" : "G2R_GetLoginKey", "RpcId" : 1, "Error" : 0, "Message" : null, "Key" : NumberLong("-4908696887913672057") }
+2021-11-14 13:41:02.0775 AllServer 0001 (Session.cs:297) { "_t" : "G2C_TestHotfixMessage", "Info" : "recv hotfix message success" }
+2021-11-14 13:41:02.0775 AllServer 0001 (Session.cs:297) { "_t" : "R2C_TestResponse", "RpcId" : 1, "Error" : 0, "Message" : "We have received the message! just testing  is sent", "Address" : "192.168.191.107:10002", "Key" : NumberLong("-4908696887913672057") }
+2021-11-14 13:41:02.0891 AllServer 0001 (Session.cs:297) { "_t" : "R2G_GetLoginKey", "RpcId" : 2, "Account" : "test" }
+2021-11-14 13:41:02.0891 AllServer 0001 (Session.cs:150) { "_t" : "R2G_GetLoginKey", "RpcId" : 2, "Account" : "test" }
+2021-11-14 13:41:02.0891 AllServer 0001 (Session.cs:297) { "_t" : "G2R_GetLoginKey", "RpcId" : 2, "Error" : 0, "Message" : null, "Key" : NumberLong("-2100050362319439951") }
+2021-11-14 13:41:02.0891 AllServer 0001 (Session.cs:150) { "_t" : "G2R_GetLoginKey", "RpcId" : 2, "Error" : 0, "Message" : null, "Key" : NumberLong("-2100050362319439951") }
+2021-11-14 13:41:02.0891 AllServer 0001 (Session.cs:297) { "_t" : "R2C_TestResponse", "RpcId" : 1, "Error" : 0, "Message" : "-2100050362319439951", "Address" : "", "Key" : NumberLong(0) }
+2021-11-14 13:41:02.1712 AllServer 0001 (Session.cs:150) { "_t" : "C2G_LoginGate", "RpcId" : 2, "Key" : NumberLong("-4908696887913672057") }
+2021-11-14 13:41:02.1712 AllServer 0001 (Session.cs:297) { "_t" : "G2C_LoginGate", "RpcId" : 2, "Error" : 0, "Message" : "", "PlayerId" : NumberLong(17039361) }
+2021-11-14 13:41:02.7964 AllServer 0001 (Session.cs:150) { "_t" : "C2R_TestHelloMsg", "SayMessage" : "if received it means im ready" }
+2021-11-14 13:41:02.7964 AllServer 0001 (TestWaitingHandler.cs:14) if received it means im ready
+2021-11-14 13:41:02.7964 AllServer 0001 (Session.cs:297) { "_t" : "M2M_TestGetReadyRequest", "RpcId" : 3 }
+2021-11-14 13:41:02.7964 AllServer 0001 (Session.cs:150) { "_t" : "M2M_TestGetReadyRequest", "RpcId" : 3 }
+2021-11-14 13:41:02.7964 AllServer 0001 (Session.cs:297) { "_t" : "M2M_TestGetReadyResponse", "RpcId" : 3, "Error" : 0, "Message" : "1" }
+2021-11-14 13:41:02.8082 AllServer 0001 (Session.cs:150) { "_t" : "M2M_TestGetReadyResponse", "RpcId" : 3, "Error" : 0, "Message" : "1" }
+2021-11-14 13:41:02.8082 AllServer 0001 (Session.cs:297) { "_t" : "M2C_StartGameBroadCast", "PlayerNum" : 1, "Message" : "", "ActorId" : NumberLong(0) }
+2021-11-14 13:41:02.9658 AllServer 0001 (Session.cs:150) { "_t" : "C2M_RefreshMarket", "RpcId" : 3, "ReplacePlant" : -1 }
+2021-11-14 13:41:02.9658 AllServer 0001 (Session.cs:297) { "_t" : "M2C_InitAuction", "Message" : "" }
+2021-11-14 13:41:02.9800 AllServer 0001 (Session.cs:297) { "_t" : "M2C_RefreshMarket", "RpcId" : 3, "Error" : 0, "Message" : "", "MarketPlants" : [1032, 1036, 1027, 1044, 1009, 1010, 1015, 1006] }
+2021-11-14 13:41:04.1024 AllServer 0001 (Session.cs:150) { "_t" : "C2M_RefreshMarket", "RpcId" : 4, "ReplacePlant" : 1009 }
+2021-11-14 13:41:04.1024 AllServer 0001 (Session.cs:297) { "_t" : "M2C_RefreshMarket", "RpcId" : 4, "Error" : 0, "Message" : "", "MarketPlants" : [1032, 1036, 1027, 1044, 1045, 1010, 1015, 1006] }
+2021-11-14 13:41:04.7990 AllServer 0001 (Session.cs:150) { "_t" : "C2M_AuctionRequest", "RpcId" : 5, "PlantId" : 1009, "IsPassed" : false, "Bid" : 9 }
+2021-11-14 13:41:04.7990 AllServer 0001 (Session.cs:297) { "_t" : "M2C_AuctionResponse", "RpcId" : 5, "Error" : 0, "Message" : "Waiting" }
+2021-11-14 13:41:04.8071 AllServer 0001 (Session.cs:297) { "_t" : "M2C_FinishAuction", "Message" : "" }
+2021-11-14 13:41:04.8438 AllServer 0001 (Session.cs:150) { "_t" : "C2M_RefreshResourceMarket", "Message" : "refresh resource market" }
+2021-11-14 13:41:04.8438 AllServer 0001 (Session.cs:297) { "_t" : "M2C_ResourceReminder", "Coal" : 24, "Oil" : 18, "Garbage" : 9, "Nuclear" : 2, "Message" : "buy resource" }
+2021-11-14 13:59:11.6735 AllServer 0001 (Session.cs:150) { "_t" : "C2R_TestRequest", "RpcId" : 1, "Message" : "just testing " }
+2021-11-14 13:59:11.6873 AllServer 0001 (Session.cs:297) { "_t" : "R2G_GetLoginKey", "RpcId" : 1, "Account" : "just testing " }
+2021-11-14 13:59:11.7020 AllServer 0001 (Session.cs:150) { "_t" : "R2G_GetLoginKey", "RpcId" : 1, "Account" : "just testing " }
+2021-11-14 13:59:11.7020 AllServer 0001 (Session.cs:297) { "_t" : "G2R_GetLoginKey", "RpcId" : 1, "Error" : 0, "Message" : null, "Key" : NumberLong("-1910163443959380916") }
+2021-11-14 13:59:11.7020 AllServer 0001 (Session.cs:150) { "_t" : "G2R_GetLoginKey", "RpcId" : 1, "Error" : 0, "Message" : null, "Key" : NumberLong("-1910163443959380916") }
+2021-11-14 13:59:11.7133 AllServer 0001 (Session.cs:297) { "_t" : "G2C_TestHotfixMessage", "Info" : "recv hotfix message success" }
+2021-11-14 13:59:11.7133 AllServer 0001 (Session.cs:297) { "_t" : "R2C_TestResponse", "RpcId" : 1, "Error" : 0, "Message" : "We have received the message! just testing  is sent", "Address" : "192.168.191.107:10002", "Key" : NumberLong("-1910163443959380916") }
+2021-11-14 13:59:11.7133 AllServer 0001 (Session.cs:297) { "_t" : "R2G_GetLoginKey", "RpcId" : 2, "Account" : "test" }
+2021-11-14 13:59:11.7133 AllServer 0001 (Session.cs:150) { "_t" : "R2G_GetLoginKey", "RpcId" : 2, "Account" : "test" }
+2021-11-14 13:59:11.7133 AllServer 0001 (Session.cs:297) { "_t" : "G2R_GetLoginKey", "RpcId" : 2, "Error" : 0, "Message" : null, "Key" : NumberLong("6083675724217131598") }
+2021-11-14 13:59:11.7133 AllServer 0001 (Session.cs:150) { "_t" : "G2R_GetLoginKey", "RpcId" : 2, "Error" : 0, "Message" : null, "Key" : NumberLong("6083675724217131598") }
+2021-11-14 13:59:11.7133 AllServer 0001 (Session.cs:297) { "_t" : "R2C_TestResponse", "RpcId" : 1, "Error" : 0, "Message" : "6083675724217131598", "Address" : "", "Key" : NumberLong(0) }
+2021-11-14 13:59:11.7738 AllServer 0001 (Session.cs:150) { "_t" : "C2G_LoginGate", "RpcId" : 2, "Key" : NumberLong("-1910163443959380916") }
+2021-11-14 13:59:11.7775 AllServer 0001 (Session.cs:297) { "_t" : "G2C_LoginGate", "RpcId" : 2, "Error" : 0, "Message" : "", "PlayerId" : NumberLong(17039361) }
+2021-11-14 13:59:13.6224 AllServer 0001 (Session.cs:150) { "_t" : "C2R_TestHelloMsg", "SayMessage" : "if received it means im ready" }
+2021-11-14 13:59:13.6224 AllServer 0001 (TestWaitingHandler.cs:14) if received it means im ready
+2021-11-14 13:59:13.6224 AllServer 0001 (Session.cs:297) { "_t" : "M2M_TestGetReadyRequest", "RpcId" : 3 }
+2021-11-14 13:59:13.6224 AllServer 0001 (Session.cs:150) { "_t" : "M2M_TestGetReadyRequest", "RpcId" : 3 }
+2021-11-14 13:59:13.6224 AllServer 0001 (Session.cs:297) { "_t" : "M2M_TestGetReadyResponse", "RpcId" : 3, "Error" : 0, "Message" : "1" }
+2021-11-14 13:59:13.6224 AllServer 0001 (Session.cs:150) { "_t" : "M2M_TestGetReadyResponse", "RpcId" : 3, "Error" : 0, "Message" : "1" }
+2021-11-14 13:59:13.6224 AllServer 0001 (Session.cs:297) { "_t" : "M2C_StartGameBroadCast", "PlayerNum" : 1, "Message" : "", "ActorId" : NumberLong(0) }
+2021-11-14 13:59:13.7657 AllServer 0001 (Session.cs:150) { "_t" : "C2M_RefreshMarket", "RpcId" : 3, "ReplacePlant" : -1 }
+2021-11-14 13:59:13.7657 AllServer 0001 (Session.cs:297) { "_t" : "M2C_InitAuction", "Message" : "" }
+2021-11-14 13:59:13.7657 AllServer 0001 (Session.cs:297) { "_t" : "M2C_RefreshMarket", "RpcId" : 3, "Error" : 0, "Message" : "", "MarketPlants" : [1033, 1028, 1011, 1038, 1042, 1019, 1013, 1003] }
+2021-11-14 13:59:14.8818 AllServer 0001 (Session.cs:150) { "_t" : "C2M_RefreshMarket", "RpcId" : 4, "ReplacePlant" : 1011 }
+2021-11-14 13:59:14.8818 AllServer 0001 (Session.cs:297) { "_t" : "M2C_RefreshMarket", "RpcId" : 4, "Error" : 0, "Message" : "", "MarketPlants" : [1033, 1028, 1043, 1038, 1042, 1019, 1013, 1003] }
+2021-11-14 13:59:15.7650 AllServer 0001 (Session.cs:150) { "_t" : "C2M_AuctionRequest", "RpcId" : 5, "PlantId" : 1011, "IsPassed" : false, "Bid" : 11 }
+2021-11-14 13:59:15.7650 AllServer 0001 (Session.cs:297) { "_t" : "M2C_AuctionResponse", "RpcId" : 5, "Error" : 0, "Message" : "Waiting" }
+2021-11-14 13:59:15.7650 AllServer 0001 (Session.cs:297) { "_t" : "M2C_FinishAuction", "Message" : "" }
+2021-11-14 13:59:15.7950 AllServer 0001 (Session.cs:150) { "_t" : "C2M_RefreshResourceMarket", "Message" : "refresh resource market" }
+2021-11-14 13:59:15.7950 AllServer 0001 (Session.cs:297) { "_t" : "M2C_ResourceReminder", "Coal" : 24, "Oil" : 18, "Garbage" : 9, "Nuclear" : 2, "Message" : "buy resource" }
+2021-11-14 14:20:20.3929 AllServer 0001 (Session.cs:150) { "_t" : "C2R_TestRequest", "RpcId" : 1, "Message" : "just testing " }
+2021-11-14 14:20:20.4076 AllServer 0001 (Session.cs:297) { "_t" : "R2G_GetLoginKey", "RpcId" : 1, "Account" : "just testing " }
+2021-11-14 14:20:20.4211 AllServer 0001 (Session.cs:150) { "_t" : "R2G_GetLoginKey", "RpcId" : 1, "Account" : "just testing " }
+2021-11-14 14:20:20.4211 AllServer 0001 (Session.cs:297) { "_t" : "G2R_GetLoginKey", "RpcId" : 1, "Error" : 0, "Message" : null, "Key" : NumberLong("7840203044987755888") }
+2021-11-14 14:20:20.4211 AllServer 0001 (Session.cs:150) { "_t" : "G2R_GetLoginKey", "RpcId" : 1, "Error" : 0, "Message" : null, "Key" : NumberLong("7840203044987755888") }
+2021-11-14 14:20:20.4325 AllServer 0001 (Session.cs:297) { "_t" : "G2C_TestHotfixMessage", "Info" : "recv hotfix message success" }
+2021-11-14 14:20:20.4325 AllServer 0001 (Session.cs:297) { "_t" : "R2C_TestResponse", "RpcId" : 1, "Error" : 0, "Message" : "We have received the message! just testing  is sent", "Address" : "192.168.191.107:10002", "Key" : NumberLong("7840203044987755888") }
+2021-11-14 14:20:20.4325 AllServer 0001 (Session.cs:297) { "_t" : "R2G_GetLoginKey", "RpcId" : 2, "Account" : "test" }
+2021-11-14 14:20:20.4325 AllServer 0001 (Session.cs:150) { "_t" : "R2G_GetLoginKey", "RpcId" : 2, "Account" : "test" }
+2021-11-14 14:20:20.4325 AllServer 0001 (Session.cs:297) { "_t" : "G2R_GetLoginKey", "RpcId" : 2, "Error" : 0, "Message" : null, "Key" : NumberLong("175640543525708076") }
+2021-11-14 14:20:20.4325 AllServer 0001 (Session.cs:150) { "_t" : "G2R_GetLoginKey", "RpcId" : 2, "Error" : 0, "Message" : null, "Key" : NumberLong("175640543525708076") }
+2021-11-14 14:20:20.4325 AllServer 0001 (Session.cs:297) { "_t" : "R2C_TestResponse", "RpcId" : 1, "Error" : 0, "Message" : "175640543525708076", "Address" : "", "Key" : NumberLong(0) }
+2021-11-14 14:20:20.4962 AllServer 0001 (Session.cs:150) { "_t" : "C2G_LoginGate", "RpcId" : 2, "Key" : NumberLong("7840203044987755888") }
+2021-11-14 14:20:20.4962 AllServer 0001 (Session.cs:297) { "_t" : "G2C_LoginGate", "RpcId" : 2, "Error" : 0, "Message" : "", "PlayerId" : NumberLong(17039361) }
+2021-11-14 14:20:21.0547 AllServer 0001 (Session.cs:150) { "_t" : "C2R_TestHelloMsg", "SayMessage" : "if received it means im ready" }
+2021-11-14 14:20:21.0567 AllServer 0001 (TestWaitingHandler.cs:14) if received it means im ready
+2021-11-14 14:20:21.0567 AllServer 0001 (Session.cs:297) { "_t" : "M2M_TestGetReadyRequest", "RpcId" : 3 }
+2021-11-14 14:20:21.0567 AllServer 0001 (Session.cs:150) { "_t" : "M2M_TestGetReadyRequest", "RpcId" : 3 }
+2021-11-14 14:20:21.0567 AllServer 0001 (Session.cs:297) { "_t" : "M2M_TestGetReadyResponse", "RpcId" : 3, "Error" : 0, "Message" : "1" }
+2021-11-14 14:20:21.0567 AllServer 0001 (Session.cs:150) { "_t" : "M2M_TestGetReadyResponse", "RpcId" : 3, "Error" : 0, "Message" : "1" }
+2021-11-14 14:20:21.0567 AllServer 0001 (Session.cs:297) { "_t" : "M2C_StartGameBroadCast", "PlayerNum" : 1, "Message" : "", "ActorId" : NumberLong(0) }
+2021-11-14 14:20:21.1966 AllServer 0001 (Session.cs:150) { "_t" : "C2M_RefreshMarket", "RpcId" : 3, "ReplacePlant" : -1 }
+2021-11-14 14:20:21.2021 AllServer 0001 (Session.cs:297) { "_t" : "M2C_InitAuction", "Message" : "" }
+2021-11-14 14:20:21.2021 AllServer 0001 (Session.cs:297) { "_t" : "M2C_RefreshMarket", "RpcId" : 3, "Error" : 0, "Message" : "", "MarketPlants" : [1043, 1010, 1029, 1039, 1031, 1023, 1004, 1019] }
+2021-11-14 14:20:23.4213 AllServer 0001 (Session.cs:150) { "_t" : "C2M_RefreshMarket", "RpcId" : 4, "ReplacePlant" : 1004 }
+2021-11-14 14:20:23.4213 AllServer 0001 (Session.cs:297) { "_t" : "M2C_RefreshMarket", "RpcId" : 4, "Error" : 0, "Message" : "", "MarketPlants" : [1043, 1010, 1029, 1039, 1031, 1023, 1037, 1019] }
+2021-11-14 14:20:24.3979 AllServer 0001 (Session.cs:150) { "_t" : "C2M_AuctionRequest", "RpcId" : 5, "PlantId" : 1004, "IsPassed" : false, "Bid" : 4 }
+2021-11-14 14:20:24.4039 AllServer 0001 (Session.cs:297) { "_t" : "M2C_AuctionResponse", "RpcId" : 5, "Error" : 0, "Message" : "Waiting" }
+2021-11-14 14:20:24.4039 AllServer 0001 (Session.cs:297) { "_t" : "M2C_FinishAuction", "Message" : "" }
+2021-11-14 14:20:24.4282 AllServer 0001 (Session.cs:150) { "_t" : "C2M_RefreshResourceMarket", "Message" : "refresh resource market" }
+2021-11-14 14:20:24.4282 AllServer 0001 (Session.cs:297) { "_t" : "M2C_ResourceReminder", "Coal" : 24, "Oil" : 18, "Garbage" : 9, "Nuclear" : 2, "Message" : "buy resource" }
+2021-11-14 14:22:19.0912 AllServer 0001 (Session.cs:150) { "_t" : "C2R_TestRequest", "RpcId" : 1, "Message" : "just testing " }
+2021-11-14 14:22:19.1053 AllServer 0001 (Session.cs:297) { "_t" : "R2G_GetLoginKey", "RpcId" : 1, "Account" : "just testing " }
+2021-11-14 14:22:19.1205 AllServer 0001 (Session.cs:150) { "_t" : "R2G_GetLoginKey", "RpcId" : 1, "Account" : "just testing " }
+2021-11-14 14:22:19.1205 AllServer 0001 (Session.cs:297) { "_t" : "G2R_GetLoginKey", "RpcId" : 1, "Error" : 0, "Message" : null, "Key" : NumberLong("-5024147323181534286") }
+2021-11-14 14:22:19.1205 AllServer 0001 (Session.cs:150) { "_t" : "G2R_GetLoginKey", "RpcId" : 1, "Error" : 0, "Message" : null, "Key" : NumberLong("-5024147323181534286") }
+2021-11-14 14:22:19.1205 AllServer 0001 (Session.cs:297) { "_t" : "G2C_TestHotfixMessage", "Info" : "recv hotfix message success" }
+2021-11-14 14:22:19.1356 AllServer 0001 (Session.cs:297) { "_t" : "R2C_TestResponse", "RpcId" : 1, "Error" : 0, "Message" : "We have received the message! just testing  is sent", "Address" : "192.168.191.107:10002", "Key" : NumberLong("-5024147323181534286") }
+2021-11-14 14:22:19.1356 AllServer 0001 (Session.cs:297) { "_t" : "R2G_GetLoginKey", "RpcId" : 2, "Account" : "test" }
+2021-11-14 14:22:19.1356 AllServer 0001 (Session.cs:150) { "_t" : "R2G_GetLoginKey", "RpcId" : 2, "Account" : "test" }
+2021-11-14 14:22:19.1356 AllServer 0001 (Session.cs:297) { "_t" : "G2R_GetLoginKey", "RpcId" : 2, "Error" : 0, "Message" : null, "Key" : NumberLong("-6338552162881148383") }
+2021-11-14 14:22:19.1356 AllServer 0001 (Session.cs:150) { "_t" : "G2R_GetLoginKey", "RpcId" : 2, "Error" : 0, "Message" : null, "Key" : NumberLong("-6338552162881148383") }
+2021-11-14 14:22:19.1356 AllServer 0001 (Session.cs:297) { "_t" : "R2C_TestResponse", "RpcId" : 1, "Error" : 0, "Message" : "-6338552162881148383", "Address" : "", "Key" : NumberLong(0) }
+2021-11-14 14:22:19.1973 AllServer 0001 (Session.cs:150) { "_t" : "C2G_LoginGate", "RpcId" : 2, "Key" : NumberLong("-5024147323181534286") }
+2021-11-14 14:22:19.1973 AllServer 0001 (Session.cs:297) { "_t" : "G2C_LoginGate", "RpcId" : 2, "Error" : 0, "Message" : "", "PlayerId" : NumberLong(17039361) }
+2021-11-14 14:22:19.9026 AllServer 0001 (Session.cs:150) { "_t" : "C2R_TestHelloMsg", "SayMessage" : "if received it means im ready" }
+2021-11-14 14:22:19.9026 AllServer 0001 (TestWaitingHandler.cs:14) if received it means im ready
+2021-11-14 14:22:19.9026 AllServer 0001 (Session.cs:297) { "_t" : "M2M_TestGetReadyRequest", "RpcId" : 3 }
+2021-11-14 14:22:19.9026 AllServer 0001 (Session.cs:150) { "_t" : "M2M_TestGetReadyRequest", "RpcId" : 3 }
+2021-11-14 14:22:19.9026 AllServer 0001 (Session.cs:297) { "_t" : "M2M_TestGetReadyResponse", "RpcId" : 3, "Error" : 0, "Message" : "1" }
+2021-11-14 14:22:19.9026 AllServer 0001 (Session.cs:150) { "_t" : "M2M_TestGetReadyResponse", "RpcId" : 3, "Error" : 0, "Message" : "1" }
+2021-11-14 14:22:19.9026 AllServer 0001 (Session.cs:297) { "_t" : "M2C_StartGameBroadCast", "PlayerNum" : 1, "Message" : "", "ActorId" : NumberLong(0) }
+2021-11-14 14:22:20.0418 AllServer 0001 (Session.cs:150) { "_t" : "C2M_RefreshMarket", "RpcId" : 3, "ReplacePlant" : -1 }
+2021-11-14 14:22:20.0418 AllServer 0001 (Session.cs:297) { "_t" : "M2C_InitAuction", "Message" : "" }
+2021-11-14 14:22:20.0418 AllServer 0001 (Session.cs:297) { "_t" : "M2C_RefreshMarket", "RpcId" : 3, "Error" : 0, "Message" : "", "MarketPlants" : [1010, 1016, 1021, 1025, 1030, 1043, 1017, 1018] }
+2021-11-14 14:22:23.2223 AllServer 0001 (Session.cs:150) { "_t" : "C2M_RefreshMarket", "RpcId" : 4, "ReplacePlant" : 1017 }
+2021-11-14 14:22:23.2223 AllServer 0001 (Session.cs:297) { "_t" : "M2C_RefreshMarket", "RpcId" : 4, "Error" : 0, "Message" : "", "MarketPlants" : [1010, 1016, 1021, 1025, 1030, 1043, 1024, 1018] }
+2021-11-14 14:22:24.9780 AllServer 0001 (Session.cs:150) { "_t" : "C2M_AuctionRequest", "RpcId" : 5, "PlantId" : 1017, "IsPassed" : false, "Bid" : 19 }
+2021-11-14 14:22:24.9835 AllServer 0001 (Session.cs:297) { "_t" : "M2C_AuctionResponse", "RpcId" : 5, "Error" : 0, "Message" : "Waiting" }
+2021-11-14 14:22:24.9835 AllServer 0001 (Session.cs:297) { "_t" : "M2C_FinishAuction", "Message" : "" }
+2021-11-14 14:22:25.0075 AllServer 0001 (Session.cs:150) { "_t" : "C2M_RefreshResourceMarket", "Message" : "refresh resource market" }
+2021-11-14 14:22:25.0109 AllServer 0001 (Session.cs:297) { "_t" : "M2C_ResourceReminder", "Coal" : 24, "Oil" : 18, "Garbage" : 9, "Nuclear" : 2, "Message" : "buy resource" }
+2021-11-14 14:25:24.3301 AllServer 0001 (Session.cs:150) { "_t" : "C2R_TestRequest", "RpcId" : 1, "Message" : "just testing " }
+2021-11-14 14:25:24.3441 AllServer 0001 (Session.cs:297) { "_t" : "R2G_GetLoginKey", "RpcId" : 1, "Account" : "just testing " }
+2021-11-14 14:25:24.3580 AllServer 0001 (Session.cs:150) { "_t" : "R2G_GetLoginKey", "RpcId" : 1, "Account" : "just testing " }
+2021-11-14 14:25:24.3580 AllServer 0001 (Session.cs:297) { "_t" : "G2R_GetLoginKey", "RpcId" : 1, "Error" : 0, "Message" : null, "Key" : NumberLong("-2851397434686359537") }
+2021-11-14 14:25:24.3580 AllServer 0001 (Session.cs:150) { "_t" : "G2R_GetLoginKey", "RpcId" : 1, "Error" : 0, "Message" : null, "Key" : NumberLong("-2851397434686359537") }
+2021-11-14 14:25:24.3702 AllServer 0001 (Session.cs:297) { "_t" : "G2C_TestHotfixMessage", "Info" : "recv hotfix message success" }
+2021-11-14 14:25:24.3702 AllServer 0001 (Session.cs:297) { "_t" : "R2C_TestResponse", "RpcId" : 1, "Error" : 0, "Message" : "We have received the message! just testing  is sent", "Address" : "192.168.191.107:10002", "Key" : NumberLong("-2851397434686359537") }
+2021-11-14 14:25:24.3702 AllServer 0001 (Session.cs:297) { "_t" : "R2G_GetLoginKey", "RpcId" : 2, "Account" : "test" }
+2021-11-14 14:25:24.3702 AllServer 0001 (Session.cs:150) { "_t" : "R2G_GetLoginKey", "RpcId" : 2, "Account" : "test" }
+2021-11-14 14:25:24.3702 AllServer 0001 (Session.cs:297) { "_t" : "G2R_GetLoginKey", "RpcId" : 2, "Error" : 0, "Message" : null, "Key" : NumberLong("-1375043016357372477") }
+2021-11-14 14:25:24.3702 AllServer 0001 (Session.cs:150) { "_t" : "G2R_GetLoginKey", "RpcId" : 2, "Error" : 0, "Message" : null, "Key" : NumberLong("-1375043016357372477") }
+2021-11-14 14:25:24.3702 AllServer 0001 (Session.cs:297) { "_t" : "R2C_TestResponse", "RpcId" : 1, "Error" : 0, "Message" : "-1375043016357372477", "Address" : "", "Key" : NumberLong(0) }
+2021-11-14 14:25:24.4324 AllServer 0001 (Session.cs:150) { "_t" : "C2G_LoginGate", "RpcId" : 2, "Key" : NumberLong("-2851397434686359537") }
+2021-11-14 14:25:24.4324 AllServer 0001 (Session.cs:297) { "_t" : "G2C_LoginGate", "RpcId" : 2, "Error" : 0, "Message" : "", "PlayerId" : NumberLong(17039361) }
+2021-11-14 14:25:25.3834 AllServer 0001 (Session.cs:150) { "_t" : "C2R_TestHelloMsg", "SayMessage" : "if received it means im ready" }
+2021-11-14 14:25:25.3856 AllServer 0001 (TestWaitingHandler.cs:14) if received it means im ready
+2021-11-14 14:25:25.3856 AllServer 0001 (Session.cs:297) { "_t" : "M2M_TestGetReadyRequest", "RpcId" : 3 }
+2021-11-14 14:25:25.3856 AllServer 0001 (Session.cs:150) { "_t" : "M2M_TestGetReadyRequest", "RpcId" : 3 }
+2021-11-14 14:25:25.3856 AllServer 0001 (Session.cs:297) { "_t" : "M2M_TestGetReadyResponse", "RpcId" : 3, "Error" : 0, "Message" : "1" }
+2021-11-14 14:25:25.3856 AllServer 0001 (Session.cs:150) { "_t" : "M2M_TestGetReadyResponse", "RpcId" : 3, "Error" : 0, "Message" : "1" }
+2021-11-14 14:25:25.3856 AllServer 0001 (Session.cs:297) { "_t" : "M2C_StartGameBroadCast", "PlayerNum" : 1, "Message" : "", "ActorId" : NumberLong(0) }
+2021-11-14 14:25:25.5233 AllServer 0001 (Session.cs:150) { "_t" : "C2M_RefreshMarket", "RpcId" : 3, "ReplacePlant" : -1 }
+2021-11-14 14:25:25.5282 AllServer 0001 (Session.cs:297) { "_t" : "M2C_InitAuction", "Message" : "" }
+2021-11-14 14:25:25.5282 AllServer 0001 (Session.cs:297) { "_t" : "M2C_RefreshMarket", "RpcId" : 3, "Error" : 0, "Message" : "", "MarketPlants" : [1029, 1031, 1002, 1007, 1022, 1003, 1038, 1014] }
+2021-11-14 14:25:27.4443 AllServer 0001 (Session.cs:150) { "_t" : "C2M_RefreshMarket", "RpcId" : 4, "ReplacePlant" : 1003 }
+2021-11-14 14:25:27.4443 AllServer 0001 (Session.cs:297) { "_t" : "M2C_RefreshMarket", "RpcId" : 4, "Error" : 0, "Message" : "", "MarketPlants" : [1029, 1031, 1002, 1007, 1022, 1016, 1038, 1014] }
+2021-11-14 14:25:28.6949 AllServer 0001 (Session.cs:150) { "_t" : "C2M_AuctionRequest", "RpcId" : 5, "PlantId" : 1003, "IsPassed" : false, "Bid" : 3 }
+2021-11-14 14:25:28.6997 AllServer 0001 (Session.cs:297) { "_t" : "M2C_AuctionResponse", "RpcId" : 5, "Error" : 0, "Message" : "Waiting" }
+2021-11-14 14:25:28.7365 AllServer 0001 (Session.cs:297) { "_t" : "M2C_AuctionResponse", "RpcId" : 5, "Error" : 102001, "Message" : "System.ArgumentException: An item with the same key has already been added. Key: 1003\r\n   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)\r\n   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)\r\n   at ETHotfix.AuctionHandler.Run(Session session, C2M_AuctionRequest request, M2C_AuctionResponse response, Action reply) in E:\\dotnet\\ET-Branch_opst\\Server\\Hotfix\\PlantMarket\\AuctionHandler.cs:line 110\r\n   at ETModel.ETTaskCompletionSource.ETModel.IAwaiter.GetResult() in E:\\dotnet\\ET-Branch_opst\\Unity\\Assets\\Model\\Base\\Async\\ETTaskCompletionSource.cs:line 32\r\n   at ETModel.ETTask.GetResult() in E:\\dotnet\\ET-Branch_opst\\Unity\\Assets\\Model\\Base\\Async\\ETTask.cs:line 33\r\n   at ETModel.ETTask.Awaiter.GetResult() in E:\\dotnet\\ET-Branch_opst\\Unity\\Assets\\Model\\Base\\Async\\ETTask.cs:line 98\r\n   at ETModel.AMRpcHandler`2.Handle(Session session, Object message) in E:\\dotnet\\ET-Branch_opst\\Server\\Model\\Module\\Message\\AMRpcHandler.cs:line 37" }
+2021-11-14 14:43:04.6890 AllServer 0001 (Session.cs:150) { "_t" : "C2R_TestRequest", "RpcId" : 2, "Message" : "just testing " }
+2021-11-14 14:43:04.7216 AllServer 0001 (Session.cs:297) { "_t" : "R2G_GetLoginKey", "RpcId" : 1, "Account" : "just testing " }
+2021-11-14 14:43:04.7359 AllServer 0001 (Session.cs:150) { "_t" : "R2G_GetLoginKey", "RpcId" : 1, "Account" : "just testing " }
+2021-11-14 14:43:04.7359 AllServer 0001 (Session.cs:297) { "_t" : "G2R_GetLoginKey", "RpcId" : 1, "Error" : 0, "Message" : null, "Key" : NumberLong("-979527075190640086") }
+2021-11-14 14:43:04.7359 AllServer 0001 (Session.cs:150) { "_t" : "G2R_GetLoginKey", "RpcId" : 1, "Error" : 0, "Message" : null, "Key" : NumberLong("-979527075190640086") }
+2021-11-14 14:43:04.7475 AllServer 0001 (Session.cs:297) { "_t" : "G2C_TestHotfixMessage", "Info" : "recv hotfix message success" }
+2021-11-14 14:43:04.7475 AllServer 0001 (Session.cs:297) { "_t" : "R2C_TestResponse", "RpcId" : 2, "Error" : 0, "Message" : "We have received the message! just testing  is sent", "Address" : "192.168.191.107:10002", "Key" : NumberLong("-979527075190640086") }
+2021-11-14 14:43:04.7475 AllServer 0001 (Session.cs:297) { "_t" : "R2G_GetLoginKey", "RpcId" : 2, "Account" : "test" }
+2021-11-14 14:43:04.7475 AllServer 0001 (Session.cs:150) { "_t" : "R2G_GetLoginKey", "RpcId" : 2, "Account" : "test" }
+2021-11-14 14:43:04.7475 AllServer 0001 (Session.cs:297) { "_t" : "G2R_GetLoginKey", "RpcId" : 2, "Error" : 0, "Message" : null, "Key" : NumberLong("-4410705736464795220") }
+2021-11-14 14:43:04.7475 AllServer 0001 (Session.cs:150) { "_t" : "G2R_GetLoginKey", "RpcId" : 2, "Error" : 0, "Message" : null, "Key" : NumberLong("-4410705736464795220") }
+2021-11-14 14:43:04.7475 AllServer 0001 (Session.cs:297) { "_t" : "R2C_TestResponse", "RpcId" : 2, "Error" : 0, "Message" : "-4410705736464795220", "Address" : "", "Key" : NumberLong(0) }
+2021-11-14 14:43:04.8031 AllServer 0001 (Session.cs:150) { "_t" : "C2G_LoginGate", "RpcId" : 3, "Key" : NumberLong("-979527075190640086") }
+2021-11-14 14:43:04.8067 AllServer 0001 (Session.cs:297) { "_t" : "G2C_LoginGate", "RpcId" : 3, "Error" : 0, "Message" : "", "PlayerId" : NumberLong(17039361) }
+2021-11-14 14:43:05.4368 AllServer 0001 (Session.cs:150) { "_t" : "C2R_TestHelloMsg", "SayMessage" : "if received it means im ready" }
+2021-11-14 14:43:05.4368 AllServer 0001 (TestWaitingHandler.cs:14) if received it means im ready
+2021-11-14 14:43:05.4368 AllServer 0001 (Session.cs:297) { "_t" : "M2M_TestGetReadyRequest", "RpcId" : 3 }
+2021-11-14 14:43:05.4368 AllServer 0001 (Session.cs:150) { "_t" : "M2M_TestGetReadyRequest", "RpcId" : 3 }
+2021-11-14 14:43:05.4368 AllServer 0001 (Session.cs:297) { "_t" : "M2M_TestGetReadyResponse", "RpcId" : 3, "Error" : 0, "Message" : "1" }
+2021-11-14 14:43:05.4368 AllServer 0001 (Session.cs:150) { "_t" : "M2M_TestGetReadyResponse", "RpcId" : 3, "Error" : 0, "Message" : "1" }
+2021-11-14 14:43:05.4368 AllServer 0001 (Session.cs:297) { "_t" : "M2C_StartGameBroadCast", "PlayerNum" : 1, "Message" : "", "ActorId" : NumberLong(0) }
+2021-11-14 14:43:05.5798 AllServer 0001 (Session.cs:150) { "_t" : "C2M_RefreshMarket", "RpcId" : 4, "ReplacePlant" : -1 }
+2021-11-14 14:43:05.5798 AllServer 0001 (Session.cs:297) { "_t" : "M2C_InitAuction", "Message" : "" }
+2021-11-14 14:43:05.5885 AllServer 0001 (Session.cs:297) { "_t" : "M2C_RefreshMarket", "RpcId" : 4, "Error" : 0, "Message" : "", "MarketPlants" : [1036, 1035, 1038, 1032, 1001, 1005, 1031, 1019] }
+2021-11-14 14:43:06.6335 AllServer 0001 (Session.cs:150) { "_t" : "C2M_RefreshMarket", "RpcId" : 5, "ReplacePlant" : 1005 }
+2021-11-14 14:43:06.6335 AllServer 0001 (Session.cs:297) { "_t" : "M2C_RefreshMarket", "RpcId" : 5, "Error" : 0, "Message" : "", "MarketPlants" : [1036, 1035, 1038, 1032, 1001, 1022, 1031, 1019] }
+2021-11-14 14:43:07.2567 AllServer 0001 (Session.cs:150) { "_t" : "C2M_AuctionRequest", "RpcId" : 6, "PlantId" : 1005, "IsPassed" : false, "Bid" : 5 }
+2021-11-14 14:43:07.2607 AllServer 0001 (Session.cs:297) { "_t" : "M2C_AuctionResponse", "RpcId" : 6, "Error" : 0, "Message" : "Waiting" }
+2021-11-14 14:43:07.3083 AllServer 0001 (Session.cs:297) { "_t" : "M2C_AuctionResponse", "RpcId" : 6, "Error" : 102001, "Message" : "System.ArgumentException: An item with the same key has already been added. Key: 1005\r\n   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)\r\n   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)\r\n   at ETHotfix.AuctionHandler.Run(Session session, C2M_AuctionRequest request, M2C_AuctionResponse response, Action reply) in E:\\dotnet\\ET-Branch_opst\\Server\\Hotfix\\PlantMarket\\AuctionHandler.cs:line 107\r\n   at ETModel.ETTaskCompletionSource.ETModel.IAwaiter.GetResult() in E:\\dotnet\\ET-Branch_opst\\Unity\\Assets\\Model\\Base\\Async\\ETTaskCompletionSource.cs:line 32\r\n   at ETModel.ETTask.GetResult() in E:\\dotnet\\ET-Branch_opst\\Unity\\Assets\\Model\\Base\\Async\\ETTask.cs:line 33\r\n   at ETModel.ETTask.Awaiter.GetResult() in E:\\dotnet\\ET-Branch_opst\\Unity\\Assets\\Model\\Base\\Async\\ETTask.cs:line 98\r\n   at ETModel.AMRpcHandler`2.Handle(Session session, Object message) in E:\\dotnet\\ET-Branch_opst\\Server\\Model\\Module\\Message\\AMRpcHandler.cs:line 37" }
+2021-11-14 14:53:58.8786 AllServer 0001 (Session.cs:150) { "_t" : "C2R_TestRequest", "RpcId" : 1, "Message" : "just testing " }
+2021-11-14 14:53:58.8916 AllServer 0001 (Session.cs:297) { "_t" : "R2G_GetLoginKey", "RpcId" : 1, "Account" : "just testing " }
+2021-11-14 14:53:58.9047 AllServer 0001 (Session.cs:150) { "_t" : "R2G_GetLoginKey", "RpcId" : 1, "Account" : "just testing " }
+2021-11-14 14:53:58.9047 AllServer 0001 (Session.cs:297) { "_t" : "G2R_GetLoginKey", "RpcId" : 1, "Error" : 0, "Message" : null, "Key" : NumberLong("3004122517894885940") }
+2021-11-14 14:53:58.9047 AllServer 0001 (Session.cs:150) { "_t" : "G2R_GetLoginKey", "RpcId" : 1, "Error" : 0, "Message" : null, "Key" : NumberLong("3004122517894885940") }
+2021-11-14 14:53:58.9047 AllServer 0001 (Session.cs:297) { "_t" : "G2C_TestHotfixMessage", "Info" : "recv hotfix message success" }
+2021-11-14 14:53:58.9198 AllServer 0001 (Session.cs:297) { "_t" : "R2C_TestResponse", "RpcId" : 1, "Error" : 0, "Message" : "We have received the message! just testing  is sent", "Address" : "192.168.191.107:10002", "Key" : NumberLong("3004122517894885940") }
+2021-11-14 14:53:58.9198 AllServer 0001 (Session.cs:297) { "_t" : "R2G_GetLoginKey", "RpcId" : 2, "Account" : "test" }
+2021-11-14 14:53:58.9198 AllServer 0001 (Session.cs:150) { "_t" : "R2G_GetLoginKey", "RpcId" : 2, "Account" : "test" }
+2021-11-14 14:53:58.9198 AllServer 0001 (Session.cs:297) { "_t" : "G2R_GetLoginKey", "RpcId" : 2, "Error" : 0, "Message" : null, "Key" : NumberLong("-947602884669047999") }
+2021-11-14 14:53:58.9198 AllServer 0001 (Session.cs:150) { "_t" : "G2R_GetLoginKey", "RpcId" : 2, "Error" : 0, "Message" : null, "Key" : NumberLong("-947602884669047999") }
+2021-11-14 14:53:58.9198 AllServer 0001 (Session.cs:297) { "_t" : "R2C_TestResponse", "RpcId" : 1, "Error" : 0, "Message" : "-947602884669047999", "Address" : "", "Key" : NumberLong(0) }
+2021-11-14 14:53:58.9843 AllServer 0001 (Session.cs:150) { "_t" : "C2G_LoginGate", "RpcId" : 2, "Key" : NumberLong("3004122517894885940") }
+2021-11-14 14:53:58.9843 AllServer 0001 (Session.cs:297) { "_t" : "G2C_LoginGate", "RpcId" : 2, "Error" : 0, "Message" : "", "PlayerId" : NumberLong(17039361) }
+2021-11-14 14:54:00.2134 AllServer 0001 (Session.cs:150) { "_t" : "C2R_TestHelloMsg", "SayMessage" : "if received it means im ready" }
+2021-11-14 14:54:00.2134 AllServer 0001 (TestWaitingHandler.cs:14) if received it means im ready
+2021-11-14 14:54:00.2134 AllServer 0001 (Session.cs:297) { "_t" : "M2M_TestGetReadyRequest", "RpcId" : 3 }
+2021-11-14 14:54:00.2134 AllServer 0001 (Session.cs:150) { "_t" : "M2M_TestGetReadyRequest", "RpcId" : 3 }
+2021-11-14 14:54:00.2134 AllServer 0001 (Session.cs:297) { "_t" : "M2M_TestGetReadyResponse", "RpcId" : 3, "Error" : 0, "Message" : "1" }
+2021-11-14 14:54:00.2134 AllServer 0001 (Session.cs:150) { "_t" : "M2M_TestGetReadyResponse", "RpcId" : 3, "Error" : 0, "Message" : "1" }
+2021-11-14 14:54:00.2134 AllServer 0001 (Session.cs:297) { "_t" : "M2C_StartGameBroadCast", "PlayerNum" : 1, "Message" : "", "ActorId" : NumberLong(0) }
+2021-11-14 14:54:00.3550 AllServer 0001 (Session.cs:150) { "_t" : "C2M_RefreshMarket", "RpcId" : 3, "ReplacePlant" : -1 }
+2021-11-14 14:54:00.3550 AllServer 0001 (Session.cs:297) { "_t" : "M2C_InitAuction", "Message" : "" }
+2021-11-14 14:54:00.3550 AllServer 0001 (Session.cs:297) { "_t" : "M2C_RefreshMarket", "RpcId" : 3, "Error" : 0, "Message" : "", "MarketPlants" : [1040, 1026, 1029, 1039, 1028, 1011, 1006, 1036] }
+2021-11-14 14:54:01.9131 AllServer 0001 (Session.cs:150) { "_t" : "C2M_RefreshMarket", "RpcId" : 4, "ReplacePlant" : 1026 }
+2021-11-14 14:54:01.9131 AllServer 0001 (Session.cs:297) { "_t" : "M2C_RefreshMarket", "RpcId" : 4, "Error" : 0, "Message" : "", "MarketPlants" : [1040, 1021, 1029, 1039, 1028, 1011, 1006, 1036] }
+2021-11-14 14:54:02.8507 AllServer 0001 (Session.cs:150) { "_t" : "C2M_AuctionRequest", "RpcId" : 5, "PlantId" : 1026, "IsPassed" : false, "Bid" : 28 }
+2021-11-14 14:54:02.8559 AllServer 0001 (Session.cs:297) { "_t" : "M2C_AuctionResponse", "RpcId" : 5, "Error" : 0, "Message" : "Waiting" }
+2021-11-14 14:54:02.8559 AllServer 0001 (Session.cs:297) { "_t" : "M2C_OwnPlant", "OwnerId" : 17039361, "PlantId" : 1026, "Message" : "", "MaxPrice" : 0, "IsFinished" : true }
+2021-11-14 14:54:02.8559 AllServer 0001 (Session.cs:297) { "_t" : "M2C_FinishAuction", "Message" : "" }
+2021-11-14 14:54:02.8951 AllServer 0001 (Session.cs:150) { "_t" : "C2M_RefreshResourceMarket", "Message" : "refresh resource market" }
+2021-11-14 14:54:02.8951 AllServer 0001 (Session.cs:297) { "_t" : "M2C_ResourceReminder", "Coal" : 24, "Oil" : 18, "Garbage" : 9, "Nuclear" : 2, "Message" : "buy resource" }
+2021-11-14 14:54:18.3128 AllServer 0001 (Session.cs:150) { "_t" : "C2M_BuyResourceRequest", "RpcId" : 6, "Coal" : 4, "Oil" : 0, "Garbage" : 0, "Nuclear" : 0 }
+2021-11-14 14:54:18.3128 AllServer 0001 (Session.cs:297) { "_t" : "M2C_ResourceMarketFinish", "Message" : "resource market finish" }
+2021-11-14 14:54:18.3128 AllServer 0001 (Session.cs:297) { "_t" : "M2C_AuctionResponse", "RpcId" : 6, "Error" : 0, "Message" : "buy resource success" }
+2021-11-14 14:58:59.1892 AllServer 0001 (Session.cs:150) { "_t" : "C2R_TestRequest", "RpcId" : 1, "Message" : "just testing " }
+2021-11-14 14:58:59.2027 AllServer 0001 (Session.cs:297) { "_t" : "R2G_GetLoginKey", "RpcId" : 1, "Account" : "just testing " }
+2021-11-14 14:58:59.2174 AllServer 0001 (Session.cs:150) { "_t" : "R2G_GetLoginKey", "RpcId" : 1, "Account" : "just testing " }
+2021-11-14 14:58:59.2174 AllServer 0001 (Session.cs:297) { "_t" : "G2R_GetLoginKey", "RpcId" : 1, "Error" : 0, "Message" : null, "Key" : NumberLong("-8755574042267649841") }
+2021-11-14 14:58:59.2174 AllServer 0001 (Session.cs:150) { "_t" : "G2R_GetLoginKey", "RpcId" : 1, "Error" : 0, "Message" : null, "Key" : NumberLong("-8755574042267649841") }
+2021-11-14 14:58:59.2292 AllServer 0001 (Session.cs:297) { "_t" : "G2C_TestHotfixMessage", "Info" : "recv hotfix message success" }
+2021-11-14 14:58:59.2292 AllServer 0001 (Session.cs:297) { "_t" : "R2C_TestResponse", "RpcId" : 1, "Error" : 0, "Message" : "We have received the message! just testing  is sent", "Address" : "192.168.191.107:10002", "Key" : NumberLong("-8755574042267649841") }
+2021-11-14 14:58:59.2292 AllServer 0001 (Session.cs:297) { "_t" : "R2G_GetLoginKey", "RpcId" : 2, "Account" : "test" }
+2021-11-14 14:58:59.2292 AllServer 0001 (Session.cs:150) { "_t" : "R2G_GetLoginKey", "RpcId" : 2, "Account" : "test" }
+2021-11-14 14:58:59.2292 AllServer 0001 (Session.cs:297) { "_t" : "G2R_GetLoginKey", "RpcId" : 2, "Error" : 0, "Message" : null, "Key" : NumberLong("7754548076237489661") }
+2021-11-14 14:58:59.2292 AllServer 0001 (Session.cs:150) { "_t" : "G2R_GetLoginKey", "RpcId" : 2, "Error" : 0, "Message" : null, "Key" : NumberLong("7754548076237489661") }
+2021-11-14 14:58:59.2292 AllServer 0001 (Session.cs:297) { "_t" : "R2C_TestResponse", "RpcId" : 1, "Error" : 0, "Message" : "7754548076237489661", "Address" : "", "Key" : NumberLong(0) }
+2021-11-14 14:58:59.2916 AllServer 0001 (Session.cs:150) { "_t" : "C2G_LoginGate", "RpcId" : 2, "Key" : NumberLong("-8755574042267649841") }
+2021-11-14 14:58:59.2916 AllServer 0001 (Session.cs:297) { "_t" : "G2C_LoginGate", "RpcId" : 2, "Error" : 0, "Message" : "", "PlayerId" : NumberLong(17039361) }
+2021-11-14 14:59:00.2971 AllServer 0001 (Session.cs:150) { "_t" : "C2R_TestHelloMsg", "SayMessage" : "if received it means im ready" }
+2021-11-14 14:59:00.2971 AllServer 0001 (TestWaitingHandler.cs:14) if received it means im ready
+2021-11-14 14:59:00.2971 AllServer 0001 (Session.cs:297) { "_t" : "M2M_TestGetReadyRequest", "RpcId" : 3 }
+2021-11-14 14:59:00.2971 AllServer 0001 (Session.cs:150) { "_t" : "M2M_TestGetReadyRequest", "RpcId" : 3 }
+2021-11-14 14:59:00.2971 AllServer 0001 (Session.cs:297) { "_t" : "M2M_TestGetReadyResponse", "RpcId" : 3, "Error" : 0, "Message" : "1" }
+2021-11-14 14:59:00.2971 AllServer 0001 (Session.cs:150) { "_t" : "M2M_TestGetReadyResponse", "RpcId" : 3, "Error" : 0, "Message" : "1" }
+2021-11-14 14:59:00.3075 AllServer 0001 (Session.cs:297) { "_t" : "M2C_StartGameBroadCast", "PlayerNum" : 1, "Message" : "", "ActorId" : NumberLong(0) }
+2021-11-14 14:59:00.4370 AllServer 0001 (Session.cs:150) { "_t" : "C2M_RefreshMarket", "RpcId" : 3, "ReplacePlant" : -1 }
+2021-11-14 14:59:00.4370 AllServer 0001 (Session.cs:297) { "_t" : "M2C_InitAuction", "Message" : "" }
+2021-11-14 14:59:00.4476 AllServer 0001 (Session.cs:297) { "_t" : "M2C_RefreshMarket", "RpcId" : 3, "Error" : 0, "Message" : "", "MarketPlants" : [1007, 1013, 1045, 1011, 1020, 1026, 1009, 1008] }
+2021-11-14 14:59:01.7195 AllServer 0001 (Session.cs:150) { "_t" : "C2M_RefreshMarket", "RpcId" : 4, "ReplacePlant" : 1008 }
+2021-11-14 14:59:01.7195 AllServer 0001 (Session.cs:297) { "_t" : "M2C_RefreshMarket", "RpcId" : 4, "Error" : 0, "Message" : "", "MarketPlants" : [1007, 1013, 1045, 1011, 1020, 1026, 1009, 1042] }
+2021-11-14 14:59:03.5309 AllServer 0001 (Session.cs:150) { "_t" : "C2M_AuctionRequest", "RpcId" : 5, "PlantId" : 1008, "IsPassed" : false, "Bid" : 8 }
+2021-11-14 14:59:03.5309 AllServer 0001 (Session.cs:297) { "_t" : "M2C_AuctionResponse", "RpcId" : 5, "Error" : 0, "Message" : "Waiting" }
+2021-11-14 14:59:03.5309 AllServer 0001 (Session.cs:297) { "_t" : "M2C_OwnPlant", "OwnerId" : 17039361, "PlantId" : 1008, "Message" : "", "MaxPrice" : 0, "IsFinished" : true }
+2021-11-14 14:59:03.5309 AllServer 0001 (Session.cs:297) { "_t" : "M2C_FinishAuction", "Message" : "" }
+2021-11-14 14:59:03.5755 AllServer 0001 (Session.cs:150) { "_t" : "C2M_RefreshResourceMarket", "Message" : "refresh resource market" }
+2021-11-14 14:59:03.5755 AllServer 0001 (Session.cs:297) { "_t" : "M2C_ResourceReminder", "Coal" : 24, "Oil" : 18, "Garbage" : 9, "Nuclear" : 2, "Message" : "buy resource" }
+2021-11-14 14:59:09.4103 AllServer 0001 (Session.cs:150) { "_t" : "C2M_BuyResourceRequest", "RpcId" : 6, "Coal" : 0, "Oil" : 0, "Garbage" : 0, "Nuclear" : 1 }
+2021-11-14 14:59:09.4103 AllServer 0001 (Session.cs:297) { "_t" : "M2C_ResourceMarketFinish", "Message" : "resource market finish" }
+2021-11-14 14:59:09.4103 AllServer 0001 (Session.cs:297) { "_t" : "M2C_AuctionResponse", "RpcId" : 6, "Error" : 0, "Message" : "buy resource success" }
+2021-11-14 15:12:48.4099 AllServer 0001 (Session.cs:150) { "_t" : "C2R_TestRequest", "RpcId" : 1, "Message" : "just testing " }
+2021-11-14 15:12:48.4235 AllServer 0001 (Session.cs:297) { "_t" : "R2G_GetLoginKey", "RpcId" : 1, "Account" : "just testing " }
+2021-11-14 15:12:48.4383 AllServer 0001 (Session.cs:150) { "_t" : "R2G_GetLoginKey", "RpcId" : 1, "Account" : "just testing " }
+2021-11-14 15:12:48.4383 AllServer 0001 (Session.cs:297) { "_t" : "G2R_GetLoginKey", "RpcId" : 1, "Error" : 0, "Message" : null, "Key" : NumberLong("-5781431949068223415") }
+2021-11-14 15:12:48.4383 AllServer 0001 (Session.cs:150) { "_t" : "G2R_GetLoginKey", "RpcId" : 1, "Error" : 0, "Message" : null, "Key" : NumberLong("-5781431949068223415") }
+2021-11-14 15:12:48.4507 AllServer 0001 (Session.cs:297) { "_t" : "G2C_TestHotfixMessage", "Info" : "recv hotfix message success" }
+2021-11-14 15:12:48.4507 AllServer 0001 (Session.cs:297) { "_t" : "R2C_TestResponse", "RpcId" : 1, "Error" : 0, "Message" : "We have received the message! just testing  is sent", "Address" : "192.168.191.107:10002", "Key" : NumberLong("-5781431949068223415") }
+2021-11-14 15:12:48.4507 AllServer 0001 (Session.cs:297) { "_t" : "R2G_GetLoginKey", "RpcId" : 2, "Account" : "test" }
+2021-11-14 15:12:48.4507 AllServer 0001 (Session.cs:150) { "_t" : "R2G_GetLoginKey", "RpcId" : 2, "Account" : "test" }
+2021-11-14 15:12:48.4507 AllServer 0001 (Session.cs:297) { "_t" : "G2R_GetLoginKey", "RpcId" : 2, "Error" : 0, "Message" : null, "Key" : NumberLong("3811028715357973299") }
+2021-11-14 15:12:48.4507 AllServer 0001 (Session.cs:150) { "_t" : "G2R_GetLoginKey", "RpcId" : 2, "Error" : 0, "Message" : null, "Key" : NumberLong("3811028715357973299") }
+2021-11-14 15:12:48.4507 AllServer 0001 (Session.cs:297) { "_t" : "R2C_TestResponse", "RpcId" : 1, "Error" : 0, "Message" : "3811028715357973299", "Address" : "", "Key" : NumberLong(0) }
+2021-11-14 15:12:48.5131 AllServer 0001 (Session.cs:150) { "_t" : "C2G_LoginGate", "RpcId" : 2, "Key" : NumberLong("-5781431949068223415") }
+2021-11-14 15:12:48.5131 AllServer 0001 (Session.cs:297) { "_t" : "G2C_LoginGate", "RpcId" : 2, "Error" : 0, "Message" : "", "PlayerId" : NumberLong(17039361) }
+2021-11-14 15:12:49.1267 AllServer 0001 (Session.cs:150) { "_t" : "C2R_TestHelloMsg", "SayMessage" : "if received it means im ready" }
+2021-11-14 15:12:49.1267 AllServer 0001 (TestWaitingHandler.cs:14) if received it means im ready
+2021-11-14 15:12:49.1267 AllServer 0001 (Session.cs:297) { "_t" : "M2M_TestGetReadyRequest", "RpcId" : 3 }
+2021-11-14 15:12:49.1267 AllServer 0001 (Session.cs:150) { "_t" : "M2M_TestGetReadyRequest", "RpcId" : 3 }
+2021-11-14 15:12:49.1267 AllServer 0001 (Session.cs:297) { "_t" : "M2M_TestGetReadyResponse", "RpcId" : 3, "Error" : 0, "Message" : "1" }
+2021-11-14 15:12:49.1351 AllServer 0001 (Session.cs:150) { "_t" : "M2M_TestGetReadyResponse", "RpcId" : 3, "Error" : 0, "Message" : "1" }
+2021-11-14 15:12:49.1351 AllServer 0001 (Session.cs:297) { "_t" : "M2C_StartGameBroadCast", "PlayerNum" : 1, "Message" : "", "ActorId" : NumberLong(0) }
+2021-11-14 15:12:49.2676 AllServer 0001 (Session.cs:150) { "_t" : "C2M_RefreshMarket", "RpcId" : 3, "ReplacePlant" : -1 }
+2021-11-14 15:12:49.2676 AllServer 0001 (Session.cs:297) { "_t" : "M2C_InitAuction", "Message" : "" }
+2021-11-14 15:12:49.2766 AllServer 0001 (Session.cs:297) { "_t" : "M2C_RefreshMarket", "RpcId" : 3, "Error" : 0, "Message" : "", "MarketPlants" : [1028, 1037, 1002, 1041, 1023, 1018, 1003, 1024] }
+2021-11-14 15:12:50.4928 AllServer 0001 (Session.cs:150) { "_t" : "C2M_RefreshMarket", "RpcId" : 4, "ReplacePlant" : 1003 }
+2021-11-14 15:12:50.4928 AllServer 0001 (Session.cs:297) { "_t" : "M2C_RefreshMarket", "RpcId" : 4, "Error" : 0, "Message" : "", "MarketPlants" : [1028, 1037, 1002, 1041, 1023, 1018, 1027, 1024] }
+2021-11-14 15:12:51.1974 AllServer 0001 (Session.cs:150) { "_t" : "C2M_AuctionRequest", "RpcId" : 5, "PlantId" : 1003, "IsPassed" : false, "Bid" : 3 }
+2021-11-14 15:12:51.2015 AllServer 0001 (Session.cs:297) { "_t" : "M2C_AuctionResponse", "RpcId" : 5, "Error" : 0, "Message" : "Waiting" }
+2021-11-14 15:12:51.2015 AllServer 0001 (Session.cs:297) { "_t" : "M2C_OwnPlant", "OwnerId" : 17039361, "PlantId" : 1003, "Message" : "", "MaxPrice" : 0, "IsFinished" : true }
+2021-11-14 15:12:51.2015 AllServer 0001 (Session.cs:297) { "_t" : "M2C_FinishAuction", "Message" : "" }
+2021-11-14 15:12:51.2423 AllServer 0001 (Session.cs:150) { "_t" : "C2M_RefreshResourceMarket", "Message" : "refresh resource market" }
+2021-11-14 15:12:51.2461 AllServer 0001 (Session.cs:297) { "_t" : "M2C_ResourceReminder", "Coal" : 24, "Oil" : 18, "Garbage" : 9, "Nuclear" : 2, "Message" : "buy resource" }
+2021-11-14 15:12:53.4321 AllServer 0001 (Session.cs:150) { "_t" : "C2M_BuyResourceRequest", "RpcId" : 6, "Coal" : 1, "Oil" : 0, "Garbage" : 0, "Nuclear" : 0 }
+2021-11-14 15:12:53.4321 AllServer 0001 (Session.cs:297) { "_t" : "M2C_ResourceMarketFinish", "Message" : "resource market finish" }
+2021-11-14 15:12:53.4321 AllServer 0001 (Session.cs:297) { "_t" : "M2C_AuctionResponse", "RpcId" : 6, "Error" : 0, "Message" : "buy resource success" }
+2021-11-14 15:19:53.4204 AllServer 0001 (Session.cs:150) { "_t" : "C2R_TestRequest", "RpcId" : 1, "Message" : "just testing " }
+2021-11-14 15:19:53.4352 AllServer 0001 (Session.cs:297) { "_t" : "R2G_GetLoginKey", "RpcId" : 1, "Account" : "just testing " }
+2021-11-14 15:19:53.4489 AllServer 0001 (Session.cs:150) { "_t" : "R2G_GetLoginKey", "RpcId" : 1, "Account" : "just testing " }
+2021-11-14 15:19:53.4489 AllServer 0001 (Session.cs:297) { "_t" : "G2R_GetLoginKey", "RpcId" : 1, "Error" : 0, "Message" : null, "Key" : NumberLong("6080461372037562632") }
+2021-11-14 15:19:53.4489 AllServer 0001 (Session.cs:150) { "_t" : "G2R_GetLoginKey", "RpcId" : 1, "Error" : 0, "Message" : null, "Key" : NumberLong("6080461372037562632") }
+2021-11-14 15:19:53.4489 AllServer 0001 (Session.cs:297) { "_t" : "G2C_TestHotfixMessage", "Info" : "recv hotfix message success" }
+2021-11-14 15:19:53.4657 AllServer 0001 (Session.cs:297) { "_t" : "R2C_TestResponse", "RpcId" : 1, "Error" : 0, "Message" : "We have received the message! just testing  is sent", "Address" : "192.168.191.107:10002", "Key" : NumberLong("6080461372037562632") }
+2021-11-14 15:19:53.4657 AllServer 0001 (Session.cs:297) { "_t" : "R2G_GetLoginKey", "RpcId" : 2, "Account" : "test" }
+2021-11-14 15:19:53.4657 AllServer 0001 (Session.cs:150) { "_t" : "R2G_GetLoginKey", "RpcId" : 2, "Account" : "test" }
+2021-11-14 15:19:53.4657 AllServer 0001 (Session.cs:297) { "_t" : "G2R_GetLoginKey", "RpcId" : 2, "Error" : 0, "Message" : null, "Key" : NumberLong("-7240098997222390171") }
+2021-11-14 15:19:53.4657 AllServer 0001 (Session.cs:150) { "_t" : "G2R_GetLoginKey", "RpcId" : 2, "Error" : 0, "Message" : null, "Key" : NumberLong("-7240098997222390171") }
+2021-11-14 15:19:53.4657 AllServer 0001 (Session.cs:297) { "_t" : "R2C_TestResponse", "RpcId" : 1, "Error" : 0, "Message" : "-7240098997222390171", "Address" : "", "Key" : NumberLong(0) }
+2021-11-14 15:19:53.5249 AllServer 0001 (Session.cs:150) { "_t" : "C2G_LoginGate", "RpcId" : 2, "Key" : NumberLong("6080461372037562632") }
+2021-11-14 15:19:53.5285 AllServer 0001 (Session.cs:297) { "_t" : "G2C_LoginGate", "RpcId" : 2, "Error" : 0, "Message" : "", "PlayerId" : NumberLong(17039361) }
+2021-11-14 15:19:54.0738 AllServer 0001 (Session.cs:150) { "_t" : "C2R_TestHelloMsg", "SayMessage" : "if received it means im ready" }
+2021-11-14 15:19:54.0738 AllServer 0001 (TestWaitingHandler.cs:14) if received it means im ready
+2021-11-14 15:19:54.0738 AllServer 0001 (Session.cs:297) { "_t" : "M2M_TestGetReadyRequest", "RpcId" : 3 }
+2021-11-14 15:19:54.0738 AllServer 0001 (Session.cs:150) { "_t" : "M2M_TestGetReadyRequest", "RpcId" : 3 }
+2021-11-14 15:19:54.0738 AllServer 0001 (Session.cs:297) { "_t" : "M2M_TestGetReadyResponse", "RpcId" : 3, "Error" : 0, "Message" : "1" }
+2021-11-14 15:19:54.0738 AllServer 0001 (Session.cs:150) { "_t" : "M2M_TestGetReadyResponse", "RpcId" : 3, "Error" : 0, "Message" : "1" }
+2021-11-14 15:19:54.0738 AllServer 0001 (Session.cs:297) { "_t" : "M2C_StartGameBroadCast", "PlayerNum" : 1, "Message" : "", "ActorId" : NumberLong(0) }
+2021-11-14 15:19:54.2130 AllServer 0001 (Session.cs:150) { "_t" : "C2M_RefreshMarket", "RpcId" : 3, "ReplacePlant" : -1 }
+2021-11-14 15:19:54.2130 AllServer 0001 (Session.cs:297) { "_t" : "M2C_InitAuction", "Message" : "" }
+2021-11-14 15:19:54.2130 AllServer 0001 (Session.cs:297) { "_t" : "M2C_RefreshMarket", "RpcId" : 3, "Error" : 0, "Message" : "", "MarketPlants" : [1013, 1009, 1015, 1006, 1031, 1032, 1040, 1024] }
+2021-11-14 15:19:55.4445 AllServer 0001 (Session.cs:150) { "_t" : "C2M_RefreshMarket", "RpcId" : 4, "ReplacePlant" : 1009 }
+2021-11-14 15:19:55.4445 AllServer 0001 (Session.cs:297) { "_t" : "M2C_RefreshMarket", "RpcId" : 4, "Error" : 0, "Message" : "", "MarketPlants" : [1013, 1018, 1015, 1006, 1031, 1032, 1040, 1024] }
+2021-11-14 15:19:56.4704 AllServer 0001 (Session.cs:150) { "_t" : "C2M_AuctionRequest", "RpcId" : 5, "PlantId" : 1009, "IsPassed" : false, "Bid" : 9 }
+2021-11-14 15:19:56.4704 AllServer 0001 (Session.cs:297) { "_t" : "M2C_AuctionResponse", "RpcId" : 5, "Error" : 0, "Message" : "Waiting" }
+2021-11-14 15:19:56.4704 AllServer 0001 (Session.cs:297) { "_t" : "M2C_OwnPlant", "OwnerId" : 17039361, "PlantId" : 1009, "Message" : "", "MaxPrice" : 0, "IsFinished" : true }
+2021-11-14 15:19:56.4790 AllServer 0001 (Session.cs:297) { "_t" : "M2C_FinishAuction", "Message" : "" }
+2021-11-14 15:19:56.5160 AllServer 0001 (Session.cs:150) { "_t" : "C2M_RefreshResourceMarket", "Message" : "refresh resource market" }
+2021-11-14 15:19:56.5160 AllServer 0001 (Session.cs:297) { "_t" : "M2C_ResourceReminder", "Coal" : 24, "Oil" : 18, "Garbage" : 9, "Nuclear" : 2, "Message" : "buy resource" }
+2021-11-14 15:19:59.8853 AllServer 0001 (Session.cs:150) { "_t" : "C2M_BuyResourceRequest", "RpcId" : 6, "Coal" : 2, "Oil" : 0, "Garbage" : 0, "Nuclear" : 0 }
+2021-11-14 15:19:59.8853 AllServer 0001 (Session.cs:297) { "_t" : "M2C_ResourceMarketFinish", "Message" : "resource market finish" }
+2021-11-14 15:19:59.8853 AllServer 0001 (Session.cs:297) { "_t" : "M2C_AuctionResponse", "RpcId" : 6, "Error" : 0, "Message" : "buy resource success" }
+2021-11-14 15:57:31.0092 AllServer 0001 (Session.cs:150) { "_t" : "C2R_TestRequest", "RpcId" : 1, "Message" : "just testing " }
+2021-11-14 15:57:31.0233 AllServer 0001 (Session.cs:297) { "_t" : "R2G_GetLoginKey", "RpcId" : 1, "Account" : "just testing " }
+2021-11-14 15:57:31.0373 AllServer 0001 (Session.cs:150) { "_t" : "R2G_GetLoginKey", "RpcId" : 1, "Account" : "just testing " }
+2021-11-14 15:57:31.0427 AllServer 0001 (Session.cs:297) { "_t" : "G2R_GetLoginKey", "RpcId" : 1, "Error" : 0, "Message" : null, "Key" : NumberLong("-2388122237203793937") }
+2021-11-14 15:57:31.0427 AllServer 0001 (Session.cs:150) { "_t" : "G2R_GetLoginKey", "RpcId" : 1, "Error" : 0, "Message" : null, "Key" : NumberLong("-2388122237203793937") }
+2021-11-14 15:57:31.0427 AllServer 0001 (Session.cs:297) { "_t" : "G2C_TestHotfixMessage", "Info" : "recv hotfix message success" }
+2021-11-14 15:57:31.0427 AllServer 0001 (Session.cs:297) { "_t" : "R2C_TestResponse", "RpcId" : 1, "Error" : 0, "Message" : "We have received the message! just testing  is sent", "Address" : "192.168.191.107:10002", "Key" : NumberLong("-2388122237203793937") }
+2021-11-14 15:57:31.0427 AllServer 0001 (Session.cs:297) { "_t" : "R2G_GetLoginKey", "RpcId" : 2, "Account" : "test" }
+2021-11-14 15:57:31.0427 AllServer 0001 (Session.cs:150) { "_t" : "R2G_GetLoginKey", "RpcId" : 2, "Account" : "test" }
+2021-11-14 15:57:31.0569 AllServer 0001 (Session.cs:297) { "_t" : "G2R_GetLoginKey", "RpcId" : 2, "Error" : 0, "Message" : null, "Key" : NumberLong("-7943135888543745155") }
+2021-11-14 15:57:31.0569 AllServer 0001 (Session.cs:150) { "_t" : "G2R_GetLoginKey", "RpcId" : 2, "Error" : 0, "Message" : null, "Key" : NumberLong("-7943135888543745155") }
+2021-11-14 15:57:31.0569 AllServer 0001 (Session.cs:297) { "_t" : "R2C_TestResponse", "RpcId" : 1, "Error" : 0, "Message" : "-7943135888543745155", "Address" : "", "Key" : NumberLong(0) }
+2021-11-14 15:57:31.1120 AllServer 0001 (Session.cs:150) { "_t" : "C2G_LoginGate", "RpcId" : 2, "Key" : NumberLong("-2388122237203793937") }
+2021-11-14 15:57:31.1120 AllServer 0001 (Session.cs:297) { "_t" : "G2C_LoginGate", "RpcId" : 2, "Error" : 0, "Message" : "", "PlayerId" : NumberLong(17039361) }
+2021-11-14 15:57:31.6204 AllServer 0001 (Session.cs:150) { "_t" : "C2R_TestHelloMsg", "SayMessage" : "if received it means im ready" }
+2021-11-14 15:57:31.6204 AllServer 0001 (TestWaitingHandler.cs:14) if received it means im ready
+2021-11-14 15:57:31.6204 AllServer 0001 (Session.cs:297) { "_t" : "M2M_TestGetReadyRequest", "RpcId" : 3 }
+2021-11-14 15:57:31.6204 AllServer 0001 (Session.cs:150) { "_t" : "M2M_TestGetReadyRequest", "RpcId" : 3 }
+2021-11-14 15:57:31.6204 AllServer 0001 (Session.cs:297) { "_t" : "M2M_TestGetReadyResponse", "RpcId" : 3, "Error" : 0, "Message" : "1" }
+2021-11-14 15:57:31.6204 AllServer 0001 (Session.cs:150) { "_t" : "M2M_TestGetReadyResponse", "RpcId" : 3, "Error" : 0, "Message" : "1" }
+2021-11-14 15:57:31.6204 AllServer 0001 (Session.cs:297) { "_t" : "M2C_StartGameBroadCast", "PlayerNum" : 1, "Message" : "", "ActorId" : NumberLong(0) }
+2021-11-14 15:57:31.7574 AllServer 0001 (Session.cs:150) { "_t" : "C2M_RefreshMarket", "RpcId" : 3, "ReplacePlant" : -1 }
+2021-11-14 15:57:31.7624 AllServer 0001 (Session.cs:297) { "_t" : "M2C_InitAuction", "Message" : "" }
+2021-11-14 15:57:31.7624 AllServer 0001 (Session.cs:297) { "_t" : "M2C_RefreshMarket", "RpcId" : 3, "Error" : 0, "Message" : "", "MarketPlants" : [1012, 1035, 1036, 1022, 1024, 1016, 1030, 1031] }
+2021-11-14 15:57:33.2933 AllServer 0001 (Session.cs:150) { "_t" : "C2M_RefreshMarket", "RpcId" : 4, "ReplacePlant" : 1022 }
+2021-11-14 15:57:33.2933 AllServer 0001 (Session.cs:297) { "_t" : "M2C_RefreshMarket", "RpcId" : 4, "Error" : 0, "Message" : "", "MarketPlants" : [1012, 1035, 1036, 1002, 1024, 1016, 1030, 1031] }
+2021-11-14 15:57:33.9758 AllServer 0001 (Session.cs:150) { "_t" : "C2M_AuctionRequest", "RpcId" : 5, "PlantId" : 1022, "IsPassed" : false, "Bid" : 24 }
+2021-11-14 15:57:33.9806 AllServer 0001 (Session.cs:297) { "_t" : "M2C_AuctionResponse", "RpcId" : 5, "Error" : 0, "Message" : "Waiting" }
+2021-11-14 15:57:33.9806 AllServer 0001 (Session.cs:297) { "_t" : "M2C_OwnPlant", "OwnerId" : 17039361, "PlantId" : 1022, "Message" : "", "MaxPrice" : 0, "IsFinished" : true }
+2021-11-14 15:57:33.9806 AllServer 0001 (Session.cs:297) { "_t" : "M2C_FinishAuction", "Message" : "" }
+2021-11-14 15:57:34.0205 AllServer 0001 (Session.cs:150) { "_t" : "C2M_RefreshResourceMarket", "Message" : "refresh resource market" }
+2021-11-14 15:57:34.0205 AllServer 0001 (Session.cs:297) { "_t" : "M2C_ResourceReminder", "Coal" : 24, "Oil" : 18, "Garbage" : 9, "Nuclear" : 2, "Message" : "buy resource" }
+2021-11-14 15:57:35.0358 AllServer 0001 (Session.cs:150) { "_t" : "C2M_BuyResourceRequest", "RpcId" : 6, "Coal" : 0, "Oil" : 0, "Garbage" : 0, "Nuclear" : 0 }
+2021-11-14 15:57:35.0358 AllServer 0001 (Session.cs:297) { "_t" : "M2C_ResourceMarketFinish", "Message" : "resource market finish" }
+2021-11-14 15:57:35.0358 AllServer 0001 (Session.cs:297) { "_t" : "M2C_AuctionResponse", "RpcId" : 6, "Error" : 0, "Message" : "buy resource success" }
+2021-11-15 00:36:48.2906 AllServer 0001 (Session.cs:150) { "_t" : "C2R_TestRequest", "RpcId" : 2, "Message" : "just testing " }
+2021-11-15 00:36:48.3188 AllServer 0001 (Session.cs:297) { "_t" : "R2G_GetLoginKey", "RpcId" : 1, "Account" : "just testing " }
+2021-11-15 00:36:48.3455 AllServer 0001 (Session.cs:150) { "_t" : "R2G_GetLoginKey", "RpcId" : 1, "Account" : "just testing " }
+2021-11-15 00:36:48.3455 AllServer 0001 (Session.cs:297) { "_t" : "G2R_GetLoginKey", "RpcId" : 1, "Error" : 0, "Message" : null, "Key" : NumberLong("-568527668218722556") }
+2021-11-15 00:36:48.3600 AllServer 0001 (Session.cs:150) { "_t" : "G2R_GetLoginKey", "RpcId" : 1, "Error" : 0, "Message" : null, "Key" : NumberLong("-568527668218722556") }
+2021-11-15 00:36:48.3600 AllServer 0001 (Session.cs:297) { "_t" : "G2C_TestHotfixMessage", "Info" : "recv hotfix message success" }
+2021-11-15 00:36:48.3758 AllServer 0001 (Session.cs:297) { "_t" : "R2C_TestResponse", "RpcId" : 2, "Error" : 0, "Message" : "We have received the message! just testing  is sent", "Address" : "192.168.191.107:10002", "Key" : NumberLong("-568527668218722556") }
+2021-11-15 00:36:48.3758 AllServer 0001 (Session.cs:297) { "_t" : "R2G_GetLoginKey", "RpcId" : 2, "Account" : "test" }
+2021-11-15 00:36:48.3758 AllServer 0001 (Session.cs:150) { "_t" : "R2G_GetLoginKey", "RpcId" : 2, "Account" : "test" }
+2021-11-15 00:36:48.3758 AllServer 0001 (Session.cs:297) { "_t" : "G2R_GetLoginKey", "RpcId" : 2, "Error" : 0, "Message" : null, "Key" : NumberLong("-6107750571190975484") }
+2021-11-15 00:36:48.3758 AllServer 0001 (Session.cs:150) { "_t" : "G2R_GetLoginKey", "RpcId" : 2, "Error" : 0, "Message" : null, "Key" : NumberLong("-6107750571190975484") }
+2021-11-15 00:36:48.3758 AllServer 0001 (Session.cs:297) { "_t" : "R2C_TestResponse", "RpcId" : 2, "Error" : 0, "Message" : "-6107750571190975484", "Address" : "", "Key" : NumberLong(0) }
+2021-11-15 00:36:48.4362 AllServer 0001 (Session.cs:150) { "_t" : "C2G_LoginGate", "RpcId" : 3, "Key" : NumberLong("-568527668218722556") }
+2021-11-15 00:36:48.4414 AllServer 0001 (Session.cs:297) { "_t" : "G2C_LoginGate", "RpcId" : 3, "Error" : 0, "Message" : "", "PlayerId" : NumberLong(17039361) }
+2021-11-15 00:36:49.2147 AllServer 0001 (Session.cs:150) { "_t" : "C2R_TestHelloMsg", "SayMessage" : "if received it means im ready" }
+2021-11-15 00:36:49.2147 AllServer 0001 (TestWaitingHandler.cs:14) if received it means im ready
+2021-11-15 00:36:49.2201 AllServer 0001 (Session.cs:297) { "_t" : "M2M_TestGetReadyRequest", "RpcId" : 3 }
+2021-11-15 00:36:49.2201 AllServer 0001 (Session.cs:150) { "_t" : "M2M_TestGetReadyRequest", "RpcId" : 3 }
+2021-11-15 00:36:49.2201 AllServer 0001 (Session.cs:297) { "_t" : "M2M_TestGetReadyResponse", "RpcId" : 3, "Error" : 0, "Message" : "1" }
+2021-11-15 00:36:49.2201 AllServer 0001 (Session.cs:150) { "_t" : "M2M_TestGetReadyResponse", "RpcId" : 3, "Error" : 0, "Message" : "1" }
+2021-11-15 00:36:49.2201 AllServer 0001 (Session.cs:297) { "_t" : "M2C_StartGameBroadCast", "PlayerNum" : 1, "Message" : "", "ActorId" : NumberLong(0) }
+2021-11-15 00:36:49.3980 AllServer 0001 (Session.cs:150) { "_t" : "C2M_RefreshMarket", "RpcId" : 4, "ReplacePlant" : -1 }
+2021-11-15 00:36:49.3980 AllServer 0001 (Session.cs:297) { "_t" : "M2C_InitAuction", "Message" : "" }
+2021-11-15 00:36:49.4090 AllServer 0001 (Session.cs:297) { "_t" : "M2C_RefreshMarket", "RpcId" : 4, "Error" : 0, "Message" : "", "MarketPlants" : [1007, 1017, 1041, 1019, 1008, 1027, 1045, 1034] }
+2021-11-15 00:36:50.7727 AllServer 0001 (Session.cs:150) { "_t" : "C2M_RefreshMarket", "RpcId" : 5, "ReplacePlant" : 1008 }
+2021-11-15 00:36:50.7727 AllServer 0001 (Session.cs:297) { "_t" : "M2C_RefreshMarket", "RpcId" : 5, "Error" : 0, "Message" : "", "MarketPlants" : [1007, 1017, 1041, 1019, 1004, 1027, 1045, 1034] }
+2021-11-15 00:36:51.7138 AllServer 0001 (Session.cs:150) { "_t" : "C2M_AuctionRequest", "RpcId" : 6, "PlantId" : 1008, "IsPassed" : false, "Bid" : 8 }
+2021-11-15 00:36:51.7210 AllServer 0001 (Session.cs:297) { "_t" : "M2C_AuctionResponse", "RpcId" : 6, "Error" : 0, "Message" : "Waiting" }
+2021-11-15 00:36:51.7210 AllServer 0001 (Session.cs:297) { "_t" : "M2C_OwnPlant", "OwnerId" : 17039361, "PlantId" : 1008, "Message" : "", "MaxPrice" : 0, "IsFinished" : true }
+2021-11-15 00:36:51.7210 AllServer 0001 (Session.cs:297) { "_t" : "M2C_FinishAuction", "Message" : "" }
+2021-11-15 00:36:51.7575 AllServer 0001 (Session.cs:150) { "_t" : "C2M_RefreshResourceMarket", "Message" : "refresh resource market" }
+2021-11-15 00:36:51.7575 AllServer 0001 (Session.cs:297) { "_t" : "M2C_ResourceReminder", "Coal" : 24, "Oil" : 18, "Garbage" : 9, "Nuclear" : 2, "Message" : "buy resource" }
+2021-11-15 00:36:59.3542 AllServer 0001 (Session.cs:150) { "_t" : "C2M_BuyResourceRequest", "RpcId" : 7, "Coal" : 0, "Oil" : 0, "Garbage" : 0, "Nuclear" : 1 }
+2021-11-15 00:36:59.3542 AllServer 0001 (Session.cs:297) { "_t" : "M2C_ResourceMarketFinish", "Message" : "resource market finish" }
+2021-11-15 00:36:59.3542 AllServer 0001 (Session.cs:297) { "_t" : "M2C_AuctionResponse", "RpcId" : 7, "Error" : 0, "Message" : "buy resource success" }
+2021-11-15 00:40:01.8352 AllServer 0001 (Session.cs:150) { "_t" : "C2R_TestRequest", "RpcId" : 1, "Message" : "just testing " }
+2021-11-15 00:40:01.8567 AllServer 0001 (Session.cs:297) { "_t" : "R2G_GetLoginKey", "RpcId" : 1, "Account" : "just testing " }
+2021-11-15 00:40:01.8731 AllServer 0001 (Session.cs:150) { "_t" : "R2G_GetLoginKey", "RpcId" : 1, "Account" : "just testing " }
+2021-11-15 00:40:01.8793 AllServer 0001 (Session.cs:297) { "_t" : "G2R_GetLoginKey", "RpcId" : 1, "Error" : 0, "Message" : null, "Key" : NumberLong("-5576803394644452573") }
+2021-11-15 00:40:01.8793 AllServer 0001 (Session.cs:150) { "_t" : "G2R_GetLoginKey", "RpcId" : 1, "Error" : 0, "Message" : null, "Key" : NumberLong("-5576803394644452573") }
+2021-11-15 00:40:01.8793 AllServer 0001 (Session.cs:297) { "_t" : "G2C_TestHotfixMessage", "Info" : "recv hotfix message success" }
+2021-11-15 00:40:01.8940 AllServer 0001 (Session.cs:297) { "_t" : "R2C_TestResponse", "RpcId" : 1, "Error" : 0, "Message" : "We have received the message! just testing  is sent", "Address" : "192.168.191.107:10002", "Key" : NumberLong("-5576803394644452573") }
+2021-11-15 00:40:01.8940 AllServer 0001 (Session.cs:297) { "_t" : "R2G_GetLoginKey", "RpcId" : 2, "Account" : "test" }
+2021-11-15 00:40:01.8940 AllServer 0001 (Session.cs:150) { "_t" : "R2G_GetLoginKey", "RpcId" : 2, "Account" : "test" }
+2021-11-15 00:40:01.8940 AllServer 0001 (Session.cs:297) { "_t" : "G2R_GetLoginKey", "RpcId" : 2, "Error" : 0, "Message" : null, "Key" : NumberLong("7290515504736646996") }
+2021-11-15 00:40:01.8940 AllServer 0001 (Session.cs:150) { "_t" : "G2R_GetLoginKey", "RpcId" : 2, "Error" : 0, "Message" : null, "Key" : NumberLong("7290515504736646996") }
+2021-11-15 00:40:01.8940 AllServer 0001 (Session.cs:297) { "_t" : "R2C_TestResponse", "RpcId" : 1, "Error" : 0, "Message" : "7290515504736646996", "Address" : "", "Key" : NumberLong(0) }
+2021-11-15 00:40:01.9688 AllServer 0001 (Session.cs:150) { "_t" : "C2G_LoginGate", "RpcId" : 2, "Key" : NumberLong("-5576803394644452573") }
+2021-11-15 00:40:01.9688 AllServer 0001 (Session.cs:297) { "_t" : "G2C_LoginGate", "RpcId" : 2, "Error" : 0, "Message" : "", "PlayerId" : NumberLong(17039361) }
+2021-11-15 00:40:02.7439 AllServer 0001 (Session.cs:150) { "_t" : "C2R_TestHelloMsg", "SayMessage" : "if received it means im ready" }
+2021-11-15 00:40:02.7439 AllServer 0001 (TestWaitingHandler.cs:14) if received it means im ready
+2021-11-15 00:40:02.7495 AllServer 0001 (Session.cs:297) { "_t" : "M2M_TestGetReadyRequest", "RpcId" : 3 }
+2021-11-15 00:40:02.7495 AllServer 0001 (Session.cs:150) { "_t" : "M2M_TestGetReadyRequest", "RpcId" : 3 }
+2021-11-15 00:40:02.7495 AllServer 0001 (Session.cs:297) { "_t" : "M2M_TestGetReadyResponse", "RpcId" : 3, "Error" : 0, "Message" : "1" }
+2021-11-15 00:40:02.7495 AllServer 0001 (Session.cs:150) { "_t" : "M2M_TestGetReadyResponse", "RpcId" : 3, "Error" : 0, "Message" : "1" }
+2021-11-15 00:40:02.7495 AllServer 0001 (Session.cs:297) { "_t" : "M2C_StartGameBroadCast", "PlayerNum" : 1, "Message" : "", "ActorId" : NumberLong(0) }
+2021-11-15 00:40:02.8968 AllServer 0001 (Session.cs:150) { "_t" : "C2M_RefreshMarket", "RpcId" : 3, "ReplacePlant" : -1 }
+2021-11-15 00:40:02.8968 AllServer 0001 (Session.cs:297) { "_t" : "M2C_InitAuction", "Message" : "" }
+2021-11-15 00:40:02.8968 AllServer 0001 (Session.cs:297) { "_t" : "M2C_RefreshMarket", "RpcId" : 3, "Error" : 0, "Message" : "", "MarketPlants" : [1040, 1015, 1033, 1024, 1003, 1002, 1025, 1028] }
+2021-11-15 00:40:03.9392 AllServer 0001 (Session.cs:150) { "_t" : "C2M_RefreshMarket", "RpcId" : 4, "ReplacePlant" : 1003 }
+2021-11-15 00:40:03.9392 AllServer 0001 (Session.cs:297) { "_t" : "M2C_RefreshMarket", "RpcId" : 4, "Error" : 0, "Message" : "", "MarketPlants" : [1040, 1015, 1033, 1024, 1034, 1002, 1025, 1028] }
+2021-11-15 00:40:04.8783 AllServer 0001 (Session.cs:150) { "_t" : "C2M_AuctionRequest", "RpcId" : 5, "PlantId" : 1003, "IsPassed" : false, "Bid" : 3 }
+2021-11-15 00:40:04.8783 AllServer 0001 (Session.cs:297) { "_t" : "M2C_AuctionResponse", "RpcId" : 5, "Error" : 0, "Message" : "Waiting" }
+2021-11-15 00:40:04.8783 AllServer 0001 (Session.cs:297) { "_t" : "M2C_OwnPlant", "OwnerId" : 17039361, "PlantId" : 1003, "Message" : "", "MaxPrice" : 0, "IsFinished" : true }
+2021-11-15 00:40:04.8900 AllServer 0001 (Session.cs:297) { "_t" : "M2C_FinishAuction", "Message" : "" }
+2021-11-15 00:40:04.9206 AllServer 0001 (Session.cs:150) { "_t" : "C2M_RefreshResourceMarket", "Message" : "refresh resource market" }
+2021-11-15 00:40:04.9206 AllServer 0001 (Session.cs:297) { "_t" : "M2C_ResourceReminder", "Coal" : 24, "Oil" : 18, "Garbage" : 9, "Nuclear" : 2, "Message" : "buy resource" }
+2021-11-15 00:40:07.7803 AllServer 0001 (Session.cs:150) { "_t" : "C2M_BuyResourceRequest", "RpcId" : 6, "Coal" : 1, "Oil" : 0, "Garbage" : 0, "Nuclear" : 0 }
+2021-11-15 00:40:07.7803 AllServer 0001 (Session.cs:297) { "_t" : "M2C_ResourceMarketFinish", "Message" : "resource market finish" }
+2021-11-15 00:40:07.7803 AllServer 0001 (Session.cs:297) { "_t" : "M2C_AuctionResponse", "RpcId" : 6, "Error" : 0, "Message" : "buy resource success" }
+2021-11-15 00:47:12.9848 AllServer 0001 (Session.cs:150) { "_t" : "C2R_TestRequest", "RpcId" : 1, "Message" : "just testing " }
+2021-11-15 00:47:13.0057 AllServer 0001 (Session.cs:297) { "_t" : "R2G_GetLoginKey", "RpcId" : 1, "Account" : "just testing " }
+2021-11-15 00:47:13.0248 AllServer 0001 (Session.cs:150) { "_t" : "R2G_GetLoginKey", "RpcId" : 1, "Account" : "just testing " }
+2021-11-15 00:47:13.0331 AllServer 0001 (Session.cs:297) { "_t" : "G2R_GetLoginKey", "RpcId" : 1, "Error" : 0, "Message" : null, "Key" : NumberLong("-21685356785614859") }
+2021-11-15 00:47:13.0331 AllServer 0001 (Session.cs:150) { "_t" : "G2R_GetLoginKey", "RpcId" : 1, "Error" : 0, "Message" : null, "Key" : NumberLong("-21685356785614859") }
+2021-11-15 00:47:13.0331 AllServer 0001 (Session.cs:297) { "_t" : "G2C_TestHotfixMessage", "Info" : "recv hotfix message success" }
+2021-11-15 00:47:13.0470 AllServer 0001 (Session.cs:297) { "_t" : "R2C_TestResponse", "RpcId" : 1, "Error" : 0, "Message" : "We have received the message! just testing  is sent", "Address" : "192.168.191.107:10002", "Key" : NumberLong("-21685356785614859") }
+2021-11-15 00:47:13.0470 AllServer 0001 (Session.cs:297) { "_t" : "R2G_GetLoginKey", "RpcId" : 2, "Account" : "test" }
+2021-11-15 00:47:13.0470 AllServer 0001 (Session.cs:150) { "_t" : "R2G_GetLoginKey", "RpcId" : 2, "Account" : "test" }
+2021-11-15 00:47:13.0470 AllServer 0001 (Session.cs:297) { "_t" : "G2R_GetLoginKey", "RpcId" : 2, "Error" : 0, "Message" : null, "Key" : NumberLong("168499666553663660") }
+2021-11-15 00:47:13.0470 AllServer 0001 (Session.cs:150) { "_t" : "G2R_GetLoginKey", "RpcId" : 2, "Error" : 0, "Message" : null, "Key" : NumberLong("168499666553663660") }
+2021-11-15 00:47:13.0470 AllServer 0001 (Session.cs:297) { "_t" : "R2C_TestResponse", "RpcId" : 1, "Error" : 0, "Message" : "168499666553663660", "Address" : "", "Key" : NumberLong(0) }
+2021-11-15 00:47:13.1280 AllServer 0001 (Session.cs:150) { "_t" : "C2G_LoginGate", "RpcId" : 2, "Key" : NumberLong("-21685356785614859") }
+2021-11-15 00:47:13.1280 AllServer 0001 (Session.cs:297) { "_t" : "G2C_LoginGate", "RpcId" : 2, "Error" : 0, "Message" : "", "PlayerId" : NumberLong(17039361) }
+2021-11-15 00:47:13.7950 AllServer 0001 (Session.cs:150) { "_t" : "C2R_TestHelloMsg", "SayMessage" : "if received it means im ready" }
+2021-11-15 00:47:13.7974 AllServer 0001 (TestWaitingHandler.cs:14) if received it means im ready
+2021-11-15 00:47:13.7974 AllServer 0001 (Session.cs:297) { "_t" : "M2M_TestGetReadyRequest", "RpcId" : 3 }
+2021-11-15 00:47:13.7974 AllServer 0001 (Session.cs:150) { "_t" : "M2M_TestGetReadyRequest", "RpcId" : 3 }
+2021-11-15 00:47:13.7974 AllServer 0001 (Session.cs:297) { "_t" : "M2M_TestGetReadyResponse", "RpcId" : 3, "Error" : 0, "Message" : "1" }
+2021-11-15 00:47:13.7974 AllServer 0001 (Session.cs:150) { "_t" : "M2M_TestGetReadyResponse", "RpcId" : 3, "Error" : 0, "Message" : "1" }
+2021-11-15 00:47:13.7974 AllServer 0001 (Session.cs:297) { "_t" : "M2C_StartGameBroadCast", "PlayerNum" : 1, "Message" : "", "ActorId" : NumberLong(0) }
+2021-11-15 00:47:13.9487 AllServer 0001 (Session.cs:150) { "_t" : "C2M_RefreshMarket", "RpcId" : 3, "ReplacePlant" : -1 }
+2021-11-15 00:47:13.9539 AllServer 0001 (Session.cs:297) { "_t" : "M2C_InitAuction", "Message" : "" }
+2021-11-15 00:47:13.9539 AllServer 0001 (Session.cs:297) { "_t" : "M2C_RefreshMarket", "RpcId" : 3, "Error" : 0, "Message" : "", "MarketPlants" : [1007, 1044, 1014, 1036, 1012, 1021, 1008, 1040] }
+2021-11-15 00:47:15.2123 AllServer 0001 (Session.cs:150) { "_t" : "C2M_RefreshMarket", "RpcId" : 4, "ReplacePlant" : 1008 }
+2021-11-15 00:47:15.2123 AllServer 0001 (Session.cs:297) { "_t" : "M2C_RefreshMarket", "RpcId" : 4, "Error" : 0, "Message" : "", "MarketPlants" : [1007, 1044, 1014, 1036, 1012, 1021, 1015, 1040] }
+2021-11-15 00:47:16.1405 AllServer 0001 (Session.cs:150) { "_t" : "C2M_AuctionRequest", "RpcId" : 5, "PlantId" : 1008, "IsPassed" : false, "Bid" : 8 }
+2021-11-15 00:47:16.1405 AllServer 0001 (Session.cs:297) { "_t" : "M2C_AuctionResponse", "RpcId" : 5, "Error" : 0, "Message" : "Waiting" }
+2021-11-15 00:47:16.1405 AllServer 0001 (Session.cs:297) { "_t" : "M2C_OwnPlant", "OwnerId" : 17039361, "PlantId" : 1008, "Message" : "", "MaxPrice" : 0, "IsFinished" : true }
+2021-11-15 00:47:16.1405 AllServer 0001 (Session.cs:297) { "_t" : "M2C_FinishAuction", "Message" : "" }
+2021-11-15 00:47:16.1856 AllServer 0001 (Session.cs:150) { "_t" : "C2M_RefreshResourceMarket", "Message" : "refresh resource market" }
+2021-11-15 00:47:16.1894 AllServer 0001 (Session.cs:297) { "_t" : "M2C_ResourceReminder", "Coal" : 24, "Oil" : 18, "Garbage" : 9, "Nuclear" : 2, "Message" : "buy resource" }
+2021-11-15 00:47:18.7523 AllServer 0001 (Session.cs:150) { "_t" : "C2M_BuyResourceRequest", "RpcId" : 6, "Coal" : 0, "Oil" : 0, "Garbage" : 0, "Nuclear" : 1 }
+2021-11-15 00:47:18.7523 AllServer 0001 (Session.cs:297) { "_t" : "M2C_ResourceMarketFinish", "Message" : "resource market finish" }
+2021-11-15 00:47:18.7523 AllServer 0001 (Session.cs:297) { "_t" : "M2C_AuctionResponse", "RpcId" : 6, "Error" : 0, "Message" : "buy resource success" }

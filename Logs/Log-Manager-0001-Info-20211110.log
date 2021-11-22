@@ -1,0 +1,9 @@
+2021-11-10 15:19:58.6366 Manager  0001 (Program.cs:37) server start........................ 1 Manager
+2021-11-10 15:19:58.6963 Manager  0001 (AppManagerComponent.cs:56) dotnet App.dll --appId=2 --appType=Realm --config=../Config/StartConfig/127.0.0.1.txt
+2021-11-10 15:19:58.7397 Manager  0001 (AppManagerComponent.cs:56) dotnet App.dll --appId=3 --appType=Location --config=../Config/StartConfig/127.0.0.1.txt
+2021-11-10 15:19:58.7494 Manager  0001 (AppManagerComponent.cs:56) dotnet App.dll --appId=4 --appType=Gate --config=../Config/StartConfig/127.0.0.1.txt
+2021-11-10 15:19:58.7494 Manager  0001 (AppManagerComponent.cs:56) dotnet App.dll --appId=5 --appType=Gate --config=../Config/StartConfig/127.0.0.1.txt
+2021-11-10 15:19:58.8201 Manager  0001 (AppManagerComponent.cs:56) dotnet App.dll --appId=6 --appType=Gate --config=../Config/StartConfig/127.0.0.1.txt
+2021-11-10 15:19:58.8421 Manager  0001 (AppManagerComponent.cs:56) dotnet App.dll --appId=7 --appType=Gate --config=../Config/StartConfig/127.0.0.1.txt
+2021-11-10 15:19:58.8742 Manager  0001 (AppManagerComponent.cs:56) dotnet App.dll --appId=8 --appType=Map --config=../Config/StartConfig/127.0.0.1.txt
+2021-11-10 15:19:58.9090 Manager  0001 (AppManagerComponent.cs:56) dotnet App.dll --appId=9 --appType=Map --config=../Config/StartConfig/127.0.0.1.txt

@@ -1,0 +1,24 @@
+2021-11-13 21:19:41.0092   System.MissingMethodException: Cannot create an abstract class.
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean wrapExceptions, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& hasNoDefaultCtor)
+   at System.RuntimeType.CreateInstanceDefaultCtorSlow(Boolean publicOnly, Boolean wrapExceptions, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, Boolean wrapExceptions)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic, Boolean wrapExceptions)
+   at System.Activator.CreateInstance(Type type)
+   at ETModel.EventSystem.Add(DLLType dllType, Assembly assembly) in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\EventSystem.cs:line 128
+   at App.Program.Main(String[] args) in E:\dotnet\ET-Branch_opst\Server\App\Program.cs:line 19 
+ Main at offset 299 in file:line:column E:\dotnet\ET-Branch_opst\Server\App\Program.cs:19:5
+Error at offset 122 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Log.cs:31:4
+Error at offset 53 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2021-11-13 21:20:08.4391   System.MissingMethodException: Cannot create an abstract class.
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean wrapExceptions, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& hasNoDefaultCtor)
+   at System.RuntimeType.CreateInstanceDefaultCtorSlow(Boolean publicOnly, Boolean wrapExceptions, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, Boolean wrapExceptions)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic, Boolean wrapExceptions)
+   at System.Activator.CreateInstance(Type type)
+   at ETModel.EventSystem.Add(DLLType dllType, Assembly assembly) in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\EventSystem.cs:line 128
+   at App.Program.Main(String[] args) in E:\dotnet\ET-Branch_opst\Server\App\Program.cs:line 19 
+ Main at offset 299 in file:line:column E:\dotnet\ET-Branch_opst\Server\App\Program.cs:19:5
+Error at offset 122 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Log.cs:31:4
+Error at offset 53 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+

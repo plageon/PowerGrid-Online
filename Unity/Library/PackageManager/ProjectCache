@@ -1,0 +1,2878 @@
+m_ProjectFiles:
+  m_ManifestFileStatus:
+    m_FilePath: E:/dotnet/ET-Branch_final/Unity/Packages/manifest.json
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 637709203790645798
+    m_Hash: 1049767998
+  m_LockFileStatus:
+    m_FilePath: E:/dotnet/ET-Branch_final/Unity/Packages/packages-lock.json
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 637726525949327287
+    m_Hash: 2273571686
+m_EmbeddedPackageManifests:
+  m_ManifestsStatus: {}
+m_PackageAssets:
+  m_Packages:
+    m_ResolvedPackages:
+    - packageId: com.ourpalm.ilruntime@1.6.6
+      testable: 0
+      isDirectDependency: 1
+      version: 1.6.6
+      source: 1
+      resolvedPath: E:\dotnet\ET-Branch_final\Unity\Library\PackageCache\com.ourpalm.ilruntime@1.6.6
+      assetPath: Packages/com.ourpalm.ilruntime
+      name: com.ourpalm.ilruntime
+      displayName: ILRuntime
+      author:
+        name: Ourpalm
+        email: example@ourpal.com
+        url: https://github.com/Ourpalm/ILRuntime
+      category: Hotfix
+      type: 
+      description: "ILRuntime\nC#\u70ED\u66F4\u89E3\u8BD1\u5668\n\u4E2D\u6587\u5728\u7EBF\u6587\u6863:
+        https://ourpalm.github.io/ILRuntime/\n\rQQ\u7FA4\uFF1A512079820\n## \u66F4\u65B0\u8BB0\u5F55\r\n###
+        V1.6.6\r\n- Appdomain.Prewarm\u63A5\u53E3\u52A0\u5165\u9884\u70ED\u6307\u5B9A\u65B9\u6CD5\u7684\u53C2\u6570\r\n-
+        AppDomain\u65B0\u589EGetCurrentStackTrace\u63A5\u53E3\u83B7\u53D6\u5F53\u524D\u8C03\u7528\u6808\uFF0C\u4EC5\u652F\u6301\u4ECE\u70ED\u66F4\u4E2D\u8C03\u7528\r\n-
+        \u4FEE\u6539Profiler\u5B8F\uFF0C\u4EE5\u7B80\u5316Unity\u5E73\u53F0\u4E0A\u62A5Profiler\u6570\u636E\r\n-
+        \u4FEE\u590D\u4E00\u4E2A\u57FA\u7C7B\u5305\u542B\u503C\u7C7B\u578B\u5B57\u6BB5\u7684\u7C7B\u578B\u62A5\u9519\u7684Bug\r\n-
+        \u4FEE\u590D\u70ED\u66F4\u4E2D\u8C03\u7528\u81EA\u5B9A\u4E49Attribute\u540E\uFF0C\u81EA\u52A8\u5206\u6790\u7ED1\u5B9A\u751F\u6210\u7684\u4EE3\u7801\u7F16\u8BD1\u4E0D\u8FC7\u7684\u95EE\u9898\r\n-
+        \u4FEE\u590D\u51E0\u4E2ACLR\u81EA\u52A8\u5206\u6790\u7ED1\u5B9A\u751F\u6210\u7684\u4EE3\u7801\u51FA\u9519\u7684\u95EE\u9898\r\n-
+        \u4FEE\u590D\u51E0\u4E2A\u6CDB\u578B\u65B9\u6CD5\u5339\u914D\u7684Bug\r\n-
+        \u4FEE\u590D\u5728\u57FA\u7C7B\u5B9E\u73B0\u63A5\u53E3\u7684\u865A\u65B9\u6CD5\u4E0A\u6709\u4E0D\u5FC5\u8981\u5F00\u9500\u7684\u95EE\u9898\r\n-
+        \u4FEE\u590DGetCustomAttributes\u63A5\u53E3\u5F53inherit\u4E3Atrue\u65F6\u4E0D\u5305\u542B\u57FA\u7C7BAttribute\u7684Bug\r\n-
+        \u4FEE\u590DCLR\u81EA\u52A8\u5206\u6790\u7ED1\u5B9A\u65E0\u6CD5\u81EA\u52A8\u751F\u6210event\u8C03\u7528\u7684\u7ED1\u5B9A\u4EE3\u7801\u7684\u95EE\u9898\r\n-
+        \u4FEE\u590D\u5728\u70ED\u66F4\u5185\u8C03\u7528Enum.CompareTo\u548CEnum.ToObject\u7684\u95EE\u9898\n\n###
+        V1.6.5\r\n- \u63D0\u5347\u4E86Release\u73AF\u5883\u4E0B\uFF08\u975EDevelopment
+        Build\uFF09\u5927\u7EA625%\u7684\u6267\u884C\u6548\u7387\r\n- \u4FEE\u590D\u4E86\u4E00\u4E2A\u6CDB\u578B\u7C7B\u578B\u4E2D\u6CDB\u578B\u53D8\u91CF\u65E0\u6CD5\u7F6Enull\u7684Bug\r\n-
+        \u4FEE\u590D\u4E00\u4E2Adefault\u5173\u952E\u5B57\u4F5C\u7528\u4E8E\u679A\u4E3E\u6216\u8005\u503C\u7C7B\u578B\u65F6\u62A5\u9519\u7684Bug\r\n-
+        \u4FEE\u590D\u4E00\u4E2A\u5BFC\u81F4\u5E26\u6761\u4EF6\u7684await\u8BED\u53E5\u5931\u6548\u7684Bug\r\n-
+        \u4FEE\u590D\u4E00\u4E2AEnum.ToObject\u8FD4\u56DE\u7684Enum\u503C\u4E0D\u6B63\u786E\u7684Bug\r\n-
+        \u4FEE\u590D\u4E00\u4E2A\u6CDB\u578B\u65B9\u6CD5\u4E2Dout\u5230\u4E00\u4E2A\u503C\u7C7B\u578B\u62A5\u9519\u7684Bug\r\n-
+        \u4FEE\u590D\u4E00\u4E2A\u7531\u81EA\u52A8\u751F\u6210\u4EA7\u751F\u7684\u8DE8\u57DF\u7EE7\u627F\u9002\u914D\u5668\uFF0C\u865A\u65B9\u6CD5\u672A\u88AB\u91CD\u8F7D\u65F6\u4E0D\u6267\u884C\u7684Bug\r\n-
+        \u4FEE\u590DLitjson\u96C6\u6210\u53CD\u5E8F\u5217\u5316\u679A\u4E3E\u6570\u7EC4\u65F6\u5D29\u6E83\u7684Bug\n\n###
+        V1.6.4\r\n- \u4FEE\u6B63\u4E00\u4E2A\u4F7F\u7528\u59D4\u6258\u8FD4\u56DE\u7ECF\u8FC7\u503C\u7C7B\u578B\u7ED1\u5B9A\u8FC7\u7684\u503C\u7C7B\u578B\u65F6\u9020\u6210\u7684\u6808\u635F\u574F\u95EE\u9898\r\n-
+        \u4FEE\u6B63\u4E00\u4E2A\u81EA\u52A8\u751F\u6210\u8DE8\u57DF\u7EE7\u627F\u9002\u914D\u5668\u4EE3\u7801\u65F6\uFF0C\u65E0\u53C2\u6570\u865A\u51FD\u6570\u9002\u914D\u4EE3\u7801\u6267\u884C\u7684\u62A5\u9519\r\n-
+        \u4FEE\u6B63\u4E00\u4E2A\u81EA\u52A8\u751F\u6210\u8DE8\u57DF\u7EE7\u627F\u9002\u914D\u5668\u4EE3\u7801\u5BF9\u63A5\u53E3\u65B9\u6CD5\u751F\u6210\u540E\uFF0C\u67D0\u4E9B\u60C5\u51B5\u4E0B\u5BFC\u81F4StackOverflow\u65E0\u9650\u9012\u5F52\u7684Bug\r\n-
+        \u4FEE\u6B63Type.ToString\u7ED3\u679C\u548C\u539F\u751F\u4E0D\u4E00\u81F4\u7684\u95EE\u9898\r\n-
+        \u4FEE\u6B63\u6CDB\u578B\u5D4C\u5957\u6570\u7EC4T[][]\u5B57\u6BB5\u521D\u59CB\u5316\u65F6\u7684\u62A5\u9519\u95EE\u9898\r\n-
+        \u4FEE\u6B63\u4E00\u4E2A\u6CDB\u578B\u65B9\u6CD5\u5339\u914D\u7684Bug\r\n-
+        \u4FEE\u6B63\u4E00\u4E2A\u6CDB\u578B\u6570\u7EC4\u4F5C\u4E3A\u53C2\u6570\u65F6\u65B9\u6CD5\u5339\u914D\u7684\u9519\u8BEF\r\n-
+        \u5220\u6389\u4E00\u4E2AC#7\u8BED\u6CD5\u4F7F\u7528\u4EE5\u63D0\u9AD8\u517C\u5BB9\u6027\r\n\r\n###
+        V1.6.3\r\n- \u4FEE\u590D\u5BF9\u6CDB\u578B\u5B57\u6BB5\u8D4B\u503C\u5BFC\u81F4\u6808\u635F\u574F\u7684Bug\r\n-
+        \u4FEE\u590D\u7531\u8DE8\u57DF\u7EE7\u627F\u9002\u914D\u5668\u4EE3\u7801\u751F\u6210\u5668\u81EA\u52A8\u751F\u6210\u7684\u4EE3\u7801\uFF0C\u5BFC\u81F4\u8FD0\u884C\u65F6\u8FDB\u5165\u9519\u8BEF\u7684\u7C7B\u65B9\u6CD5\u7684Bug\r\n-
+        \u4FEE\u590D\u4E00\u4E2A\u5728\u9759\u6001\u65B9\u6CD5\u4E2D\u5B9E\u4F8B\u5316\u5BF9\u8C61\u5BFC\u81F4\u8FD0\u884C\u51FA\u9519\u7684Bug\r\n-
+        \u4FEE\u590D\u4E00\u4E2A\u67D0\u4E9B\u60C5\u51B5\u4E0B\u9759\u6001\u6784\u9020\u51FD\u6570\u6CA1\u6709\u6267\u884C\u7684Bug\r\n-
+        \u4FEE\u590D\u4E00\u4E2A\u52A0\u8F7D\u591ADLL\uFF0C\u5F15\u7528\u5B57\u6BB5\u5BFC\u81F4\u7684\u8FD0\u884C\u65F6\u62A5\u9519\r\n-
+        \u4FEE\u590D\u503C\u7C7B\u578B\u7ED1\u5B9AEnum\u5B57\u6BB5\u5206\u914D\u5185\u5B58\u65F6\u88AB\u610F\u5916\u88C5\u7BB1\u7684Bug\r\n-
+        \u4FEE\u590D\u4E00\u4E2ACLR\u81EA\u52A8\u5206\u6790\u7ED1\u5B9A\u5728\u67D0\u4E2A\u7279\u5B9A\u60C5\u51B5\u4E0B\u9057\u6F0F\u5206\u6790\u7684Bug\r\n-
+        \u79FB\u9664\u6240\u6709\u7F16\u8BD1\u8B66\u544A\r\n- \u4FEE\u590D\u4E00\u4E2A\u7531\u4E8EUnity\u7684Bug\u5BFC\u81F4\u7684\u5BFC\u5165ILRuntime\u5305\u65F6\u7684\u62A5\u9519\r\n\r\n###
+        V1.6.2\r\n- \u4FEE\u6B63\u503C\u7C7B\u578B\u90E8\u5206\u60C5\u51B5\u4E0B++,
+        +=\u4E4B\u7C7B\u64CD\u4F5C\u7B26\u5931\u6548\u7684Bug\r\n- \u4FEE\u6B63\u5C06\u503C\u7C7B\u578B\u6210\u5458\u53D8\u91CF\u4F20\u5165\u65B9\u6CD5\uFF0C\u5E76\u5728\u8BE5\u65B9\u6CD5\u91CC\u5BF9\u8FD9\u4E2A\u53C2\u6570\u8D4B\u503C\u62A5\u9519\u7684Bug\r\n-
+        \u4FEE\u590D\u4E00\u4E2AAsync Await\u5361\u4E3B\u7684bug\r\n\r\n### V1.6.1\r\n-
+        \u53BB\u6389\u90E8\u5206C#7\u7684\u7528\u6CD5\u4EE5\u589E\u52A0unity2019\u4EE5\u524D\u7248\u672C\u7684\u517C\u5BB9\u6027\r\n\r\n###
+        V1.6\r\n- \u589E\u52A0\u4E86\u8DE8\u57DF\u7EE7\u627F\u9002\u914D\u5668\u7684\u5DE5\u5177\u7C7B\uFF0C\u7B80\u5316\u9002\u914D\u5668\u7F16\u5199\r\n-
+        \u589E\u52A0\u4E86\u8DE8\u57DF\u7EE7\u627F\u9002\u914D\u5668\u7684\u81EA\u52A8\u751F\u6210\u6A21\u7248\uFF0C\u505A\u5230\u534A\u81EA\u52A8\u751F\u6210\r\n-
+        \u4F18\u5316\u4E86\u70ED\u66F4\u5B58\u53D6\u4E3B\u5DE5\u7A0B\u7C7B\u5B57\u6BB5\u7684\u6027\u80FD\r\n-
+        \u4F18\u5316\u4E86\u70ED\u66F4\u5185\u65B9\u6CD5\u8C03\u7528\u7684\u6027\u80FD\r\n-
+        \u7D2F\u79EFBug\u4FEE\u590D"
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.6.2
+        - 1.6.3
+        - 1.6.4
+        - 1.6.5
+        - 1.6.6
+        - 1.6.7
+        compatible:
+        - 1.6.2
+        - 1.6.3
+        - 1.6.4
+        - 1.6.5
+        - 1.6.6
+        - 1.6.7
+        verified: 
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - ILRuntime
+      - ilrt
+      - hotfix
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637437031640000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git+https://github.com/Ourpalm/ILRuntimeU3D.git
+        revision: 6621eaac0002cb40101d867189058ed911f1df26
+        path: 
+    - packageId: com.unity.2d.sprite@1.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 2
+      resolvedPath: E:\dotnet\ET-Branch_final\Unity\Library\PackageCache\com.unity.2d.sprite@1.0.0
+      assetPath: Packages/com.unity.2d.sprite
+      name: com.unity.2d.sprite
+      displayName: 2D Sprite
+      author:
+        name: 
+        email: 
+        url: 
+      category: 2D
+      type: 
+      description: Use Unity Sprite Editor Window to create and edit Sprite asset
+        properties like pivot, borders and Physics shape
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - 2d
+      - sprite
+      - sprite editor window
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.2d.tilemap@1.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 2
+      resolvedPath: E:\dotnet\ET-Branch_final\Unity\Library\PackageCache\com.unity.2d.tilemap@1.0.0
+      assetPath: Packages/com.unity.2d.tilemap
+      name: com.unity.2d.tilemap
+      displayName: 2D Tilemap Editor
+      author:
+        name: 
+        email: 
+        url: 
+      category: 2D
+      type: 
+      description: 2D Tilemap Editor is a package that contains editor functionalities
+        for editing Tilemaps.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - 2d
+      - Tilemap
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.assetbundlebrowser@1.7.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.7.0
+      source: 1
+      resolvedPath: E:\dotnet\ET-Branch_final\Unity\Library\PackageCache\com.unity.assetbundlebrowser@1.7.0
+      assetPath: Packages/com.unity.assetbundlebrowser
+      name: com.unity.assetbundlebrowser
+      displayName: Asset Bundle Browser
+      author:
+        name: 
+        email: 
+        url: 
+      category: Asset Bundles
+      type: 
+      description: 'The Asset Bundle Browser tool enables the user to view and edit
+        the configuration of asset bundles for their Unity project. It will block
+        editing that would create invalid bundles, and inform you of any issues with
+        existing bundles. It also provides basic build functionality.
+
+
+        Use
+        this tool as an alternative to selecting assets and setting their asset bundle
+        manually in the inspector. It can be dropped into any Unity project with
+        a version of 5.6 or greater. It will create a new menu item in Window > AssetBundle
+        Browser. The bundle configuration, build functionality, and built-bundle
+        inspection are split into three tabs within the new window.'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.1.4
+        - 1.2.0
+        - 1.3.0
+        - 1.5.0
+        - 1.6.0
+        - 1.7.0
+        compatible:
+        - 1.1.4
+        - 1.2.0
+        - 1.3.0
+        - 1.5.0
+        - 1.6.0
+        - 1.7.0
+        verified: 
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - asset
+      - bundle
+      - bundles
+      - assetbundles
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 636898888820000000
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.ide.rider@2.0.7
+      testable: 0
+      isDirectDependency: 1
+      version: 2.0.7
+      source: 1
+      resolvedPath: E:\dotnet\ET-Branch_final\Unity\Library\PackageCache\com.unity.ide.rider@2.0.7
+      assetPath: Packages/com.unity.ide.rider
+      name: com.unity.ide.rider
+      displayName: JetBrains Rider Editor
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: The JetBrains Rider Editor package provides an integration for
+        using the JetBrains Rider IDE as a code editor for Unity. It adds support
+        for generating .csproj files for code completion and auto-discovery of installations.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.2
+        - 1.0.6
+        - 1.0.8
+        - 1.1.0
+        - 1.1.1
+        - 1.1.2-preview
+        - 1.1.2-preview.2
+        - 1.1.3-preview.1
+        - 1.1.4-preview
+        - 1.1.4
+        - 1.2.0-preview
+        - 1.2.1
+        - 2.0.0-preview
+        - 2.0.1
+        - 2.0.2
+        - 2.0.3
+        - 2.0.5
+        - 2.0.7
+        - 3.0.1
+        - 3.0.2
+        - 3.0.3
+        - 3.0.4
+        - 3.0.5
+        - 3.0.6
+        - 3.0.7
+        compatible:
+        - 1.0.2
+        - 1.0.6
+        - 1.0.8
+        - 1.1.0
+        - 1.1.1
+        - 1.1.2-preview
+        - 1.1.2-preview.2
+        - 1.1.3-preview.1
+        - 1.1.4-preview
+        - 1.1.4
+        - 1.2.0-preview
+        - 1.2.1
+        - 2.0.0-preview
+        - 2.0.1
+        - 2.0.2
+        - 2.0.3
+        - 2.0.5
+        - 2.0.7
+        - 3.0.1
+        - 3.0.2
+        - 3.0.3
+        - 3.0.4
+        - 3.0.5
+        - 3.0.6
+        - 3.0.7
+        verified: 2.0.7
+      dependencies:
+      - name: com.unity.test-framework
+        version: 1.1.1
+      resolvedDependencies:
+      - name: com.unity.test-framework
+        version: 1.1.29
+      - name: com.unity.ext.nunit
+        version: 1.0.6
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      keywords: []
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637334461080000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
+        revision: abb44f053e9a41d2e00e149e32a19bcec76e98b4
+        path: 
+    - packageId: com.unity.ide.visualstudio@2.0.11
+      testable: 0
+      isDirectDependency: 1
+      version: 2.0.11
+      source: 1
+      resolvedPath: E:\dotnet\ET-Branch_final\Unity\Library\PackageCache\com.unity.ide.visualstudio@2.0.11
+      assetPath: Packages/com.unity.ide.visualstudio
+      name: com.unity.ide.visualstudio
+      displayName: Visual Studio Editor
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Code editor integration for supporting Visual Studio as code editor
+        for unity. Adds support for generating csproj files for intellisense purposes,
+        auto discovery of installations, etc.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.2
+        - 1.0.3
+        - 1.0.4
+        - 1.0.9
+        - 1.0.10
+        - 1.0.11
+        - 2.0.0
+        - 2.0.1
+        - 2.0.2
+        - 2.0.3
+        - 2.0.5
+        - 2.0.7
+        - 2.0.8
+        - 2.0.9
+        - 2.0.11
+        - 2.0.12
+        compatible:
+        - 1.0.2
+        - 1.0.3
+        - 1.0.4
+        - 1.0.9
+        - 1.0.10
+        - 1.0.11
+        - 2.0.0
+        - 2.0.1
+        - 2.0.2
+        - 2.0.3
+        - 2.0.5
+        - 2.0.7
+        - 2.0.8
+        - 2.0.9
+        - 2.0.11
+        - 2.0.12
+        verified: 2.0.12
+      dependencies:
+      - name: com.unity.test-framework
+        version: 1.1.9
+      resolvedDependencies:
+      - name: com.unity.test-framework
+        version: 1.1.29
+      - name: com.unity.ext.nunit
+        version: 1.0.6
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      keywords: []
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637613656180000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
+        revision: 680e06d94ffca728223ae2cb14bb919cd354e2c1
+        path: 
+    - packageId: com.unity.ide.vscode@1.2.4
+      testable: 0
+      isDirectDependency: 1
+      version: 1.2.4
+      source: 1
+      resolvedPath: E:\dotnet\ET-Branch_final\Unity\Library\PackageCache\com.unity.ide.vscode@1.2.4
+      assetPath: Packages/com.unity.ide.vscode
+      name: com.unity.ide.vscode
+      displayName: Visual Studio Code Editor
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Code editor integration for supporting Visual Studio Code as code
+        editor for unity. Adds support for generating csproj files for intellisense
+        purposes, auto discovery of installations, etc.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.2
+        - 1.0.3
+        - 1.0.7
+        - 1.1.0
+        - 1.1.2
+        - 1.1.3
+        - 1.1.4
+        - 1.2.0
+        - 1.2.1
+        - 1.2.2
+        - 1.2.3
+        - 1.2.4
+        compatible:
+        - 1.0.2
+        - 1.0.3
+        - 1.0.7
+        - 1.1.0
+        - 1.1.2
+        - 1.1.3
+        - 1.1.4
+        - 1.2.0
+        - 1.2.1
+        - 1.2.2
+        - 1.2.3
+        - 1.2.4
+        verified: 1.2.4
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637660806170000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git+https://github.com/Unity-Technologies/com.unity.ide.vscode.git
+        revision: 1f4f605d5c988cb610c372b5c5216c46cc8f5d30
+        path: 
+    - packageId: com.unity.test-framework@1.1.29
+      testable: 0
+      isDirectDependency: 1
+      version: 1.1.29
+      source: 1
+      resolvedPath: E:\dotnet\ET-Branch_final\Unity\Library\PackageCache\com.unity.test-framework@1.1.29
+      assetPath: Packages/com.unity.test-framework
+      name: com.unity.test-framework
+      displayName: Test Framework
+      author:
+        name: 
+        email: 
+        url: 
+      category: Unity Test Framework
+      type: 
+      description: Test framework for running Edit mode and Play mode tests in Unity.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.0.4-preview
+        - 0.0.29-preview
+        - 1.0.0
+        - 1.0.7
+        - 1.0.9
+        - 1.0.11
+        - 1.0.12
+        - 1.0.13
+        - 1.0.14
+        - 1.0.16
+        - 1.0.17
+        - 1.0.18
+        - 1.1.0
+        - 1.1.1
+        - 1.1.2
+        - 1.1.3
+        - 1.1.5
+        - 1.1.8
+        - 1.1.9
+        - 1.1.11
+        - 1.1.13
+        - 1.1.14
+        - 1.1.16
+        - 1.1.18
+        - 1.1.19
+        - 1.1.20
+        - 1.1.22
+        - 1.1.24
+        - 1.1.26
+        - 1.1.27
+        - 1.1.29
+        - 1.1.30
+        compatible:
+        - 1.1.29
+        - 1.1.30
+        verified: 1.1.30
+      dependencies:
+      - name: com.unity.ext.nunit
+        version: 1.0.6
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.ext.nunit
+        version: 1.0.6
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      keywords:
+      - Test
+      - TestFramework
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637647922650000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git+https://github.com/Unity-Technologies/com.unity.test-framework.git
+        revision: dac53542acdab7a12e9ebf111ac588d0e53cf483
+        path: 
+    - packageId: com.unity.textmeshpro@3.0.6
+      testable: 0
+      isDirectDependency: 1
+      version: 3.0.6
+      source: 1
+      resolvedPath: E:\dotnet\ET-Branch_final\Unity\Library\PackageCache\com.unity.textmeshpro@3.0.6
+      assetPath: Packages/com.unity.textmeshpro
+      name: com.unity.textmeshpro
+      displayName: TextMeshPro
+      author:
+        name: 
+        email: 
+        url: 
+      category: Text Rendering
+      type: 
+      description: 'TextMeshPro is the ultimate text solution for Unity. It''s the
+        perfect replacement for Unity''s UI Text and the legacy Text Mesh.
+
+
+        Powerful
+        and easy to use, TextMeshPro (also known as TMP) uses Advanced Text Rendering
+        techniques along with a set of custom shaders; delivering substantial visual
+        quality improvements while giving users incredible flexibility when it comes
+        to text styling and texturing.
+
+
+        TextMeshPro provides Improved Control
+        over text formatting and layout with features like character, word, line
+        and paragraph spacing, kerning, justified text, Links, over 30 Rich Text
+        Tags available, support for Multi Font & Sprites, Custom Styles and more.
+
+
+        Great
+        performance. Since the geometry created by TextMeshPro uses two triangles
+        per character just like Unity''s text components, this improved visual quality
+        and flexibility comes at no additional performance cost.'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.1.2
+        - 1.0.21
+        - 1.0.23
+        - 1.0.25
+        - 1.0.26
+        - 1.1.0
+        - 1.2.0
+        - 1.2.1
+        - 1.2.2
+        - 1.2.3
+        - 1.2.4
+        - 1.3.0-preview
+        - 1.3.0
+        - 1.4.0-preview.1b
+        - 1.4.0-preview.2a
+        - 1.4.0-preview.3a
+        - 1.4.0
+        - 1.4.1-preview.1
+        - 1.4.1
+        - 1.5.0-preview.1
+        - 1.5.0-preview.2
+        - 1.5.0-preview.3
+        - 1.5.0-preview.4
+        - 1.5.0-preview.5
+        - 1.5.0-preview.6
+        - 1.5.0-preview.7
+        - 1.5.0-preview.8
+        - 1.5.0-preview.10
+        - 1.5.0-preview.11
+        - 1.5.0-preview.12
+        - 1.5.0-preview.13
+        - 1.5.0-preview.14
+        - 1.5.0
+        - 1.5.1
+        - 1.5.3
+        - 1.5.4
+        - 1.5.5
+        - 1.5.6
+        - 1.6.0-preview.1
+        - 2.0.0
+        - 2.0.1-preview.1
+        - 2.0.1
+        - 2.1.0-preview.1
+        - 2.1.0-preview.2
+        - 2.1.0-preview.3
+        - 2.1.0-preview.4
+        - 2.1.0-preview.5
+        - 2.1.0-preview.7
+        - 2.1.0-preview.8
+        - 2.1.0-preview.10
+        - 2.1.0-preview.11
+        - 2.1.0-preview.12
+        - 2.1.0-preview.13
+        - 2.1.0-preview.14
+        - 2.1.0
+        - 2.1.1
+        - 2.1.3
+        - 2.1.4
+        - 2.1.5
+        - 2.1.6
+        - 2.2.0-preview.1
+        - 2.2.0-preview.2
+        - 3.0.0-preview.1
+        - 3.0.0-preview.3
+        - 3.0.0-preview.4
+        - 3.0.0-preview.5
+        - 3.0.0-preview.7
+        - 3.0.0-preview.8
+        - 3.0.0-preview.10
+        - 3.0.0-preview.11
+        - 3.0.0-preview.12
+        - 3.0.0-preview.13
+        - 3.0.0-preview.14
+        - 3.0.0
+        - 3.0.1
+        - 3.0.3
+        - 3.0.4
+        - 3.0.5
+        - 3.0.6
+        - 3.2.0-pre.1
+        - 3.2.0-pre.2
+        - 4.0.0-pre.1
+        compatible:
+        - 3.0.6
+        - 3.2.0-pre.1
+        - 3.2.0-pre.2
+        verified: 3.0.6
+      dependencies:
+      - name: com.unity.ugui
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.ugui
+        version: 1.0.0
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      keywords:
+      - TextMeshPro
+      - TextMesh Pro
+      - TMP
+      - Text
+      - SDF
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637547111200000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.textmeshpro.git
+        revision: 01e57e3b7de18af9dfe9baaa0a0ff5cc4765c899
+        path: 
+    - packageId: com.unity.timeline@1.4.8
+      testable: 0
+      isDirectDependency: 1
+      version: 1.4.8
+      source: 1
+      resolvedPath: E:\dotnet\ET-Branch_final\Unity\Library\PackageCache\com.unity.timeline@1.4.8
+      assetPath: Packages/com.unity.timeline
+      name: com.unity.timeline
+      displayName: Timeline
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Use Unity Timeline to create cinematic content, game-play sequences,
+        audio sequences, and complex particle effects.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.2.0
+        - 1.2.1
+        - 1.2.2
+        - 1.2.3
+        - 1.2.4
+        - 1.2.5
+        - 1.2.6
+        - 1.2.7
+        - 1.2.9
+        - 1.2.10
+        - 1.2.11
+        - 1.2.12
+        - 1.2.13
+        - 1.2.14
+        - 1.2.15
+        - 1.2.16
+        - 1.2.17
+        - 1.2.18
+        - 1.3.0-preview.2
+        - 1.3.0-preview.3
+        - 1.3.0-preview.5
+        - 1.3.0-preview.6
+        - 1.3.0-preview.7
+        - 1.3.0
+        - 1.3.1
+        - 1.3.2
+        - 1.3.3
+        - 1.3.4
+        - 1.3.5
+        - 1.3.6
+        - 1.3.7
+        - 1.4.0-preview.1
+        - 1.4.0-preview.2
+        - 1.4.0-preview.3
+        - 1.4.0-preview.5
+        - 1.4.0-preview.6
+        - 1.4.0-preview.7
+        - 1.4.0
+        - 1.4.1
+        - 1.4.2
+        - 1.4.3
+        - 1.4.4
+        - 1.4.5
+        - 1.4.6
+        - 1.4.7
+        - 1.4.8
+        - 1.5.0-pre.2
+        - 1.5.0-preview.1
+        - 1.5.0-preview.2
+        - 1.5.0-preview.3
+        - 1.5.0-preview.4
+        - 1.5.0-preview.5
+        - 1.5.1-pre.1
+        - 1.5.1-pre.2
+        - 1.5.1-pre.3
+        - 1.5.2
+        - 1.5.4
+        - 1.5.5
+        - 1.5.6
+        - 1.5.7
+        - 1.6.0-pre.1
+        - 1.6.0-pre.3
+        - 1.6.0-pre.4
+        - 1.6.0-pre.5
+        - 1.6.1
+        - 1.6.2
+        - 1.6.3
+        - 1.7.0-pre.1
+        compatible:
+        - 1.4.8
+        - 1.5.0-pre.2
+        - 1.5.0-preview.1
+        - 1.5.0-preview.2
+        - 1.5.0-preview.3
+        - 1.5.0-preview.4
+        - 1.5.0-preview.5
+        - 1.5.1-pre.1
+        - 1.5.1-pre.2
+        - 1.5.1-pre.3
+        - 1.5.2
+        - 1.5.4
+        - 1.5.5
+        - 1.5.6
+        - 1.5.7
+        - 1.6.0-pre.1
+        - 1.6.0-pre.3
+        - 1.6.0-pre.4
+        - 1.6.0-pre.5
+        - 1.6.1
+        - 1.6.2
+        - 1.6.3
+        - 1.7.0-pre.1
+        verified: 1.4.8
+      dependencies:
+      - name: com.unity.modules.director
+        version: 1.0.0
+      - name: com.unity.modules.animation
+        version: 1.0.0
+      - name: com.unity.modules.audio
+        version: 1.0.0
+      - name: com.unity.modules.particlesystem
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.modules.director
+        version: 1.0.0
+      - name: com.unity.modules.audio
+        version: 1.0.0
+      - name: com.unity.modules.animation
+        version: 1.0.0
+      - name: com.unity.modules.particlesystem
+        version: 1.0.0
+      keywords:
+      - unity
+      - animation
+      - editor
+      - timeline
+      - tools
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637557616100000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
+        revision: 527e4364e28028f20f04fc51db671eb4bb910a26
+        path: 
+    - packageId: com.unity.ugui@1.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 2
+      resolvedPath: E:\dotnet\ET-Branch_final\Unity\Library\PackageCache\com.unity.ugui@1.0.0
+      assetPath: Packages/com.unity.ugui
+      name: com.unity.ugui
+      displayName: Unity UI
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: "Unity UI is a UI toolkit for developing user interfaces for games
+        and applications. It is a GameObject-based UI system that uses Components
+        and the Game View to arrange, position, and style user interfaces. \u200B
+        You cannot use Unity UI to create or change user interfaces in the Unity
+        Editor."
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies:
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      keywords:
+      - UI
+      - ugui
+      - Unity UI
+      - Canvas
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.xr.legacyinputhelpers@2.1.8
+      testable: 0
+      isDirectDependency: 1
+      version: 2.1.8
+      source: 1
+      resolvedPath: E:\dotnet\ET-Branch_final\Unity\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.8
+      assetPath: Packages/com.unity.xr.legacyinputhelpers
+      name: com.unity.xr.legacyinputhelpers
+      displayName: XR Legacy Input Helpers
+      author:
+        name: 
+        email: 
+        url: 
+      category: XR
+      type: 
+      description: This package includes the tracked pose driver for the legacy input
+        system, the XR Bindings Seeding Tool and 3Dof Arm Model support for the Tracked
+        Pose Driver. The Tracked Pose Driver is a behavior that enables GameObjects
+        to track input devices, the XR Bindings Seeding Tool adds a menu item under
+        the 'Assets' menu which populates the Input Asset with Unity's crossplatform
+        Input Bindings
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        - 1.0.2
+        - 1.0.3
+        - 1.3.1
+        - 1.3.2
+        - 1.3.4
+        - 1.3.5
+        - 1.3.6
+        - 1.3.7
+        - 1.3.8
+        - 1.3.11
+        - 2.0.1
+        - 2.0.2
+        - 2.0.4
+        - 2.0.6
+        - 2.0.8
+        - 2.1.1
+        - 2.1.2
+        - 2.1.3
+        - 2.1.4
+        - 2.1.6
+        - 2.1.7
+        - 2.1.8
+        compatible:
+        - 2.1.8
+        verified: 2.1.8
+      dependencies:
+      - name: com.unity.modules.vr
+        version: 1.0.0
+      - name: com.unity.modules.xr
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.modules.vr
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      - name: com.unity.modules.physics
+        version: 1.0.0
+      - name: com.unity.modules.xr
+        version: 1.0.0
+      - name: com.unity.modules.subsystems
+        version: 1.0.0
+      keywords:
+      - TPD
+      - Tracked Pose Driver
+      - XR
+      - Input
+      - Helpers
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637623088970000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.legacyinputhelpers.git
+        revision: ed3b32c709a0e51cf73fda4b200c59b48955c4be
+        path: 
+    - packageId: com.unity.modules.ai@1.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 2
+      resolvedPath: E:\dotnet\ET-Branch_final\Unity\Library\PackageCache\com.unity.modules.ai@1.0.0
+      assetPath: Packages/com.unity.modules.ai
+      name: com.unity.modules.ai
+      displayName: AI
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: module
+      description: 'The AI module implements the path finding features in Unity.
+        Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.AIModule.html'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.modules.androidjni@1.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 2
+      resolvedPath: E:\dotnet\ET-Branch_final\Unity\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+      assetPath: Packages/com.unity.modules.androidjni
+      name: com.unity.modules.androidjni
+      displayName: Android JNI
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: module
+      description: 'AndroidJNI module allows you to call Java code. Scripting API:
+        https://docs.unity3d.com/ScriptReference/UnityEngine.AndroidJNIModule.html'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.modules.animation@1.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 2
+      resolvedPath: E:\dotnet\ET-Branch_final\Unity\Library\PackageCache\com.unity.modules.animation@1.0.0
+      assetPath: Packages/com.unity.modules.animation
+      name: com.unity.modules.animation
+      displayName: Animation
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: module
+      description: 'The Animation module implements Unity''s animation system. Scripting
+        API: https://docs.unity3d.com/ScriptReference/UnityEngine.AnimationModule.html'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.modules.assetbundle@1.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 2
+      resolvedPath: E:\dotnet\ET-Branch_final\Unity\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+      assetPath: Packages/com.unity.modules.assetbundle
+      name: com.unity.modules.assetbundle
+      displayName: Asset Bundle
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: module
+      description: 'The AssetBundle module implements the AssetBundle class and related
+        APIs to load data from AssetBundles. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.AssetBundleModule.html'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.modules.audio@1.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 2
+      resolvedPath: E:\dotnet\ET-Branch_final\Unity\Library\PackageCache\com.unity.modules.audio@1.0.0
+      assetPath: Packages/com.unity.modules.audio
+      name: com.unity.modules.audio
+      displayName: Audio
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: module
+      description: 'The Audio module implements Unity''s audio system. Scripting
+        API: https://docs.unity3d.com/ScriptReference/UnityEngine.AudioModule.html'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.modules.cloth@1.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 2
+      resolvedPath: E:\dotnet\ET-Branch_final\Unity\Library\PackageCache\com.unity.modules.cloth@1.0.0
+      assetPath: Packages/com.unity.modules.cloth
+      name: com.unity.modules.cloth
+      displayName: Cloth
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: module
+      description: 'The Cloth module implements cloth physics simulation through
+        the Cloth component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.ClothModule.html'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies:
+      - name: com.unity.modules.physics
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.modules.physics
+        version: 1.0.0
+      keywords: []
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.modules.director@1.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 2
+      resolvedPath: E:\dotnet\ET-Branch_final\Unity\Library\PackageCache\com.unity.modules.director@1.0.0
+      assetPath: Packages/com.unity.modules.director
+      name: com.unity.modules.director
+      displayName: Director
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: module
+      description: 'The Director module implements the PlayableDirector class. Scripting
+        API: https://docs.unity3d.com/ScriptReference/UnityEngine.DirectorModule.html'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies:
+      - name: com.unity.modules.audio
+        version: 1.0.0
+      - name: com.unity.modules.animation
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.modules.audio
+        version: 1.0.0
+      - name: com.unity.modules.animation
+        version: 1.0.0
+      keywords: []
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.modules.imageconversion@1.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 2
+      resolvedPath: E:\dotnet\ET-Branch_final\Unity\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+      assetPath: Packages/com.unity.modules.imageconversion
+      name: com.unity.modules.imageconversion
+      displayName: Image Conversion
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: module
+      description: 'The ImageConversion module implements the ImageConversion class
+        which provides helper methods to convert images from and to PNG, JPEG or
+        EXR formats. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.ImageConversionModule.html'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.modules.imgui@1.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 2
+      resolvedPath: E:\dotnet\ET-Branch_final\Unity\Library\PackageCache\com.unity.modules.imgui@1.0.0
+      assetPath: Packages/com.unity.modules.imgui
+      name: com.unity.modules.imgui
+      displayName: IMGUI
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: module
+      description: 'The IMGUI module provides Unity''s immediate mode GUI solution
+        for creating in-game and editor user interfaces. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.IMGUIModule.html'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.modules.jsonserialize@1.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 2
+      resolvedPath: E:\dotnet\ET-Branch_final\Unity\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+      assetPath: Packages/com.unity.modules.jsonserialize
+      name: com.unity.modules.jsonserialize
+      displayName: JSONSerialize
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: module
+      description: 'The JSONSerialize module provides the JsonUtility class which
+        lets you serialize Unity Objects to JSON format. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.JSONSerializeModule.html'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.modules.particlesystem@1.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 2
+      resolvedPath: E:\dotnet\ET-Branch_final\Unity\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+      assetPath: Packages/com.unity.modules.particlesystem
+      name: com.unity.modules.particlesystem
+      displayName: Particle System
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: module
+      description: 'The ParticleSystem module implements Unity''s Particle System.
+        Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.ParticleSystemModule.html'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.modules.physics@1.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 2
+      resolvedPath: E:\dotnet\ET-Branch_final\Unity\Library\PackageCache\com.unity.modules.physics@1.0.0
+      assetPath: Packages/com.unity.modules.physics
+      name: com.unity.modules.physics
+      displayName: Physics
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: module
+      description: 'The Physics module implements 3D physics in Unity. Scripting
+        API: https://docs.unity3d.com/ScriptReference/UnityEngine.PhysicsModule.html'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.modules.physics2d@1.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 2
+      resolvedPath: E:\dotnet\ET-Branch_final\Unity\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+      assetPath: Packages/com.unity.modules.physics2d
+      name: com.unity.modules.physics2d
+      displayName: Physics 2D
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: module
+      description: 'The Physics2d module implements 2D physics in Unity. Scripting
+        API: https://docs.unity3d.com/ScriptReference/UnityEngine.Physics2DModule.html'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.modules.screencapture@1.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 2
+      resolvedPath: E:\dotnet\ET-Branch_final\Unity\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+      assetPath: Packages/com.unity.modules.screencapture
+      name: com.unity.modules.screencapture
+      displayName: Screen Capture
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: module
+      description: 'The ScreenCapture module provides functionality to take screen
+        shots using the ScreenCapture class. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.ScreenCaptureModule.html'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies:
+      - name: com.unity.modules.imageconversion
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.modules.imageconversion
+        version: 1.0.0
+      keywords: []
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.modules.terrain@1.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 2
+      resolvedPath: E:\dotnet\ET-Branch_final\Unity\Library\PackageCache\com.unity.modules.terrain@1.0.0
+      assetPath: Packages/com.unity.modules.terrain
+      name: com.unity.modules.terrain
+      displayName: Terrain
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: module
+      description: 'The Terrain module implements Unity''s Terrain rendering engine
+        available through the Terrain component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.TerrainModule.html'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.modules.terrainphysics@1.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 2
+      resolvedPath: E:\dotnet\ET-Branch_final\Unity\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+      assetPath: Packages/com.unity.modules.terrainphysics
+      name: com.unity.modules.terrainphysics
+      displayName: Terrain Physics
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: module
+      description: 'The TerrainPhysics module connects the Terrain and Physics modules
+        by implementing the TerrainCollider component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.TerrainPhysicsModule.html'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies:
+      - name: com.unity.modules.physics
+        version: 1.0.0
+      - name: com.unity.modules.terrain
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.modules.physics
+        version: 1.0.0
+      - name: com.unity.modules.terrain
+        version: 1.0.0
+      keywords: []
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.modules.tilemap@1.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 2
+      resolvedPath: E:\dotnet\ET-Branch_final\Unity\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+      assetPath: Packages/com.unity.modules.tilemap
+      name: com.unity.modules.tilemap
+      displayName: Tilemap
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: module
+      description: 'The Tilemap module implements the Tilemap class. Scripting API:
+        https://docs.unity3d.com/ScriptReference/UnityEngine.TilemapModule.html'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies:
+      - name: com.unity.modules.physics2d
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.modules.physics2d
+        version: 1.0.0
+      keywords: []
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.modules.ui@1.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 2
+      resolvedPath: E:\dotnet\ET-Branch_final\Unity\Library\PackageCache\com.unity.modules.ui@1.0.0
+      assetPath: Packages/com.unity.modules.ui
+      name: com.unity.modules.ui
+      displayName: UI
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: module
+      description: 'The UI module implements basic components required for Unity''s
+        UI system Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UIModule.html'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.modules.uielements@1.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 2
+      resolvedPath: E:\dotnet\ET-Branch_final\Unity\Library\PackageCache\com.unity.modules.uielements@1.0.0
+      assetPath: Packages/com.unity.modules.uielements
+      name: com.unity.modules.uielements
+      displayName: UIElements
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: module
+      description: 'The UIElements module implements the UIElements retained mode
+        UI framework. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UIElementsModule.html'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies:
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      - name: com.unity.modules.uielementsnative
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      - name: com.unity.modules.uielementsnative
+        version: 1.0.0
+      keywords: []
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.modules.umbra@1.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 2
+      resolvedPath: E:\dotnet\ET-Branch_final\Unity\Library\PackageCache\com.unity.modules.umbra@1.0.0
+      assetPath: Packages/com.unity.modules.umbra
+      name: com.unity.modules.umbra
+      displayName: Umbra
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: module
+      description: 'The Umbra module implements Unity''s occlusion culling system.
+        Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UmbraModule.html'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.modules.unitywebrequest@1.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 2
+      resolvedPath: E:\dotnet\ET-Branch_final\Unity\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+      assetPath: Packages/com.unity.modules.unitywebrequest
+      name: com.unity.modules.unitywebrequest
+      displayName: Unity Web Request
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: module
+      description: 'The UnityWebRequest module lets you communicate with http services.
+        Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestModule.html'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.modules.unitywebrequestassetbundle@1.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 2
+      resolvedPath: E:\dotnet\ET-Branch_final\Unity\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+      assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
+      name: com.unity.modules.unitywebrequestassetbundle
+      displayName: Unity Web Request Asset Bundle
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: module
+      description: 'The UnityWebRequestAssetBundle module provides the DownloadHandlerAssetBundle
+        class to use UnityWebRequest to download Asset Bundles. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestAssetBundleModule.html'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies:
+      - name: com.unity.modules.assetbundle
+        version: 1.0.0
+      - name: com.unity.modules.unitywebrequest
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.modules.assetbundle
+        version: 1.0.0
+      - name: com.unity.modules.unitywebrequest
+        version: 1.0.0
+      keywords: []
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.modules.unitywebrequestaudio@1.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 2
+      resolvedPath: E:\dotnet\ET-Branch_final\Unity\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+      assetPath: Packages/com.unity.modules.unitywebrequestaudio
+      name: com.unity.modules.unitywebrequestaudio
+      displayName: Unity Web Request Audio
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: module
+      description: 'The UnityWebRequestAudio module provides the DownloadHandlerAudioClip
+        class to use UnityWebRequest to download AudioClips. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestAudioModule.html'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies:
+      - name: com.unity.modules.unitywebrequest
+        version: 1.0.0
+      - name: com.unity.modules.audio
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.modules.unitywebrequest
+        version: 1.0.0
+      - name: com.unity.modules.audio
+        version: 1.0.0
+      keywords: []
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.modules.unitywebrequesttexture@1.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 2
+      resolvedPath: E:\dotnet\ET-Branch_final\Unity\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+      assetPath: Packages/com.unity.modules.unitywebrequesttexture
+      name: com.unity.modules.unitywebrequesttexture
+      displayName: Unity Web Request Texture
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: module
+      description: 'The UnityWebRequestTexture module provides the DownloadHandlerTexture
+        class to use UnityWebRequest to download Textures. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestTextureModule.html'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies:
+      - name: com.unity.modules.unitywebrequest
+        version: 1.0.0
+      - name: com.unity.modules.imageconversion
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.modules.unitywebrequest
+        version: 1.0.0
+      - name: com.unity.modules.imageconversion
+        version: 1.0.0
+      keywords: []
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.modules.unitywebrequestwww@1.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 2
+      resolvedPath: E:\dotnet\ET-Branch_final\Unity\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+      assetPath: Packages/com.unity.modules.unitywebrequestwww
+      name: com.unity.modules.unitywebrequestwww
+      displayName: Unity Web Request WWW
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: module
+      description: 'The UnityWebRequestWWW module implements the legacy WWW lets
+        you communicate with http services. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestWWWModule.html'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies:
+      - name: com.unity.modules.unitywebrequest
+        version: 1.0.0
+      - name: com.unity.modules.unitywebrequestassetbundle
+        version: 1.0.0
+      - name: com.unity.modules.unitywebrequestaudio
+        version: 1.0.0
+      - name: com.unity.modules.audio
+        version: 1.0.0
+      - name: com.unity.modules.assetbundle
+        version: 1.0.0
+      - name: com.unity.modules.imageconversion
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.modules.unitywebrequest
+        version: 1.0.0
+      - name: com.unity.modules.unitywebrequestassetbundle
+        version: 1.0.0
+      - name: com.unity.modules.assetbundle
+        version: 1.0.0
+      - name: com.unity.modules.unitywebrequestaudio
+        version: 1.0.0
+      - name: com.unity.modules.audio
+        version: 1.0.0
+      - name: com.unity.modules.imageconversion
+        version: 1.0.0
+      keywords: []
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.modules.vehicles@1.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 2
+      resolvedPath: E:\dotnet\ET-Branch_final\Unity\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+      assetPath: Packages/com.unity.modules.vehicles
+      name: com.unity.modules.vehicles
+      displayName: Vehicles
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: module
+      description: 'The Vehicles module implements vehicle physics simulation through
+        the WheelCollider component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.VehiclesModule.html'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies:
+      - name: com.unity.modules.physics
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.modules.physics
+        version: 1.0.0
+      keywords: []
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.modules.video@1.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 2
+      resolvedPath: E:\dotnet\ET-Branch_final\Unity\Library\PackageCache\com.unity.modules.video@1.0.0
+      assetPath: Packages/com.unity.modules.video
+      name: com.unity.modules.video
+      displayName: Video
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: module
+      description: 'The Video module lets you play back video files in your content.
+        Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.VideoModule.html'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies:
+      - name: com.unity.modules.audio
+        version: 1.0.0
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.modules.unitywebrequest
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.modules.audio
+        version: 1.0.0
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.modules.unitywebrequest
+        version: 1.0.0
+      keywords: []
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.modules.vr@1.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 2
+      resolvedPath: E:\dotnet\ET-Branch_final\Unity\Library\PackageCache\com.unity.modules.vr@1.0.0
+      assetPath: Packages/com.unity.modules.vr
+      name: com.unity.modules.vr
+      displayName: VR
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: module
+      description: 'The VR module implements support for virtual reality devices
+        in Unity. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.VRModule.html'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies:
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      - name: com.unity.modules.physics
+        version: 1.0.0
+      - name: com.unity.modules.xr
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      - name: com.unity.modules.physics
+        version: 1.0.0
+      - name: com.unity.modules.xr
+        version: 1.0.0
+      - name: com.unity.modules.subsystems
+        version: 1.0.0
+      keywords: []
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.modules.wind@1.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 2
+      resolvedPath: E:\dotnet\ET-Branch_final\Unity\Library\PackageCache\com.unity.modules.wind@1.0.0
+      assetPath: Packages/com.unity.modules.wind
+      name: com.unity.modules.wind
+      displayName: Wind
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: module
+      description: 'The Wind module implements the WindZone component which can affect
+        terrain rendering and particle simulations. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.WindModule.html'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.modules.xr@1.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 2
+      resolvedPath: E:\dotnet\ET-Branch_final\Unity\Library\PackageCache\com.unity.modules.xr@1.0.0
+      assetPath: Packages/com.unity.modules.xr
+      name: com.unity.modules.xr
+      displayName: XR
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: module
+      description: 'The XR module contains the VR and AR related platform support
+        functionality. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.XRModule.html'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies:
+      - name: com.unity.modules.physics
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      - name: com.unity.modules.subsystems
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.modules.physics
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      - name: com.unity.modules.subsystems
+        version: 1.0.0
+      keywords: []
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.modules.subsystems@1.0.0
+      testable: 0
+      isDirectDependency: 0
+      version: 1.0.0
+      source: 2
+      resolvedPath: E:\dotnet\ET-Branch_final\Unity\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+      assetPath: Packages/com.unity.modules.subsystems
+      name: com.unity.modules.subsystems
+      displayName: Subsystems
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: module
+      description: 'The Subsystem module contains the definitions and runtime support
+        for general subsystems in Unity. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.SubsystemsModule.html'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies:
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      keywords: []
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.modules.uielementsnative@1.0.0
+      testable: 0
+      isDirectDependency: 0
+      version: 1.0.0
+      source: 2
+      resolvedPath: E:\dotnet\ET-Branch_final\Unity\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
+      assetPath: Packages/com.unity.modules.uielementsnative
+      name: com.unity.modules.uielementsnative
+      displayName: UIElements Native
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: module
+      description: 
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies:
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      keywords: []
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.ext.nunit@1.0.6
+      testable: 0
+      isDirectDependency: 0
+      version: 1.0.6
+      source: 1
+      resolvedPath: E:\dotnet\ET-Branch_final\Unity\Library\PackageCache\com.unity.ext.nunit@1.0.6
+      assetPath: Packages/com.unity.ext.nunit
+      name: com.unity.ext.nunit
+      displayName: Custom NUnit
+      author:
+        name: 
+        email: 
+        url: 
+      category: Libraries
+      type: 
+      description: Custom version of the nunit package build to work with Unity.
+        Used by the Unity Test Framework.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.6
+        compatible:
+        - 1.0.6
+        verified: 1.0.6
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - nunit
+      - unittest
+      - test
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.ext.nunit.git
+        revision: 29ea4d6504a5f58fb3a6934db839aa80ae6d9d88
+        path: 
+  m_LocalPackages:
+    m_LocalFileStatus: []
+m_ProjectPath: E:/dotnet/ET-Branch_final/Unity/Packages
+m_EditorVersion: 2020.3.20f1 (41c4e627c95f)

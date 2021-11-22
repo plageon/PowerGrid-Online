@@ -1,0 +1,24 @@
+2021-10-31 15:05:11.6823   System.IO.FileNotFoundException: Could not find file 'D:\UnityWork\ET-Branch_V5.0\ET-Branch_V5.0\Bin\Hotfix.dll'.
+File name: 'D:\UnityWork\ET-Branch_V5.0\ET-Branch_V5.0\Bin\Hotfix.dll'
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.File.ReadAllBytes(String path)
+   at ETModel.DllHelper.GetHotfixAssembly() in D:\UnityWork\ET-Branch_V5.0\ET-Branch_V5.0\Server\Model\Base\Helper\DllHelper.cs:line 10
+   at App.Program.Main(String[] args) in D:\UnityWork\ET-Branch_V5.0\ET-Branch_V5.0\Server\App\Program.cs:line 18 
+ Main at offset 269 in file:line:column D:\UnityWork\ET-Branch_V5.0\ET-Branch_V5.0\Server\App\Program.cs:18:5
+Error at offset 122 in file:line:column D:\UnityWork\ET-Branch_V5.0\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 53 in file:line:column D:\UnityWork\ET-Branch_V5.0\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2021-10-31 15:05:23.3399   System.IO.FileNotFoundException: Could not find file 'D:\UnityWork\ET-Branch_V5.0\ET-Branch_V5.0\Bin\Hotfix.dll'.
+File name: 'D:\UnityWork\ET-Branch_V5.0\ET-Branch_V5.0\Bin\Hotfix.dll'
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.File.ReadAllBytes(String path)
+   at ETModel.DllHelper.GetHotfixAssembly() in D:\UnityWork\ET-Branch_V5.0\ET-Branch_V5.0\Server\Model\Base\Helper\DllHelper.cs:line 10
+   at App.Program.Main(String[] args) in D:\UnityWork\ET-Branch_V5.0\ET-Branch_V5.0\Server\App\Program.cs:line 18 
+ Main at offset 269 in file:line:column D:\UnityWork\ET-Branch_V5.0\ET-Branch_V5.0\Server\App\Program.cs:18:5
+Error at offset 122 in file:line:column D:\UnityWork\ET-Branch_V5.0\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 53 in file:line:column D:\UnityWork\ET-Branch_V5.0\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+

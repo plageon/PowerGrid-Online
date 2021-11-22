@@ -1,0 +1,7 @@
+2021-11-10 15:20:27.0303 Realm    0002 (Session.cs:150) { "_t" : "C2R_TestRequest", "RpcId" : 1, "Message" : "just testing " }
+2021-11-10 15:20:27.0303 Realm    0002 (Session.cs:297) { "_t" : "R2G_GetLoginKey", "RpcId" : 1, "Account" : "just testing " }
+2021-11-10 15:20:27.0479 Realm    0002 (Session.cs:297) { "_t" : "R2G_GetLoginKey", "RpcId" : 2, "Account" : "test" }
+2021-11-10 15:20:27.0664 Realm    0002 (Session.cs:150) { "_t" : "R2G_GetLoginKey", "RpcId" : 2, "Account" : "test" }
+2021-11-10 15:20:27.0946 Realm    0002 (Session.cs:150) { "_t" : "G2R_GetLoginKey", "RpcId" : 1, "Error" : 0, "Message" : null, "Key" : NumberLong("6887672175987146544") }
+2021-11-10 15:20:27.0946 Realm    0002 (Session.cs:297) { "_t" : "G2C_TestHotfixMessage", "Info" : "recv hotfix message success" }
+2021-11-10 15:20:27.0946 Realm    0002 (Session.cs:297) { "_t" : "R2C_TestResponse", "RpcId" : 1, "Error" : 0, "Message" : "We have received the message! just testing  is sent", "Address" : "127.0.0.1:10005", "Key" : NumberLong("6887672175987146544") }

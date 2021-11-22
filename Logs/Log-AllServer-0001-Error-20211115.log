@@ -1,0 +1,677 @@
+2021-11-15 14:20:05.9945 AllServer 0001 System.Exception: actor id is 0
+   at ETHotfix.ActorLocationSenderComponent_Ex.Get(ActorLocationSenderComponent self, Int64 id) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\ActorLocation\ActorLocationSenderComponentSystem.cs:line 63
+   at ETModel.ETTaskCompletionSource`1.ETModel.IAwaiter<T>.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTaskCompletionSource.cs:line 171
+   at ETModel.ETTask`1.get_Result() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 168
+   at ETModel.ETTask`1.Awaiter.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 254
+   at ETHotfix.SessionPlayerComponentDestroySystem.DestroyAsync(SessionPlayerComponent self) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 16 
+ Dispose at offset 121 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 354 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\EventSystem.cs:471:6
+Run at offset 95 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\IDestroySystem.cs:15:4
+Destroy at offset 48 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:10:4
+DestroyAsync at offset 173 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 60 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 506 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:16:4
+SetException at offset 42 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:27:13
+Error at offset 102 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Log.cs:31:4
+Error at offset 53 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2021-11-15 15:19:45.8475 AllServer 0001 System.Exception: actor id is 0
+   at ETHotfix.ActorLocationSenderComponent_Ex.Get(ActorLocationSenderComponent self, Int64 id) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\ActorLocation\ActorLocationSenderComponentSystem.cs:line 63
+   at ETModel.ETTaskCompletionSource`1.ETModel.IAwaiter<T>.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTaskCompletionSource.cs:line 171
+   at ETModel.ETTask`1.get_Result() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 168
+   at ETModel.ETTask`1.Awaiter.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 254
+   at ETHotfix.SessionPlayerComponentDestroySystem.DestroyAsync(SessionPlayerComponent self) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 16 
+ Dispose at offset 121 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 354 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\EventSystem.cs:471:6
+Run at offset 95 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\IDestroySystem.cs:15:4
+Destroy at offset 48 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:10:4
+DestroyAsync at offset 173 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 60 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 506 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:16:4
+SetException at offset 42 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:27:13
+Error at offset 102 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Log.cs:31:4
+Error at offset 53 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2021-11-15 15:25:45.4334 AllServer 0001 System.Exception: actor id is 0
+   at ETHotfix.ActorLocationSenderComponent_Ex.Get(ActorLocationSenderComponent self, Int64 id) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\ActorLocation\ActorLocationSenderComponentSystem.cs:line 63
+   at ETModel.ETTaskCompletionSource`1.ETModel.IAwaiter<T>.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTaskCompletionSource.cs:line 171
+   at ETModel.ETTask`1.get_Result() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 168
+   at ETModel.ETTask`1.Awaiter.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 254
+   at ETHotfix.SessionPlayerComponentDestroySystem.DestroyAsync(SessionPlayerComponent self) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 16 
+ Dispose at offset 121 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 354 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\EventSystem.cs:471:6
+Run at offset 95 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\IDestroySystem.cs:15:4
+Destroy at offset 48 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:10:4
+DestroyAsync at offset 173 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 60 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 506 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:16:4
+SetException at offset 42 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:27:13
+Error at offset 102 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Log.cs:31:4
+Error at offset 53 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2021-11-15 15:28:37.7829 AllServer 0001 System.Exception: actor id is 0
+   at ETHotfix.ActorLocationSenderComponent_Ex.Get(ActorLocationSenderComponent self, Int64 id) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\ActorLocation\ActorLocationSenderComponentSystem.cs:line 63
+   at ETModel.ETTaskCompletionSource`1.ETModel.IAwaiter<T>.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTaskCompletionSource.cs:line 171
+   at ETModel.ETTask`1.get_Result() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 168
+   at ETModel.ETTask`1.Awaiter.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 254
+   at ETHotfix.SessionPlayerComponentDestroySystem.DestroyAsync(SessionPlayerComponent self) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 16 
+ Dispose at offset 121 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 354 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\EventSystem.cs:471:6
+Run at offset 95 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\IDestroySystem.cs:15:4
+Destroy at offset 48 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:10:4
+DestroyAsync at offset 173 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 60 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 506 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:16:4
+SetException at offset 42 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:27:13
+Error at offset 102 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Log.cs:31:4
+Error at offset 53 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2021-11-15 15:33:33.7410 AllServer 0001 System.Exception: actor id is 0
+   at ETHotfix.ActorLocationSenderComponent_Ex.Get(ActorLocationSenderComponent self, Int64 id) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\ActorLocation\ActorLocationSenderComponentSystem.cs:line 63
+   at ETModel.ETTaskCompletionSource`1.ETModel.IAwaiter<T>.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTaskCompletionSource.cs:line 171
+   at ETModel.ETTask`1.get_Result() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 168
+   at ETModel.ETTask`1.Awaiter.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 254
+   at ETHotfix.SessionPlayerComponentDestroySystem.DestroyAsync(SessionPlayerComponent self) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 16 
+ Dispose at offset 121 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 354 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\EventSystem.cs:471:6
+Run at offset 95 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\IDestroySystem.cs:15:4
+Destroy at offset 48 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:10:4
+DestroyAsync at offset 173 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 60 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 506 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:16:4
+SetException at offset 42 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:27:13
+Error at offset 102 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Log.cs:31:4
+Error at offset 53 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2021-11-15 15:36:49.9192 AllServer 0001 System.Exception: actor id is 0
+   at ETHotfix.ActorLocationSenderComponent_Ex.Get(ActorLocationSenderComponent self, Int64 id) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\ActorLocation\ActorLocationSenderComponentSystem.cs:line 63
+   at ETModel.ETTaskCompletionSource`1.ETModel.IAwaiter<T>.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTaskCompletionSource.cs:line 171
+   at ETModel.ETTask`1.get_Result() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 168
+   at ETModel.ETTask`1.Awaiter.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 254
+   at ETHotfix.SessionPlayerComponentDestroySystem.DestroyAsync(SessionPlayerComponent self) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 16 
+ Dispose at offset 121 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 354 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\EventSystem.cs:471:6
+Run at offset 95 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\IDestroySystem.cs:15:4
+Destroy at offset 48 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:10:4
+DestroyAsync at offset 173 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 60 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 506 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:16:4
+SetException at offset 42 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:27:13
+Error at offset 102 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Log.cs:31:4
+Error at offset 53 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2021-11-15 15:37:59.8518 AllServer 0001 消息没有处理: 10040 { "_t" : "C2M_GenerateEleRequest", "RpcId" : 7, "Message" : "generate electricity", "TotReward" : 0 } 
+ OnRead at offset 70 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Module\Message\Network\AChannel.cs:55:4
+OnRead at offset 61 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Module\Message\Session.cs:120:5
+Run at offset 635 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Module\Message\Session.cs:164:5
+Dispatch at offset 72 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:9:4
+DispatchAsync at offset 254 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 60 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 2555 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:53:6
+Handle at offset 340 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:84:5
+Error at offset 62 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Log.cs:36:4
+Error at offset 53 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2021-11-15 15:38:09.5905 AllServer 0001 System.Exception: actor id is 0
+   at ETHotfix.ActorLocationSenderComponent_Ex.Get(ActorLocationSenderComponent self, Int64 id) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\ActorLocation\ActorLocationSenderComponentSystem.cs:line 63
+   at ETModel.ETTaskCompletionSource`1.ETModel.IAwaiter<T>.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTaskCompletionSource.cs:line 171
+   at ETModel.ETTask`1.get_Result() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 168
+   at ETModel.ETTask`1.Awaiter.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 254
+   at ETHotfix.SessionPlayerComponentDestroySystem.DestroyAsync(SessionPlayerComponent self) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 16 
+ Dispose at offset 121 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 354 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\EventSystem.cs:471:6
+Run at offset 95 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\IDestroySystem.cs:15:4
+Destroy at offset 48 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:10:4
+DestroyAsync at offset 173 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 60 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 506 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:16:4
+SetException at offset 42 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:27:13
+Error at offset 102 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Log.cs:31:4
+Error at offset 53 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2021-11-15 16:07:18.7907 AllServer 0001 System.Exception: actor id is 0
+   at ETHotfix.ActorLocationSenderComponent_Ex.Get(ActorLocationSenderComponent self, Int64 id) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\ActorLocation\ActorLocationSenderComponentSystem.cs:line 63
+   at ETModel.ETTaskCompletionSource`1.ETModel.IAwaiter<T>.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTaskCompletionSource.cs:line 171
+   at ETModel.ETTask`1.get_Result() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 168
+   at ETModel.ETTask`1.Awaiter.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 254
+   at ETHotfix.SessionPlayerComponentDestroySystem.DestroyAsync(SessionPlayerComponent self) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 16 
+ Dispose at offset 121 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 354 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\EventSystem.cs:471:6
+Run at offset 95 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\IDestroySystem.cs:15:4
+Destroy at offset 48 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:10:4
+DestroyAsync at offset 173 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 60 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 506 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:16:4
+SetException at offset 42 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:27:13
+Error at offset 102 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Log.cs:31:4
+Error at offset 53 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2021-11-15 16:20:24.0165 AllServer 0001 System.Exception: actor id is 0
+   at ETHotfix.ActorLocationSenderComponent_Ex.Get(ActorLocationSenderComponent self, Int64 id) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\ActorLocation\ActorLocationSenderComponentSystem.cs:line 63
+   at ETModel.ETTaskCompletionSource`1.ETModel.IAwaiter<T>.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTaskCompletionSource.cs:line 171
+   at ETModel.ETTask`1.get_Result() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 168
+   at ETModel.ETTask`1.Awaiter.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 254
+   at ETHotfix.SessionPlayerComponentDestroySystem.DestroyAsync(SessionPlayerComponent self) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 16 
+ Dispose at offset 121 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 354 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\EventSystem.cs:471:6
+Run at offset 95 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\IDestroySystem.cs:15:4
+Destroy at offset 48 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:10:4
+DestroyAsync at offset 173 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 60 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 506 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:16:4
+SetException at offset 42 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:27:13
+Error at offset 102 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Log.cs:31:4
+Error at offset 53 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2021-11-15 16:22:45.8174 AllServer 0001 System.Exception: actor id is 0
+   at ETHotfix.ActorLocationSenderComponent_Ex.Get(ActorLocationSenderComponent self, Int64 id) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\ActorLocation\ActorLocationSenderComponentSystem.cs:line 63
+   at ETModel.ETTaskCompletionSource`1.ETModel.IAwaiter<T>.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTaskCompletionSource.cs:line 171
+   at ETModel.ETTask`1.get_Result() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 168
+   at ETModel.ETTask`1.Awaiter.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 254
+   at ETHotfix.SessionPlayerComponentDestroySystem.DestroyAsync(SessionPlayerComponent self) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 16 
+ Dispose at offset 121 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 354 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\EventSystem.cs:471:6
+Run at offset 95 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\IDestroySystem.cs:15:4
+Destroy at offset 48 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:10:4
+DestroyAsync at offset 173 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 60 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 506 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:16:4
+SetException at offset 42 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:27:13
+Error at offset 102 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Log.cs:31:4
+Error at offset 53 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2021-11-15 16:25:30.7154 AllServer 0001 System.Exception: actor id is 0
+   at ETHotfix.ActorLocationSenderComponent_Ex.Get(ActorLocationSenderComponent self, Int64 id) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\ActorLocation\ActorLocationSenderComponentSystem.cs:line 63
+   at ETModel.ETTaskCompletionSource`1.ETModel.IAwaiter<T>.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTaskCompletionSource.cs:line 171
+   at ETModel.ETTask`1.get_Result() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 168
+   at ETModel.ETTask`1.Awaiter.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 254
+   at ETHotfix.SessionPlayerComponentDestroySystem.DestroyAsync(SessionPlayerComponent self) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 16 
+ Dispose at offset 121 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 354 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\EventSystem.cs:471:6
+Run at offset 95 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\IDestroySystem.cs:15:4
+Destroy at offset 48 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:10:4
+DestroyAsync at offset 173 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 60 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 506 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:16:4
+SetException at offset 42 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:27:13
+Error at offset 102 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Log.cs:31:4
+Error at offset 53 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2021-11-15 17:08:20.5375 AllServer 0001 System.Exception: actor id is 0
+   at ETHotfix.ActorLocationSenderComponent_Ex.Get(ActorLocationSenderComponent self, Int64 id) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\ActorLocation\ActorLocationSenderComponentSystem.cs:line 63
+   at ETModel.ETTaskCompletionSource`1.ETModel.IAwaiter<T>.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTaskCompletionSource.cs:line 171
+   at ETModel.ETTask`1.get_Result() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 168
+   at ETModel.ETTask`1.Awaiter.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 254
+   at ETHotfix.SessionPlayerComponentDestroySystem.DestroyAsync(SessionPlayerComponent self) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 16 
+ Dispose at offset 121 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 354 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\EventSystem.cs:471:6
+Run at offset 95 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\IDestroySystem.cs:15:4
+Destroy at offset 48 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:10:4
+DestroyAsync at offset 173 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 60 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 506 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:16:4
+SetException at offset 42 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:27:13
+Error at offset 102 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Log.cs:31:4
+Error at offset 53 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2021-11-15 17:14:51.9991 AllServer 0001 System.Exception: actor id is 0
+   at ETHotfix.ActorLocationSenderComponent_Ex.Get(ActorLocationSenderComponent self, Int64 id) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\ActorLocation\ActorLocationSenderComponentSystem.cs:line 63
+   at ETModel.ETTaskCompletionSource`1.ETModel.IAwaiter<T>.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTaskCompletionSource.cs:line 171
+   at ETModel.ETTask`1.get_Result() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 168
+   at ETModel.ETTask`1.Awaiter.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 254
+   at ETHotfix.SessionPlayerComponentDestroySystem.DestroyAsync(SessionPlayerComponent self) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 16 
+ Dispose at offset 121 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 354 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\EventSystem.cs:471:6
+Run at offset 95 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\IDestroySystem.cs:15:4
+Destroy at offset 48 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:10:4
+DestroyAsync at offset 173 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 60 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 506 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:16:4
+SetException at offset 42 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:27:13
+Error at offset 102 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Log.cs:31:4
+Error at offset 53 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2021-11-15 17:19:58.6285 AllServer 0001 System.Exception: actor id is 0
+   at ETHotfix.ActorLocationSenderComponent_Ex.Get(ActorLocationSenderComponent self, Int64 id) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\ActorLocation\ActorLocationSenderComponentSystem.cs:line 63
+   at ETModel.ETTaskCompletionSource`1.ETModel.IAwaiter<T>.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTaskCompletionSource.cs:line 171
+   at ETModel.ETTask`1.get_Result() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 168
+   at ETModel.ETTask`1.Awaiter.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 254
+   at ETHotfix.SessionPlayerComponentDestroySystem.DestroyAsync(SessionPlayerComponent self) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 16 
+ Dispose at offset 121 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 354 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\EventSystem.cs:471:6
+Run at offset 95 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\IDestroySystem.cs:15:4
+Destroy at offset 48 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:10:4
+DestroyAsync at offset 173 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 60 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 506 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:16:4
+SetException at offset 42 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:27:13
+Error at offset 102 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Log.cs:31:4
+Error at offset 53 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2021-11-15 17:26:15.2349 AllServer 0001 System.Exception: actor id is 0
+   at ETHotfix.ActorLocationSenderComponent_Ex.Get(ActorLocationSenderComponent self, Int64 id) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\ActorLocation\ActorLocationSenderComponentSystem.cs:line 63
+   at ETModel.ETTaskCompletionSource`1.ETModel.IAwaiter<T>.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTaskCompletionSource.cs:line 171
+   at ETModel.ETTask`1.get_Result() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 168
+   at ETModel.ETTask`1.Awaiter.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 254
+   at ETHotfix.SessionPlayerComponentDestroySystem.DestroyAsync(SessionPlayerComponent self) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 16 
+ Dispose at offset 121 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 354 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\EventSystem.cs:471:6
+Run at offset 95 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\IDestroySystem.cs:15:4
+Destroy at offset 48 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:10:4
+DestroyAsync at offset 173 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 60 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 506 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:16:4
+SetException at offset 42 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:27:13
+Error at offset 102 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Log.cs:31:4
+Error at offset 53 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2021-11-15 17:30:42.2413 AllServer 0001 System.Exception: actor id is 0
+   at ETHotfix.ActorLocationSenderComponent_Ex.Get(ActorLocationSenderComponent self, Int64 id) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\ActorLocation\ActorLocationSenderComponentSystem.cs:line 63
+   at ETModel.ETTaskCompletionSource`1.ETModel.IAwaiter<T>.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTaskCompletionSource.cs:line 171
+   at ETModel.ETTask`1.get_Result() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 168
+   at ETModel.ETTask`1.Awaiter.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 254
+   at ETHotfix.SessionPlayerComponentDestroySystem.DestroyAsync(SessionPlayerComponent self) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 16 
+ Dispose at offset 121 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 354 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\EventSystem.cs:471:6
+Run at offset 95 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\IDestroySystem.cs:15:4
+Destroy at offset 48 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:10:4
+DestroyAsync at offset 173 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 60 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 506 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:16:4
+SetException at offset 42 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:27:13
+Error at offset 102 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Log.cs:31:4
+Error at offset 53 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2021-11-15 17:34:24.1737 AllServer 0001 System.Exception: actor id is 0
+   at ETHotfix.ActorLocationSenderComponent_Ex.Get(ActorLocationSenderComponent self, Int64 id) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\ActorLocation\ActorLocationSenderComponentSystem.cs:line 63
+   at ETModel.ETTaskCompletionSource`1.ETModel.IAwaiter<T>.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTaskCompletionSource.cs:line 171
+   at ETModel.ETTask`1.get_Result() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 168
+   at ETModel.ETTask`1.Awaiter.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 254
+   at ETHotfix.SessionPlayerComponentDestroySystem.DestroyAsync(SessionPlayerComponent self) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 16 
+ Dispose at offset 121 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 354 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\EventSystem.cs:471:6
+Run at offset 95 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\IDestroySystem.cs:15:4
+Destroy at offset 48 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:10:4
+DestroyAsync at offset 173 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 60 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 506 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:16:4
+SetException at offset 42 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:27:13
+Error at offset 102 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Log.cs:31:4
+Error at offset 53 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2021-11-15 17:42:06.6935 AllServer 0001 System.Exception: actor id is 0
+   at ETHotfix.ActorLocationSenderComponent_Ex.Get(ActorLocationSenderComponent self, Int64 id) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\ActorLocation\ActorLocationSenderComponentSystem.cs:line 63
+   at ETModel.ETTaskCompletionSource`1.ETModel.IAwaiter<T>.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTaskCompletionSource.cs:line 171
+   at ETModel.ETTask`1.get_Result() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 168
+   at ETModel.ETTask`1.Awaiter.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 254
+   at ETHotfix.SessionPlayerComponentDestroySystem.DestroyAsync(SessionPlayerComponent self) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 16 
+ Dispose at offset 121 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 354 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\EventSystem.cs:471:6
+Run at offset 95 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\IDestroySystem.cs:15:4
+Destroy at offset 48 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:10:4
+DestroyAsync at offset 173 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 60 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 506 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:16:4
+SetException at offset 42 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:27:13
+Error at offset 102 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Log.cs:31:4
+Error at offset 53 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2021-11-15 17:46:57.5711 AllServer 0001 System.Exception: actor id is 0
+   at ETHotfix.ActorLocationSenderComponent_Ex.Get(ActorLocationSenderComponent self, Int64 id) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\ActorLocation\ActorLocationSenderComponentSystem.cs:line 63
+   at ETModel.ETTaskCompletionSource`1.ETModel.IAwaiter<T>.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTaskCompletionSource.cs:line 171
+   at ETModel.ETTask`1.get_Result() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 168
+   at ETModel.ETTask`1.Awaiter.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 254
+   at ETHotfix.SessionPlayerComponentDestroySystem.DestroyAsync(SessionPlayerComponent self) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 16 
+ Dispose at offset 121 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 354 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\EventSystem.cs:471:6
+Run at offset 95 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\IDestroySystem.cs:15:4
+Destroy at offset 48 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:10:4
+DestroyAsync at offset 173 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 60 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 506 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:16:4
+SetException at offset 42 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:27:13
+Error at offset 102 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Log.cs:31:4
+Error at offset 53 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2021-11-15 17:53:02.1198 AllServer 0001 System.Exception: actor id is 0
+   at ETHotfix.ActorLocationSenderComponent_Ex.Get(ActorLocationSenderComponent self, Int64 id) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\ActorLocation\ActorLocationSenderComponentSystem.cs:line 63
+   at ETModel.ETTaskCompletionSource`1.ETModel.IAwaiter<T>.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTaskCompletionSource.cs:line 171
+   at ETModel.ETTask`1.get_Result() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 168
+   at ETModel.ETTask`1.Awaiter.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 254
+   at ETHotfix.SessionPlayerComponentDestroySystem.DestroyAsync(SessionPlayerComponent self) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 16 
+ Dispose at offset 121 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 354 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\EventSystem.cs:471:6
+Run at offset 95 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\IDestroySystem.cs:15:4
+Destroy at offset 48 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:10:4
+DestroyAsync at offset 173 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 60 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 506 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:16:4
+SetException at offset 42 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:27:13
+Error at offset 102 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Log.cs:31:4
+Error at offset 53 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2021-11-15 17:53:55.9058 AllServer 0001 System.Exception: actor id is 0
+   at ETHotfix.ActorLocationSenderComponent_Ex.Get(ActorLocationSenderComponent self, Int64 id) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\ActorLocation\ActorLocationSenderComponentSystem.cs:line 63
+   at ETModel.ETTaskCompletionSource`1.ETModel.IAwaiter<T>.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTaskCompletionSource.cs:line 171
+   at ETModel.ETTask`1.get_Result() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 168
+   at ETModel.ETTask`1.Awaiter.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 254
+   at ETHotfix.SessionPlayerComponentDestroySystem.DestroyAsync(SessionPlayerComponent self) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 16 
+ Dispose at offset 121 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 354 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\EventSystem.cs:471:6
+Run at offset 95 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\IDestroySystem.cs:15:4
+Destroy at offset 48 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:10:4
+DestroyAsync at offset 173 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 60 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 506 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:16:4
+SetException at offset 42 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:27:13
+Error at offset 102 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Log.cs:31:4
+Error at offset 53 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2021-11-15 18:03:23.6550 AllServer 0001 System.Exception: actor id is 0
+   at ETHotfix.ActorLocationSenderComponent_Ex.Get(ActorLocationSenderComponent self, Int64 id) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\ActorLocation\ActorLocationSenderComponentSystem.cs:line 63
+   at ETModel.ETTaskCompletionSource`1.ETModel.IAwaiter<T>.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTaskCompletionSource.cs:line 171
+   at ETModel.ETTask`1.get_Result() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 168
+   at ETModel.ETTask`1.Awaiter.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 254
+   at ETHotfix.SessionPlayerComponentDestroySystem.DestroyAsync(SessionPlayerComponent self) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 16 
+ Dispose at offset 121 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 354 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\EventSystem.cs:471:6
+Run at offset 95 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\IDestroySystem.cs:15:4
+Destroy at offset 48 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:10:4
+DestroyAsync at offset 173 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 60 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 506 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:16:4
+SetException at offset 42 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:27:13
+Error at offset 102 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Log.cs:31:4
+Error at offset 53 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2021-11-15 18:05:23.3612 AllServer 0001 System.Exception: actor id is 0
+   at ETHotfix.ActorLocationSenderComponent_Ex.Get(ActorLocationSenderComponent self, Int64 id) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\ActorLocation\ActorLocationSenderComponentSystem.cs:line 63
+   at ETModel.ETTaskCompletionSource`1.ETModel.IAwaiter<T>.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTaskCompletionSource.cs:line 171
+   at ETModel.ETTask`1.get_Result() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 168
+   at ETModel.ETTask`1.Awaiter.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 254
+   at ETHotfix.SessionPlayerComponentDestroySystem.DestroyAsync(SessionPlayerComponent self) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 16 
+ Dispose at offset 121 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 354 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\EventSystem.cs:471:6
+Run at offset 95 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\IDestroySystem.cs:15:4
+Destroy at offset 48 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:10:4
+DestroyAsync at offset 173 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 60 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 506 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:16:4
+SetException at offset 42 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:27:13
+Error at offset 102 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Log.cs:31:4
+Error at offset 53 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2021-11-15 18:06:45.2846 AllServer 0001 System.Exception: actor id is 0
+   at ETHotfix.ActorLocationSenderComponent_Ex.Get(ActorLocationSenderComponent self, Int64 id) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\ActorLocation\ActorLocationSenderComponentSystem.cs:line 63
+   at ETModel.ETTaskCompletionSource`1.ETModel.IAwaiter<T>.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTaskCompletionSource.cs:line 171
+   at ETModel.ETTask`1.get_Result() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 168
+   at ETModel.ETTask`1.Awaiter.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 254
+   at ETHotfix.SessionPlayerComponentDestroySystem.DestroyAsync(SessionPlayerComponent self) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 16 
+ Dispose at offset 121 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 354 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\EventSystem.cs:471:6
+Run at offset 95 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\IDestroySystem.cs:15:4
+Destroy at offset 48 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:10:4
+DestroyAsync at offset 173 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 60 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 506 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:16:4
+SetException at offset 42 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:27:13
+Error at offset 102 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Log.cs:31:4
+Error at offset 53 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2021-11-15 18:11:58.0364 AllServer 0001 System.Exception: actor id is 0
+   at ETHotfix.ActorLocationSenderComponent_Ex.Get(ActorLocationSenderComponent self, Int64 id) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\ActorLocation\ActorLocationSenderComponentSystem.cs:line 63
+   at ETModel.ETTaskCompletionSource`1.ETModel.IAwaiter<T>.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTaskCompletionSource.cs:line 171
+   at ETModel.ETTask`1.get_Result() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 168
+   at ETModel.ETTask`1.Awaiter.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 254
+   at ETHotfix.SessionPlayerComponentDestroySystem.DestroyAsync(SessionPlayerComponent self) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 16 
+ Dispose at offset 121 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 354 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\EventSystem.cs:471:6
+Run at offset 95 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\IDestroySystem.cs:15:4
+Destroy at offset 48 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:10:4
+DestroyAsync at offset 173 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 60 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 506 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:16:4
+SetException at offset 42 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:27:13
+Error at offset 102 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Log.cs:31:4
+Error at offset 53 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2021-11-15 18:14:10.5773 AllServer 0001 System.Exception: actor id is 0
+   at ETHotfix.ActorLocationSenderComponent_Ex.Get(ActorLocationSenderComponent self, Int64 id) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\ActorLocation\ActorLocationSenderComponentSystem.cs:line 63
+   at ETModel.ETTaskCompletionSource`1.ETModel.IAwaiter<T>.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTaskCompletionSource.cs:line 171
+   at ETModel.ETTask`1.get_Result() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 168
+   at ETModel.ETTask`1.Awaiter.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 254
+   at ETHotfix.SessionPlayerComponentDestroySystem.DestroyAsync(SessionPlayerComponent self) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 16 
+ Dispose at offset 121 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 354 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\EventSystem.cs:471:6
+Run at offset 95 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\IDestroySystem.cs:15:4
+Destroy at offset 48 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:10:4
+DestroyAsync at offset 173 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 60 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 506 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:16:4
+SetException at offset 42 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:27:13
+Error at offset 102 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Log.cs:31:4
+Error at offset 53 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2021-11-15 18:14:39.6287 AllServer 0001 System.Exception: actor id is 0
+   at ETHotfix.ActorLocationSenderComponent_Ex.Get(ActorLocationSenderComponent self, Int64 id) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\ActorLocation\ActorLocationSenderComponentSystem.cs:line 63
+   at ETModel.ETTaskCompletionSource`1.ETModel.IAwaiter<T>.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTaskCompletionSource.cs:line 171
+   at ETModel.ETTask`1.get_Result() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 168
+   at ETModel.ETTask`1.Awaiter.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 254
+   at ETHotfix.SessionPlayerComponentDestroySystem.DestroyAsync(SessionPlayerComponent self) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 16 
+ Dispose at offset 121 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 354 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\EventSystem.cs:471:6
+Run at offset 95 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\IDestroySystem.cs:15:4
+Destroy at offset 48 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:10:4
+DestroyAsync at offset 173 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 60 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 506 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:16:4
+SetException at offset 42 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:27:13
+Error at offset 102 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Log.cs:31:4
+Error at offset 53 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2021-11-15 18:18:12.7011 AllServer 0001 System.Exception: actor id is 0
+   at ETHotfix.ActorLocationSenderComponent_Ex.Get(ActorLocationSenderComponent self, Int64 id) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\ActorLocation\ActorLocationSenderComponentSystem.cs:line 63
+   at ETModel.ETTaskCompletionSource`1.ETModel.IAwaiter<T>.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTaskCompletionSource.cs:line 171
+   at ETModel.ETTask`1.get_Result() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 168
+   at ETModel.ETTask`1.Awaiter.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 254
+   at ETHotfix.SessionPlayerComponentDestroySystem.DestroyAsync(SessionPlayerComponent self) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 16 
+ Dispose at offset 121 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 354 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\EventSystem.cs:471:6
+Run at offset 95 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\IDestroySystem.cs:15:4
+Destroy at offset 48 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:10:4
+DestroyAsync at offset 173 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 60 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 506 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:16:4
+SetException at offset 42 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:27:13
+Error at offset 102 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Log.cs:31:4
+Error at offset 53 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2021-11-15 18:19:26.4357 AllServer 0001 System.Exception: actor id is 0
+   at ETHotfix.ActorLocationSenderComponent_Ex.Get(ActorLocationSenderComponent self, Int64 id) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\ActorLocation\ActorLocationSenderComponentSystem.cs:line 63
+   at ETModel.ETTaskCompletionSource`1.ETModel.IAwaiter<T>.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTaskCompletionSource.cs:line 171
+   at ETModel.ETTask`1.get_Result() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 168
+   at ETModel.ETTask`1.Awaiter.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 254
+   at ETHotfix.SessionPlayerComponentDestroySystem.DestroyAsync(SessionPlayerComponent self) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 16 
+ Dispose at offset 121 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 354 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\EventSystem.cs:471:6
+Run at offset 95 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\IDestroySystem.cs:15:4
+Destroy at offset 48 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:10:4
+DestroyAsync at offset 173 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 60 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 506 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:16:4
+SetException at offset 42 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:27:13
+Error at offset 102 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Log.cs:31:4
+Error at offset 53 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2021-11-15 18:20:45.6866 AllServer 0001 System.Exception: actor id is 0
+   at ETHotfix.ActorLocationSenderComponent_Ex.Get(ActorLocationSenderComponent self, Int64 id) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\ActorLocation\ActorLocationSenderComponentSystem.cs:line 63
+   at ETModel.ETTaskCompletionSource`1.ETModel.IAwaiter<T>.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTaskCompletionSource.cs:line 171
+   at ETModel.ETTask`1.get_Result() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 168
+   at ETModel.ETTask`1.Awaiter.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 254
+   at ETHotfix.SessionPlayerComponentDestroySystem.DestroyAsync(SessionPlayerComponent self) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 16 
+ Dispose at offset 121 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 354 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\EventSystem.cs:471:6
+Run at offset 95 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\IDestroySystem.cs:15:4
+Destroy at offset 48 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:10:4
+DestroyAsync at offset 173 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 60 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 506 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:16:4
+SetException at offset 42 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:27:13
+Error at offset 102 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Log.cs:31:4
+Error at offset 53 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2021-11-15 18:24:28.5547 AllServer 0001 System.Exception: actor id is 0
+   at ETHotfix.ActorLocationSenderComponent_Ex.Get(ActorLocationSenderComponent self, Int64 id) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\ActorLocation\ActorLocationSenderComponentSystem.cs:line 63
+   at ETModel.ETTaskCompletionSource`1.ETModel.IAwaiter<T>.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTaskCompletionSource.cs:line 171
+   at ETModel.ETTask`1.get_Result() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 168
+   at ETModel.ETTask`1.Awaiter.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 254
+   at ETHotfix.SessionPlayerComponentDestroySystem.DestroyAsync(SessionPlayerComponent self) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 16 
+ Dispose at offset 121 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 354 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\EventSystem.cs:471:6
+Run at offset 95 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\IDestroySystem.cs:15:4
+Destroy at offset 48 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:10:4
+DestroyAsync at offset 173 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 60 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 506 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:16:4
+SetException at offset 42 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:27:13
+Error at offset 102 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Log.cs:31:4
+Error at offset 53 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2021-11-15 18:29:46.4832 AllServer 0001 System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at ETModel.RealmGateAddressComponent.GetAddress() in E:\dotnet\ET-Branch_opst\Server\Model\Module\Demo\RealmGateAddressComponent.cs:line 12
+   at ETHotfix.TestHandler.Run(Session session, C2R_TestRequest request, R2C_TestResponse response, Action reply) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Test\TestHandler.cs:line 27
+   at ETModel.ETTaskCompletionSource.ETModel.IAwaiter.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTaskCompletionSource.cs:line 32
+   at ETModel.ETTask.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 33
+   at ETModel.ETTask.Awaiter.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 98
+   at ETModel.AMRpcHandler`2.Handle(Session session, Object message) in E:\dotnet\ET-Branch_opst\Server\Model\Module\Message\AMRpcHandler.cs:line 37 
+ Dispatch at offset 72 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:9:4
+DispatchAsync at offset 254 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 60 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 2555 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:53:6
+Handle at offset 528 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:92:6
+Handle at offset 403 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 60 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 1742 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Module\Message\AMRpcHandler.cs:37:6
+Error at offset 102 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Log.cs:31:4
+Error at offset 53 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2021-11-15 18:32:27.0707 AllServer 0001 System.Exception: actor id is 0
+   at ETHotfix.ActorLocationSenderComponent_Ex.Get(ActorLocationSenderComponent self, Int64 id) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\ActorLocation\ActorLocationSenderComponentSystem.cs:line 63
+   at ETModel.ETTaskCompletionSource`1.ETModel.IAwaiter<T>.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTaskCompletionSource.cs:line 171
+   at ETModel.ETTask`1.get_Result() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 168
+   at ETModel.ETTask`1.Awaiter.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 254
+   at ETHotfix.SessionPlayerComponentDestroySystem.DestroyAsync(SessionPlayerComponent self) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 16 
+ Dispose at offset 121 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 354 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\EventSystem.cs:471:6
+Run at offset 95 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\IDestroySystem.cs:15:4
+Destroy at offset 48 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:10:4
+DestroyAsync at offset 173 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 60 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 506 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:16:4
+SetException at offset 42 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:27:13
+Error at offset 102 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Log.cs:31:4
+Error at offset 53 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2021-11-15 19:23:01.1920 AllServer 0001 System.Exception: actor id is 0
+   at ETHotfix.ActorLocationSenderComponent_Ex.Get(ActorLocationSenderComponent self, Int64 id) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\ActorLocation\ActorLocationSenderComponentSystem.cs:line 63
+   at ETModel.ETTaskCompletionSource`1.ETModel.IAwaiter<T>.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTaskCompletionSource.cs:line 171
+   at ETModel.ETTask`1.get_Result() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 168
+   at ETModel.ETTask`1.Awaiter.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 254
+   at ETHotfix.SessionPlayerComponentDestroySystem.DestroyAsync(SessionPlayerComponent self) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 16 
+ Dispose at offset 121 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 354 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\EventSystem.cs:471:6
+Run at offset 95 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\IDestroySystem.cs:15:4
+Destroy at offset 48 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:10:4
+DestroyAsync at offset 173 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 60 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 506 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:16:4
+SetException at offset 42 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:27:13
+Error at offset 102 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Log.cs:31:4
+Error at offset 53 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2021-11-15 19:30:30.9756 AllServer 0001 System.Exception: actor id is 0
+   at ETHotfix.ActorLocationSenderComponent_Ex.Get(ActorLocationSenderComponent self, Int64 id) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\ActorLocation\ActorLocationSenderComponentSystem.cs:line 63
+   at ETModel.ETTaskCompletionSource`1.ETModel.IAwaiter<T>.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTaskCompletionSource.cs:line 171
+   at ETModel.ETTask`1.get_Result() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 168
+   at ETModel.ETTask`1.Awaiter.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 254
+   at ETHotfix.SessionPlayerComponentDestroySystem.DestroyAsync(SessionPlayerComponent self) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 16 
+ Dispose at offset 121 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 354 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\EventSystem.cs:471:6
+Run at offset 95 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\IDestroySystem.cs:15:4
+Destroy at offset 48 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:10:4
+DestroyAsync at offset 173 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 60 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 506 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:16:4
+SetException at offset 42 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:27:13
+Error at offset 102 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Log.cs:31:4
+Error at offset 53 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2021-11-15 19:40:51.7791 AllServer 0001 System.Exception: actor id is 0
+   at ETHotfix.ActorLocationSenderComponent_Ex.Get(ActorLocationSenderComponent self, Int64 id) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\ActorLocation\ActorLocationSenderComponentSystem.cs:line 63
+   at ETModel.ETTaskCompletionSource`1.ETModel.IAwaiter<T>.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTaskCompletionSource.cs:line 171
+   at ETModel.ETTask`1.get_Result() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 168
+   at ETModel.ETTask`1.Awaiter.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 254
+   at ETHotfix.SessionPlayerComponentDestroySystem.DestroyAsync(SessionPlayerComponent self) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 16 
+ Dispose at offset 121 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 354 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\EventSystem.cs:471:6
+Run at offset 95 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\IDestroySystem.cs:15:4
+Destroy at offset 48 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:10:4
+DestroyAsync at offset 173 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 60 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 506 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:16:4
+SetException at offset 42 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:27:13
+Error at offset 102 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Log.cs:31:4
+Error at offset 53 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2021-11-15 20:43:42.4771 AllServer 0001 System.Exception: actor id is 0
+   at ETHotfix.ActorLocationSenderComponent_Ex.Get(ActorLocationSenderComponent self, Int64 id) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\ActorLocation\ActorLocationSenderComponentSystem.cs:line 63
+   at ETModel.ETTaskCompletionSource`1.ETModel.IAwaiter<T>.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTaskCompletionSource.cs:line 171
+   at ETModel.ETTask`1.get_Result() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 168
+   at ETModel.ETTask`1.Awaiter.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 254
+   at ETHotfix.SessionPlayerComponentDestroySystem.DestroyAsync(SessionPlayerComponent self) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 16 
+ Dispose at offset 121 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 354 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\EventSystem.cs:471:6
+Run at offset 95 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\IDestroySystem.cs:15:4
+Destroy at offset 48 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:10:4
+DestroyAsync at offset 173 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 60 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 506 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:16:4
+SetException at offset 42 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:27:13
+Error at offset 102 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Log.cs:31:4
+Error at offset 53 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2021-11-15 21:02:40.6710 AllServer 0001 System.Exception: actor id is 0
+   at ETHotfix.ActorLocationSenderComponent_Ex.Get(ActorLocationSenderComponent self, Int64 id) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\ActorLocation\ActorLocationSenderComponentSystem.cs:line 63
+   at ETModel.ETTaskCompletionSource`1.ETModel.IAwaiter<T>.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTaskCompletionSource.cs:line 171
+   at ETModel.ETTask`1.get_Result() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 168
+   at ETModel.ETTask`1.Awaiter.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 254
+   at ETHotfix.SessionPlayerComponentDestroySystem.DestroyAsync(SessionPlayerComponent self) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 16 
+ Dispose at offset 121 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 354 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\EventSystem.cs:471:6
+Run at offset 95 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\IDestroySystem.cs:15:4
+Destroy at offset 48 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:10:4
+DestroyAsync at offset 173 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 60 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 506 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:16:4
+SetException at offset 42 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:27:13
+Error at offset 102 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Log.cs:31:4
+Error at offset 53 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2021-11-15 21:05:29.5777 AllServer 0001 System.Exception: actor id is 0
+   at ETHotfix.ActorLocationSenderComponent_Ex.Get(ActorLocationSenderComponent self, Int64 id) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\ActorLocation\ActorLocationSenderComponentSystem.cs:line 63
+   at ETModel.ETTaskCompletionSource`1.ETModel.IAwaiter<T>.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTaskCompletionSource.cs:line 171
+   at ETModel.ETTask`1.get_Result() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 168
+   at ETModel.ETTask`1.Awaiter.GetResult() in E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\ETTask.cs:line 254
+   at ETHotfix.SessionPlayerComponentDestroySystem.DestroyAsync(SessionPlayerComponent self) in E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 16 
+ Dispose at offset 121 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 354 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\EventSystem.cs:471:6
+Run at offset 95 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Object\IDestroySystem.cs:15:4
+Destroy at offset 48 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:10:4
+DestroyAsync at offset 173 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 60 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 506 in file:line:column E:\dotnet\ET-Branch_opst\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:16:4
+SetException at offset 42 in file:line:column E:\dotnet\ET-Branch_opst\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:27:13
+Error at offset 102 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Log.cs:31:4
+Error at offset 53 in file:line:column E:\dotnet\ET-Branch_opst\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+

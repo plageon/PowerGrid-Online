@@ -1,0 +1,103 @@
+﻿using ETModel;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ETModel
+{
+    [ObjectSystem]
+    public class UserComponentSystem : AwakeSystem<UserComponent>
+    {
+        public override void Awake(UserComponent self)
+        {
+            self.Awake();
+        }
+    }
+    /// <summary>
+    /// 在线User对象管理组件
+    /// </summary>
+    public class UserComponent : Component
+    {
+        private readonly Dictionary<long, User> idUsers = new Dictionary<long, User>();
+
+        public static UserComponent Instance { get; private set; }
+
+        public User MyUser;
+
+        public void Awake()
+        {
+            Instance = this;
+        }
+        /// <summary>
+        /// 添加User对象
+        /// </summary>
+        /// <param name="user"></param>
+        public void Add(User user)
+        {
+            if (Get(user.UserID) == null)
+            {
+                this.idUsers.Add(user.UserID, user);
+            }
+            else
+            {
+                Log.Error("重复登录！");
+            }
+        }
+
+        /// <summary>
+        /// 获取User对象
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        public User Get(long id)
+        {
+            this.idUsers.TryGetValue(id, out User gamer);
+            return gamer;
+        }
+
+        /// <summary>
+        /// 移除User对象
+        /// </summary>
+        /// <param name="id"></param>
+        public void Remove(long id)
+        {
+            this.idUsers.Remove(id);
+        }
+
+        /// <summary>
+        /// User对象总数量
+        /// </summary>
+        public int Count
+        {
+            get
+            {
+                return this.idUsers.Count;
+            }
+        }
+
+        /// <summary>
+        /// 获取所有User对象
+        /// </summary>
+        /// <returns></returns>
+        public User[] GetAll()
+        {
+            return this.idUsers.Values.ToArray();
+        }
+
+        public override void Dispose()
+        {
+            if (this.IsDisposed)
+            {
+                return;
+            }
+
+            base.Dispose();
+
+            foreach (User user in this.idUsers.Values)
+            {
+                user.Dispose();
+            }
+        }
+    }
+}

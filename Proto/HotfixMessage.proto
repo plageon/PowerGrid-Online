@@ -1,0 +1,295 @@
+syntax = "proto3";
+package ETHotfix;
+
+message C2R_Login // IRequest
+{
+	int32 RpcId = 90;
+	string	Account	 = 1;	// 帐号
+	string	Password = 2;	// 密码
+}
+
+message R2C_Login // IResponse
+{
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+	string Address = 1;
+	int64 Key	    = 2;
+}
+
+message C2G_LoginGate // IRequest
+{
+	int32 RpcId = 90;
+	int64 Key = 1;	// 帐号
+}
+
+message G2C_LoginGate // IResponse
+{
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+	int64 PlayerId = 1;
+}
+
+message G2C_TestHotfixMessage // IMessage
+{
+	string Info = 1;
+}
+
+message M2M_TestGetReadyRequest // IRequest
+{
+	int32 RpcId=90;
+}
+
+message M2M_TestGetReadyResponse // IResponse
+{
+	int32 RpcId=90;
+	int32 Error=91;
+	string Message=92;
+}
+
+message C2M_TestActorRequest // IActorLocationRequest
+{
+	int32 RpcId = 90;
+	int64 ActorId = 91;
+	string Info = 1;
+}
+
+message M2C_TestActorResponse // IActorLocationResponse
+{
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+	string Info = 1;
+}
+
+message PlayerInfo // IMessage
+{
+	int32 RpcId = 90;
+}
+
+message C2G_PlayerInfo // IRequest
+{
+	int32 RpcId = 90;
+}
+
+message G2C_PlayerInfo // IResponse
+{
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+	PlayerInfo PlayerInfo = 1;
+	repeated PlayerInfo PlayerInfos = 2;
+    repeated string TestRepeatedString = 3;
+    repeated int32 TestRepeatedInt32 = 4;
+    repeated int64 TestRepeatedInt64 = 5;
+}
+
+message C2R_TestHelloMsg //IMessage
+{
+	string SayMessage = 1;
+}
+
+message C2R_TestRequest //IRequest
+{
+	int32 RpcId = 90;
+	string Message = 91;
+}
+
+message R2C_TestResponse //IResponse
+{
+	int32 RpcId = 90;
+	int32 Error = 91;
+	string Message = 92;
+	string Address = 93;
+	int64 Key= 94;
+}
+
+message C2M_AuctionRequest //IRequest
+{
+	int32 RpcId=90;
+	int32 PlantId=93;
+	bool IsPassed=91;
+	int32 Bid=92;
+}
+
+message M2C_AuctionResponse //IResponse
+{
+	int32 RpcId=90;
+	int32 Error=91;
+	string Message=92;
+}
+
+message M2C_AuctionReminder //IMessage
+{
+	int32 NowPrice=90;
+	int32 NowPlantId=91;
+	string Message=92;
+	bool IsFinished=93;
+}
+
+message M2C_GiveupPlant //IRequest
+{
+	int32 RpcId=90;
+	string Message=91;
+}
+
+message C2M_GiveupPlant //IResponse
+{
+	int32 RpcId=90;
+	int32 Error=91;
+	string Message=92;
+	int32 GiveupPlantId=93;
+}
+
+message C2M_RefreshMarket // IRequest
+{
+	int32 RpcId=90;
+	int32 ReplacePlant=91;
+}
+
+message M2C_RefreshMarket // IResponse
+{
+	int32 RpcId=90;
+	int32 Error=91;
+	string Message=92;
+    repeated int32 MarketPlants = 93;
+}
+
+message M2C_InitAuction //IMessage
+{
+	string Message=90;
+	repeated int32 MarketPlants = 93;
+}
+
+message M2C_FinishAuction //IMessage
+{
+	string Message=90;
+}
+
+message M2C_StartGameBroadCast //IActorMessage
+{
+	int32 playerNum=1;
+	string Message=2;
+	int64 ActorId = 91;
+}
+
+message M2C_AskBid //IActorMessage
+{
+	string Message=1;
+	int64 ActorId = 91;
+}
+
+message M2C_OwnPlant //IMessage
+{
+	int32 OwnerId=1;
+	int32 PlantId=4;
+	string Message=2;
+	int32 MaxPrice=3;
+	bool isFinished=5;
+}
+
+message C2M_BuyResourceRequest //IRequest
+{
+	int32 RpcId=90;
+	int32 Coal=1;
+	int32 Oil=2;
+	int32 Garbage=3;
+	int32 Nuclear=4;
+}
+
+message M2C_BuyResourceResponse //IResponse
+{
+	int32 RpcId=90;
+	int32 Error=91;
+	string Message=92;
+}
+
+message M2C_ResourceReminder //IMessage
+{
+	int32 Coal=1;
+	int32 Oil=2;
+	int32 Garbage=3;
+	int32 Nuclear=4;
+	string Message=92;
+}
+
+message M2C_ResourceMarketFinish //IMessage
+{
+	string Message=92;
+
+}
+
+message C2M_RefreshResourceMarket //IMessage
+{
+	string Message=1;
+}
+
+
+message M2C_InitLayingCircuit //IMessage
+{
+	string Message=90;
+}
+
+message M2C_FinishLayingCircuit //IMessage
+{
+	string Message=90;
+}
+
+message C2M_RefreshPipelineMarket //IMessage
+{
+	string Message=1;
+	
+}
+
+message M2C_LayingCircuitReminder //IMessage
+{
+	string Message=90;
+}
+
+message C2M_BuyLineRequest //IRequest
+{
+	int32 RpcId=90;
+	string city1=91;
+	string city2=92;
+	int32 price=93;
+}
+
+message M2C_BuyLineResponse //IResponse
+{
+	int32 RpcId=90;
+	int32 Error=91;
+	string Message=92;
+	string boughtcity=93;
+}
+
+message C2M_QuitBuyLine //IMessage
+{
+	string Message=90;
+}
+
+message M2C_CityOwnerUpdate //IMessage
+{
+	string CityName=90;
+	string Owner=91;
+}
+
+message C2M_GenerateEleRequest //IRequest
+{
+	int32 RpcId=90;
+	string Message=1;
+	int32 TotReward=2;
+}
+
+message M2C_GenerateEleResponse //IResponse
+{
+	int32 RpcId=90;
+	int32 Error=91;
+	string Message=1;
+}
+
+message M2C_FinishRound //IMessage
+{
+	string Message=1;
+}
+
